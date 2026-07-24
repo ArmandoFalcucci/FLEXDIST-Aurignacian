@@ -8,7 +8,7 @@ The content available at the provided DOI reproduces the results as documented i
 
 ## Maintainer of this Repository
 
-[![ORCiD](https://img.shields.io/badge/ORCiD-0000--0002--XXXX--XXXX-green.svg)](https://orcid.org/0000-0002-XXXX-XXXX) Armando Falcucci (armando.falcucci@uni-tuebingen.de)
+[![ORCiD](https://img.shields.io/badge/ORCiD-0000--0002--XXXX--XXXX-green.svg)](https://orcid.org/0000-0002-XXXX-XXXX) Armando Falcucci (A.Falcucci@soton.ac.uk)
 
 ## Paper in preparation
 
