@@ -1,0 +1,769 @@
+ID,Layer,Site,Cortex,Length,Width,Thickness,Volume,Laminar.y.n,Core.type,Core.classification,Blank.production,Platform.nr,Flaking.surface,Last.removal.blank,Last.removal.length,Last.removal.width,Flaking.surface.length,Reduction.pattern,FSLW,FSLT,Flatt
+Ca_1,Ca_Au,Cala,0%,29.10000038,20.10000038,60.79999924,9704.902344,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14.80000019,4.599999905,19,Convergent,0.945273614,0.312500004,0.330592116
+Ca_2,Ca_Au,Cala,1-33%,17.79999924,25.70000076,25.5,3555.448975,yes,E - carinated,Carinated core,Bladelet,1,Unidirectional,Bladelet,13,4.599999905,18.10000038,Convergent,0.70428015,0.709803936,1.007843167
+Ca_3,Ca_Au,Cala,0%,12.5,24.79999924,18.20000076,2318.9021,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.30000019,5.5,21.39999962,Sub-parallel,0.862903237,1.175824106,1.362637264
+Ca_4,Ca_Au,Cala,33-66%,22.89999962,37.29999924,40.09999847,9328.821289,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,18,9,18.39999962,Sub-parallel,0.493297587,0.458852876,0.93017458
+Ca_5,Ca_Au,Cala,1-33%,13.8,24.39999962,27.4,4639.98584,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Bladelet,9.8,5.7,15,Sub-parallel,0.614754108,0.547445255,0.890510935
+Ca_7,Ca_Au,Cala,0%,13.69999981,33.59999847,42,8095.224121,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.9,3.5,18.5,Convergent,0.550595263,0.44047619,0.799999964
+Ca_9,Ca_Au,Cala,1-33%,12.19999981,20.89999962,28.10000038,2397.669189,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,17.6,3.9,21,Convergent,1.004784707,0.747330951,0.743772218
+Ca_10,Ca_Au,Cala,0%,17.29999924,20.70000076,27,2063.922363,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14.4,5,19,Sub-parallel,0.917874362,0.703703704,0.766666695
+Ca_11,Ca_Au,Cala,0%,16,26,25.10000038,3217.052734,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,13.8,5.2,15.89999962,Sub-parallel,0.611538447,0.633466111,1.035856558
+Ca_12,Ca_Au,Cala,1-33%,12.60000038,22.39999962,29.39999962,2895.134277,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12.3,4,14.19999981,Sub-parallel,0.633928574,0.482993197,0.761904759
+Ca_15,Ca_Au,Cala,0%,14.80000019,31.29999924,36.59999847,4755.030273,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,6.1,9.4,14.10000038,Convergent,0.450479256,0.385245928,0.855191272
+Ca_23,Ca_Au,Cala,0%,11.8,27.39999962,13.89999962,1745.226563,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.6,4.3,11.8,Convergent,0.43065694,0.848920887,1.971223048
+Ca_29,Ca_Au,Cala,1-33%,10.39999962,31.5,32.20000076,4987.584961,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Flake,9.2,6,9.5,Convergent,0.301587302,0.295031049,0.978260846
+Ca_30,Ca_Au,Cala,33-66%,18.29999924,23.4,25.8,3467.727051,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.8,3.3,16.39999962,Convergent,0.700854685,0.6356589,0.906976744
+Ca_31,Ca_Au,Cala,0%,17.60000038,34.5,26.60000038,5687.731445,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,15.9,9.3,15.39999962,Sub-parallel,0.446376801,0.578947346,1.296992463
+Ca_32,Ca_Au,Cala,33-66%,15.60000038,24.70000076,28.7,4608.467285,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,7.9,2.9,15.60000038,Sub-parallel,0.631578943,0.54355402,0.860627204
+Ca_33,Ca_Au,Cala,0%,20.60000038,37,27.39999962,6283.228027,yes,E - carinated,Carinated core,Bladelet,1,Unidirectional,Bladelet,13.9,7.1,20.39999962,Sub-parallel,0.551351341,0.744525544,1.350364982
+Ca_34,Ca_Au,Cala,33-66%,13.80000019,23.39999962,31.89999962,4379.596191,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14.7,3.9,15.60000038,Convergent,0.666666694,0.489028231,0.733542317
+Ca_35,Ca_Au,Cala,66-99%,31.39999962,42.40000153,53.20000076,26491.27148,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,8.6,10.9,14.30000019,Sub-parallel,0.337264143,0.268796992,0.796992499
+Ca_36,Ca_Au,Cala,0%,22.10000038,39.29999924,29.39999962,4630.280273,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,12,9,14.89999962,Sub-parallel,0.379134858,0.506802715,1.336734685
+Ca_38,Ca_Au,Cala,1-33%,15,24.29999924,23.5,2796.625977,yes,E - carinated,Carinated core,Bladelet-Flake,1,Unidirectional,Bladelet,13.8,4.4,16.5,Convergent,0.679012367,0.70212766,1.034042521
+Ca_39,Ca_Au,Cala,0%,11,21.79999924,21.5,2102.728271,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12,5.5,12,Sub-parallel,0.550458735,0.558139535,1.013953453
+Ca_40,Ca_Au,Cala,0%,12.39999962,26.79999924,23.29999924,3247.829834,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11,4.3,13.10000038,Convergent,0.488805998,0.562231794,1.150214597
+Ca_41,Ca_Au,Cala,0%,11.30000019,18.5,22.89999962,1409.106079,yes,E - carinated,Carinated burin,Bladelet,1,Unidirectional,Bladelet,7.3,3.5,10.39999962,Convergent,0.562162142,0.454148463,0.807860275
+Ca_43,Ca_Au,Cala,1-33%,21,24.3,27.6,5794.444336,yes,E - carinated,Carinated core,Bladelet,1,Unidirectional,Bladelet,17.9,8.3,23.39999962,Sub-parallel,0.962962947,0.847826073,0.880434783
+Ca_44,Ca_Au,Cala,1-33%,20.20000076,35.29999924,26.79999924,9609.418945,yes,E - carinated,Carinated core,Bladelet,1,Unidirectional,Bladelet,17.3,5.3,19.70000076,Sub-parallel,0.558073688,0.735074676,1.317164188
+Ca_45,Ca_Au,Cala,66-99%,16,24.79999924,45.59999847,8255.444336,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,7.7,5.2,13,Convergent,0.524193564,0.285087729,0.543859651
+Ca_46,Ca_Au,Cala,33-66%,22,24.20000076,33.79999924,6651.782227,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,5,10.5,11.8,Sub-parallel,0.48760329,0.349112434,0.71597637
+Ca_47,Ca_Au,Cala,66-99%,16.20000076,21.29999924,33.79999924,4322.386719,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14,4.9,15.5,Convergent,0.727699556,0.458579892,0.630177506
+Ca_48,Ca_Au,Cala,1-33%,22.29999924,23.5,38.40000153,6602.419434,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,8.2,6.6,21.5,Sub-parallel,0.914893617,0.559895811,0.611979142
+Ca_49,Ca_Au,Cala,0%,22.60000038,27.89999962,43,7164.547852,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Bladelet,18.7,5.1,22.60000038,Sub-parallel,0.810035867,0.525581404,0.6488372
+Ca_50,Ca_Au,Cala,1-33%,18.5,38.40000153,21.5,6340.241699,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,11.1,8.2,18.2,Sub-parallel,0.473958314,0.846511628,1.786046583
+Ca_51,Ca_Au,Cala,0%,18,20.39999962,41.59999847,5655.291016,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,6.14,2,14.5,Convergent,0.710784327,0.348557705,0.490384624
+Ca_52,Ca_Au,Cala,0%,15.10000038,24.60000038,34.79999924,4952.051758,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.7,5.5,13.39999962,Convergent,0.544715423,0.385057469,0.706896578
+Ca_53,Ca_Au,Cala,66-99%,19.79999924,28.10000038,29,4944.871582,yes,E - carinated,Carinated core,Bladelet,1,Unidirectional,Bladelet,16.5,6.3,19.29999924,Sub-parallel,0.686832704,0.665517215,0.96896553
+Ca_56,Ca_Au,Cala,0%,15.5,22,27.5,3006.576172,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.7,4.8,15.8,Convergent,0.718181818,0.574545455,0.8
+Ca_57,Ca_Au,Cala,0%,13.30000019,23.60000038,21.60000038,2678.97583,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,9.5,4,11.30000019,Sub-parallel,0.47881356,0.523148148,1.092592591
+Ca_59,Ca_Au,Cala,0%,15,27,21.1,2779.367188,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14.2,3.5,17.2,Convergent,0.637037037,0.815165877,1.279620853
+Ca_61,Ca_Au,Cala,0%,11.7,21.60000038,27.8,1764.635864,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,9.7,3.7,12.1,Convergent,0.560185175,0.435251799,0.776978431
+Ca_65,Ca_Au,Cala,0%,21,22.5,11.10000038,1910.140747,no,C - parallel,Parallel,Flake,2-opposed,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,2.027026958
+Ca_71,Ca_Au,Cala,0%,11,20.89999962,20.8,2143.388672,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.6,3.7,11,Convergent,0.526315799,0.528846154,1.004807674
+Ca_72,Ca_Au,Cala,1-33%,13,22.60000038,31.8,2845.151855,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.3,5,13.2,Convergent,0.584070787,0.41509434,0.710691836
+Ca_74,Ca_Au,Cala,0%,13,20.20000076,26.3,2178.646973,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.7,3.7,11.89999962,Sub-parallel,0.58910887,0.452471468,0.768060865
+Ca_75,Ca_Au,Cala,0%,14.10000038,26.5,23.20000076,2244.62915,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.3,3.2,13.30000019,Convergent,0.5018868,0.573275851,1.142241342
+Ca_76,Ca_Au,Cala,1-33%,8,14.80000019,20.4,988.8093262,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,6.6,2.8,8,Convergent,0.540540534,0.392156863,0.725490205
+Ca_77,Ca_Au,Cala,1-33%,13,18.7,32.5,2448.207031,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12.9,3.1,13.30000019,Convergent,0.711229957,0.409230775,0.575384615
+Ca_78,Ca_Au,Cala,33-66%,33.40000153,26.89999962,22.10000038,8926.757813,yes,D - platform,Burin core,Bladelet,1,Unidirectional,Bladelet,14.5,4.1,31.6,Sub-parallel,1.174721206,1.429864229,1.217194532
+Ca_79,Ca_Au,Cala,66-99%,18.5,21.89999962,26,3850.567627,yes,E - carinated,Carinated core,Bladelet,1,Unidirectional,Bladelet,16.8,3.9,19.79999924,Convergent,0.90410957,0.761538432,0.842307678
+Ca_80,Ca_Au,Cala,1-33%,18.20000076,25.10000038,38.79999924,5119.748047,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14.3,5,17.79999924,Sub-parallel,0.709163306,0.458762876,0.646907239
+Ca_81,Ca_Au,Cala,33-66%,20.5,23.60000038,30.70000076,5363.375977,yes,E - carinated,Carinated core,Bladelet-Flake,1,Unidirectional,Flake,10.8,9.3,17.20000076,Sub-parallel,0.72881358,0.560260597,0.768729635
+Ca_87,Ca_Au,Cala,1-33%,9.9,16,33.4,1796.777954,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Flake,5,4.1,11,Convergent,0.6875,0.329341317,0.479041916
+Ca_90,Ca_Au,Cala,0%,8.9,36.09999847,32.1,4578.445801,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12.4,3.5,11.89999962,Sub-parallel,0.329639893,0.370716499,1.124610544
+Ca_91,Ca_Au,Cala,1-33%,18.1,24.39999962,23.6,2770.045166,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,16.3,4.9,17.29999924,Convergent,0.709016373,0.733050815,1.033898289
+Ca_92,Ca_Au,Cala,1-33%,14.60000038,23.60000038,31.79999924,3370.820557,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.4,3.5,13.80000019,Convergent,0.584745761,0.43396228,0.742138394
+Ca_96,Ca_Au,Cala,0%,14.1,34.90000153,58.6,6850.352539,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14.2,5,14.39999962,Sub-parallel,0.412607421,0.245733782,0.595563166
+Ca_99,Ca_Au,Cala,0%,16,21.9,31.1,3356.623535,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12.4,4.3,15.80000019,Convergent,0.721461196,0.508038591,0.704180064
+Ca_100,Ca_Au,Cala,33-66%,12.19999981,13.89999962,31.89999962,2292.187012,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.2,3.4,12.39999962,Convergent,0.892086328,0.388714726,0.43573667
+Ca_101,Ca_Au,Cala,33-66%,22.29999924,28.89999962,49.40000153,17814.63867,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.5,2.7,12.80000019,Convergent,0.442906587,0.259109308,0.585020217
+Ca_103,Ca_Au,Cala,66-99%,14.2,38,18,4441.541504,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,9.6,8.8,11.80000019,Sub-parallel,0.310526321,0.655555566,2.111111111
+Ca_105,Ca_Au,Cala,0%,13,26.89999962,29.89999962,3287.499268,yes,Bipolar;E - carinated,"Multi-platform carinated, bipolar",Bladelet,2-opposed,Unidirectional,Bladelet,8.1,3.3,11.30000019,Convergent,0.420074362,0.377926433,0.899665551
+Ca_106,Ca_Au,Cala,0%,36.29999924,24.39999962,16.70000076,5497.486328,yes,E - carinated,Carinated burin,Bladelet,1,Unidirectional,Bladelet,14,4.8,15.80000019,Convergent,0.647541001,0.946107753,1.461077755
+Ca_108,Ca_Au,Cala,33-66%,11.9,21.29999924,23,2394.745361,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,13.2,4.9,13.5,Convergent,0.63380284,0.586956522,0.926086923
+Ca_109,Ca_Au,Cala,0%,14.89999962,22,27.10000038,3093.022461,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,8.9,3.6,13.5,Convergent,0.613636364,0.498154975,0.811808107
+Ca_110,Ca_Au,Cala,33-66%,22.89999962,31.39999962,36.20000076,8044.735352,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,19,15,22.10000038,Sub-parallel,0.703821677,0.610497235,0.867403286
+Ca_111,Ca_Au,Cala,1-33%,18.29999924,16.79999924,33.29999924,3830.302979,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,9.8,5.4,17,Sub-parallel,1.011904808,0.510510522,0.504504493
+Ca_113,Ca_Au,Cala,1-33%,14.80000019,31.29999924,36.29999924,5914.833008,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.1,3.9,14.10000038,Convergent,0.450479256,0.388429771,0.86225895
+Ca_114,Ca_Au,Cala,0%,16.89999962,29.10000038,32,4891.769531,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12.2,4,18.70000076,Convergent,0.642611702,0.584375024,0.909375012
+Ca_116,Ca_Au,Cala,0%,13.5,16.6,28,1749.11084,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.8,4.1,12.60000038,Convergent,0.759036167,0.450000014,0.592857143
+Ca_117,Ca_Au,Cala,0%,13.39999962,26.60000038,26.5,2817.947754,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.5,2.9,13.30000019,Convergent,0.5,0.5018868,1.003773599
+Ca_118,Ca_Au,Cala,66-99%,16,25.39999962,43.70000076,6266.80127,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,13.9,4.7,18.79999924,Convergent,0.740157461,0.430205925,0.581235679
+Ca_119,Ca_Au,Cala,33-66%,14.3,32,38.3,3821.184326,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,13,5.4,14.89999962,Convergent,0.465624988,0.389033933,0.835509138
+Ca_120,Ca_Au,Cala,1-33%,19.20000076,35.59999847,44.20000076,10488.13574,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,16.3,5.3,18.60000038,Convergent,0.522471943,0.420814481,0.805429816
+Ca_122,Ca_Au,Cala,1-33%,14.4,31.70000076,26.2,3916.542236,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12.9,5.9,16.8,Convergent,0.529968442,0.641221374,1.209923693
+Ca_124,Ca_Au,Cala,0%,10.8,23.89999962,21.6,2352.356934,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Bladelet,9.2,4.5,10,Sub-parallel,0.418410048,0.462962963,1.106481464
+Ca_127,Ca_Au,Cala,33-66%,24.89999962,39.59999847,42.2,14838.98242,yes,E - carinated,Carinated core,Bladelet,1,Unidirectional,Bladelet,19,5.3,25.70000076,Convergent,0.648989943,0.609004757,0.938388589
+Ca_128,Ca_Au,Cala,0%,23.2,26.39999962,32.9,6393.182129,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,16.5,4.2,22.89999962,Convergent,0.867424241,0.696048621,0.802431599
+Ca_133,Ca_Au,Cala,0%,19.10000038,22.60000038,39.5,6323.845215,yes,E - carinated,"Multi-platform carinated burin, carinated endscraper",Bladelet,1,Unidirectional,Bladelet,14.9,4.5,18.60000038,Sub-parallel,0.823008853,0.470886086,0.572151908
+Ca_136,Ca_Au,Cala,0%,19,20.60000038,28.79999924,2953.636475,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.6,4,19,Convergent,0.92233008,0.65972224,0.71527781
+Ca_137,Ca_Au,Cala,33-66%,11.7,29.8,28.4,4055.880615,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14,6.3,12.69999981,Sub-parallel,0.42617449,0.447183092,1.049295775
+Ca_138,Ca_Au,Cala,1-33%,15,26,25.3,2772.689453,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.2,4.4,17.8,Sub-parallel,0.684615385,0.703557312,1.027667984
+Ca_142,Ca_Au,Cala,0%,11.1,26.39999962,32.3,4672.249023,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,9.9,4.1,11.6,Convergent,0.439393946,0.359133127,0.81733745
+Ca_144,Ca_Au,Cala,0%,11.8,20.3,29.9,2628.179199,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.5,3.9,12.5,Convergent,0.615763547,0.418060201,0.678929766
+Ca_147,Ca_Au,Cala,1-33%,10.6,23.20000076,18.3,1798.378418,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12.2,4.1,13.2,Convergent,0.568965499,0.721311475,1.267759604
+Ca_148,Ca_Au,Cala,33-66%,16.60000038,20.1,29,4135.28418,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,13.3,4.2,15.89999962,Sub-parallel,0.791044757,0.548275849,0.693103448
+Ca_149,Ca_Au,Cala,1-33%,18.20000076,30.39999962,33.79999924,7020.519043,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,10.3,7.1,16.79999924,Sub-parallel,0.552631561,0.497041409,0.899408293
+Ca_152,Ca_Au,Cala,33-66%,21,30.20000076,42.40000153,11575.66895,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,12.9,5.1,15.19999981,Convergent,0.503311239,0.358490549,0.712264143
+Ca_153,Ca_Au,Cala,0%,24.5,39.09999847,46.40000153,13036.79004,yes,E - carinated,Carinated core,Bladelet-Flake,1,Unidirectional,Flake,9.9,10.9,20.5,Convergent,0.524296696,0.44181033,0.842672353
+Ca_154,Ca_Au,Cala,1-33%,26.7,22.2,42.5,8960.771484,yes,E - carinated,Carinated burin,Bladelet,1,Unidirectional,Bladelet,18,4.9,25,Convergent,1.126126126,0.588235294,0.522352941
+Ca_155,Ca_Au,Cala,0%,9.7,21.79999924,24,2322.587402,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.8,3.6,14.3,Convergent,0.655963326,0.595833333,0.908333302
+Ca_156,Ca_Au,Cala,1-33%,18.89999962,18.20000076,19.5,2462.423828,yes,E - carinated,Carinated burin,Bladelet,1,Unidirectional,Bladelet,11.8,3.7,14.10000038,Sub-parallel,0.774725263,0.723076943,0.933333372
+Ca_157,Ca_Au,Cala,33-66%,13,19.8,33,2619.868408,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,11.4,6,12.89999962,Convergent,0.651515132,0.390909079,0.6
+Ca_159,Ca_Au,Cala,0%,13.4,23.60000038,23.39999962,2337.255371,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,13.4,4,15.5,Convergent,0.65677965,0.662393173,1.008547041
+Ca_160,Ca_Au,Cala,1-33%,14.3,26.60000038,31,4324.145996,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,13.9,9.2,19,Convergent,0.714285704,0.612903226,0.858064528
+Ca_161,Ca_Au,Cala,33-66%,11.4,24.70000076,30,3483.040771,yes,D- platform;E - carinated,"Multi-platform wide-faced, carinated endscraper",Bladelet-Flake,1,Unidirectional,Flake,7.8,4.5,9,Sub-parallel,0.364372458,0.3,0.823333359
+Ca_191,Ca_Au,Cala,100%,67.30000305,48.79999924,19.10000038,32531.86133,no,H - tested raw material nodule,Tested,Flake,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,2.554973731
+Ca_192,Ca_Au,Cala,66-99%,44,39,94,73402.58594,no,H - tested raw material nodule,Tested,Flake,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,0.414893617
+Ca_204,Ca_Au,Cala,1-33%,65.5,57.59999847,22.39999962,46434.75391,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,2.571428547
+Ca_205,Ca_Au,Cala,0%,62.29999924,46.79999924,35,37161.23828,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.337142835
+Ca_207,Ca_Au,Cala,33-66%,60,49.70000076,36.09999847,42735.57422,no,B - inclined,Inclined,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,1.376731381
+Ca_209,Ca_Au,Cala,33-66%,41,42,18,14500.42969,no,C - parallel,Parallel,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,2.333333333
+Ca_210,Ca_Au,Cala,33-66%,46.29999924,39.70000076,23,17116.44922,no,C - parallel,Parallel,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,1.72608699
+Ca_211,Ca_Au,Cala,1-33%,31.10000038,35,14.30000019,6799.277344,no,C - parallel,Parallel,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,2.447552415
+Ca_212,Ca_Au,Cala,66-99%,45,37,18,12775.79297,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.055555556
+Ca_213,Ca_Au,Cala,0%,17.39999962,25,32,4747.069336,no,D - platform,Flake,Flake,1,Unidirectional,Flake,NA,NA,21.70000076,Sub-parallel,0.86800003,0.678125024,0.78125
+Ca_214,Ca_Au,Cala,33-66%,71.30000305,69.19999695,34.70000076,90452.41406,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.99423618
+Ca_215,Ca_Au,Cala,66-99%,55,50,43,73711.83594,no,H - tested raw material nodule,Tested,Flake,1,Unidirectional,Undetermined,NA,NA,42.9,Sub-parallel,0.858,0.997674419,1.162790698
+Ca_216,Ca_Au,Cala,33-66%,43,31,30,15214.80371,no,F - multidirectional,Multidirectional,Flake,3,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.033333333
+Ca_217,Ca_Au,Cala,33-66%,61,35.70000076,26.20000076,24631.63672,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.362595409
+Ca_218,Ca_Au,Cala,66-99%,29,39.40000153,22.29999924,13073.15723,no,D - platform,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.766816272
+Ca_219,Ca_Au,Cala,33-66%,34,33.40000153,22,10192.83105,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.518181888
+Ca_220,Ca_Au,Cala,33-66%,29,41.09999847,52,23480.46094,yes,A - initial core,Initial carinated,Flake,1,Unidirectional,Flake,12.9,11.7,19.60000038,Sub-parallel,0.476885672,0.376923084,0.790384586
+Ca_221,Ca_Au,Cala,66-99%,33.5,38.70000076,26.5,15202.92969,yes,A - initial core,Initial semi-circumferential,Flake,1,Unidirectional,Undetermined,NA,NA,28.5,Sub-parallel,0.736434094,1.075471698,1.460377387
+Ca_222,Ca_Au,Cala,0%,24.39999962,24.9,30.8,8123.443359,yes,E - carinated,Carinated core,Bladelet-Flake,1,Unidirectional,Flake,8.2,6,21.1,Sub-parallel,0.847389558,0.685064935,0.808441558
+Ca_223,Ca_Au,Cala,33-66%,49,49.29999924,31.70000076,40897.13281,no,D - platform,Platform flake,Flake,2-opposed,Bidirectional,Flake,NA,NA,49.79999924,Sub-parallel,1.010141988,1.570977856,1.555204986
+Ca_224,Ca_Au,Cala,33-66%,40,49,66.30000305,43546.51953,yes,A - initial core,Initial semi-circumferential,Flake,1,Unidirectional,Undetermined,NA,NA,42,Sub-parallel,0.857142857,0.633484134,0.739064823
+Ca_225,Ca_Au,Cala,66-99%,58.70000076,31.10000038,40,36428.96484,no,H - tested raw material nodule,Tested,Flake,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,0.77750001
+Ca_227,Ca_Au,Cala,66-99%,28,32.59999847,20.10000038,9530.813477,no,H - tested raw material nodule,Tested,Flake,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,1.62189044
+Ca_228,Ca_Au,Cala,66-99%,33.79999924,34.59999847,26,14745.81152,no,Bipolar,Bipolar,Flake,1,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.330769172
+Ca_229,Ca_Au,Cala,0%,45.20000076,33.09999847,12.89999962,7082.588379,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.56589143
+Ca_230,Ca_Au,Cala,0%,25,34.59999847,12.39999962,5085.79834,no,Bipolar,Bipolar,Flake,3,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,2.790322543
+Ca_231,Ca_Au,Cala,1-33%,35,21,14.5,4181.955078,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Bladelet,20.5,5.2,31.1,Sub-parallel,1.480952381,2.144827586,1.448275862
+Ca_232,Ca_Au,Cala,0%,28.39999962,27,16.29999924,5084.104004,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,25.7,Sub-parallel,0.951851852,1.57668719,1.656441795
+Ca_233,Ca_Au,Cala,0%,27.70000076,18,15.89999962,2659.619629,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.132075499
+Ca_234,Ca_Au,Cala,1-33%,31.89999962,18.60000038,10.10000038,2685.308594,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.841584127
+Ca_235,Ca_Au,Cala,33-66%,33.79999924,18.70000076,13,2934.264404,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.438461597
+Ca_236,Ca_Au,Cala,33-66%,17.70000076,30.70000076,16,3401.877197,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.918750048
+Ca_237,Ca_Au,Cala,33-66%,23.60000038,16.79999924,13.60000038,1844.560913,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.235294027
+Ca_238,Ca_Au,Cala,33-66%,16.5,9,27.39999962,2138.616699,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,0.328467158
+Ca_239,Ca_Au,Cala,1-33%,55.70000076,27,13.5,10235.75488,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2
+Ca_241,Ca_Au,Cala,33-66%,41.20000076,29.89999962,16.89999962,NA,no,Bipolar,Bipolar,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.769230787
+Ca_242,Ca_Au,Cala,0%,39.79999924,23.89999962,9.600000381,4011.376953,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.489583195
+Ca_246,Ca_Au,Cala,0%,26,18.60000038,7.300000191,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.547945191
+Ca_247,Ca_Au,Cala,0%,27.5,26.10000038,7.800000191,NA,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,3.346153813
+Ca_251,Ca_Au,Cala,0%,29,9.5,9.199999809,1209.586914,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.032608717
+Ca_253,Ca_Au,Cala,0%,28.5,17.79999924,7,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.542857034
+Ca_255,Ca_Au,Cala,0%,26.10000038,20,8.699999809,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.298850625
+Ca_256,Ca_Au,Cala,1-33%,29.60000038,14.60000038,4.900000095,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.979591857
+Ca_257,Ca_Au,Cala,1-33%,23.60000038,23.20000076,7.900000095,NA,no,Bipolar,Bipolar,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.936708922
+Ca_263,Ca_Au,Cala,0%,28.5,14,8.699999809,NA,no,Bipolar,Bipolar,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.609195438
+Ca_265,Ca_Au,Cala,0%,23.89999962,12.69999981,9.899999619,1057.151733,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.282828313
+Ca_268,Ca_Au,Cala,0%,28,23.60000038,9.899999619,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.383838514
+Ca_269,Ca_Au,Cala,0%,19.89999962,14.19999981,13.10000038,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.08396942
+Ca_273,Ca_Au,Cala,0%,18.79999924,12.80000019,6.199999809,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.064516223
+Ca_274,Ca_Au,Cala,0%,16.29999924,10.10000038,10.60000038,NA,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,0.95283019
+Ca_275,Ca_Au,Cala,0%,30,21.29999924,13.5,3349.481689,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.577777721
+Ca_276,Ca_Au,Cala,1-33%,33.20000076,22.39999962,11.5,2858.869629,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.947826054
+Ca_280,Ca_Au,Cala,1-33%,42.70000076,33.79999924,13,8857.977539,no,Bipolar,Bipolar,Flake,4,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.599999942
+Ca_281,Ca_Au,Cala,0%,41.40000153,27,11.80000019,4857.268555,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.288135556
+Ca_282,Ca_Au,Cala,0%,49.90000153,27.20000076,11.5,NA,no,Bipolar,Bipolar,Flake,4,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.365217457
+Ca_283,Ca_Au,Cala,33-66%,48.79999924,26.5,10.10000038,4277.669922,no,Bipolar,Bipolar,Blade-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.623762278
+Ca_284,Ca_Au,Cala,0%,39.09999847,33.20000076,10.69999981,4828.507813,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,3.102803864
+Ca_285,Ca_Au,Cala,1-33%,34,22.89999962,11.5,NA,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.991304315
+Ca_286,Ca_Au,Cala,1-33%,27.10000038,29.29999924,13.39999962,NA,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.186567169
+Ca_287,Ca_Au,Cala,1-33%,35.79999924,24.89999962,6.900000095,3073.181641,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,3.608695547
+Ca_288,Ca_Au,Cala,0%,21.9,17,23.4,3323.704346,yes,D - platform,Narrow-sided,Bladelet,1,Bidirectional,Bladelet,21.8,10.1,21.9,Sub-parallel,1.288235294,0.935897436,0.726495726
+Ca_289,Ca_Au,Cala,1-33%,26.79999924,20.20000076,11.19999981,2650.982178,no,Bipolar,Bipolar,Bladelet-Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.803571527
+Ca_295,Ca_Au,Cala,66-99%,25.20000076,15.5,5,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,3.1
+Ca_300,Ca_Au,Cala,0%,27.79999924,11.19999981,4.300000191,627.5693359,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.604651003
+Ca_302,Ca_Au,Cala,0%,21.89999962,15.39999962,11.10000038,NA,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.387387306
+Ca_303,Ca_Au,Cala,0%,22.29999924,15.19999981,9.100000381,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.67032958
+Ca_304,Ca_Au,Cala,1-33%,27.79999924,12,11,1406.260864,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.090909091
+Ca_305,Ca_Au,Cala,66-99%,27.60000038,26.79999924,16.29999924,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.644171809
+Ca_307,Ca_Au,Cala,33-66%,56.79999924,30,26.39999962,19582.86328,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.136363653
+Ca_308,Ca_Au,Cala,66-99%,40,33.70000076,25,20296.86523,no,D - platform,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.34800003
+Ca_309,Ca_Au,Cala,33-66%,38,23,41.59999847,17261.17773,yes,A - initial core,Initial narrow-sided,Blade-Flake,1,Unidirectional,Flake,25.3,15,27.6,Parallel,1.2,0.663461563,0.552884636
+Ca_310,Ca_Au,Cala,33-66%,25,30.20000076,30.70000076,7469.563477,no,F - Multidirectional,Multidirectional,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,0.983713355
+Ca_311,Ca_Au,Cala,0%,58,36,35,31685.23633,no,F - multidirectional,Multidirectional,Flake,3,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.028571429
+Ca_312,Ca_Au,Cala,33-66%,44.09999847,38.20000076,18.70000076,13852.0332,no,D - platform,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.042780706
+Ca_313,Ca_Au,Cala,33-66%,33.40000153,43,23,13378.32813,no,D - platform,Platform flake,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.869565217
+Ca_314,Ca_Au,Cala,0%,34.29999924,28.29999924,15.19999981,4126.805176,yes,E - carinated,Carinated core,Bladelet-Flake,2-opposed,Unidirectional,Flake,11.3,8.5,17.3,Sub-parallel,0.611307437,1.138157909,1.861842079
+Ca_315,Ca_Au,Cala,0%,32,25.89999962,21,6320.495117,yes,A - initial core,Initial multi-platform,Bladelet-Flake,2-opposed,Bidirectional,Flake,10.8,7.7,31.5,Sub-parallel,1.216216234,1.5,1.233333315
+Ca_316,Ca_Au,Cala,1-33%,44.5,42.59999847,35.79999924,27099.54297,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.189944117
+Ca_317,Ca_Au,Cala,1-33%,48.70000076,43,25,23881.27344,no,D - platform,Platform flake,Flake,2-opposed,Multidirectional,Flake,33.8,25.6,NA,Multidirectional,NA,NA,1.72
+Ca_318,Ca_Au,Cala,0%,47.09999847,31.70000076,23,15793.75391,yes,D - platform,Semi-circumferential,Bladelet-Flake,2-opposed,Unidirectional,Bladelet,22.7,8.1,48,Sub-parallel,1.514195547,2.086956522,1.378260903
+Ca_319,Ca_Au,Cala,33-66%,72.30000305,26.79999924,34,28308.71484,no,Bipolar,Bipolar,Bladelet-Flake,1,Bidirectional,Flake,NA,NA,67.2,Sub-parallel,2.507462758,1.976470588,0.788235272
+Ca_320,Ca_Au,Cala,1-33%,33.79999924,26.70000076,22.29999924,7437.748047,yes,D - platform,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,18.6,5.1,33.5,Convergent,1.254681612,1.502242204,1.197309492
+Ca_321,Ca_Au,Cala,0%,28.79999924,21.39999962,17,3050.858398,yes,D - platform,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,14.2,3.6,28,Convergent,1.308411238,1.647058824,1.258823507
+Ca_322,Ca_Au,Cala,1-33%,32.59999847,22.70000076,17.70000076,5302.193848,yes,A - initial core,Initial wide-faced,Bladelet-Flake,1,Unidirectional,Bladelet,29.1,10.1,29.3,Sub-parallel,1.290748855,1.655367161,1.282485864
+Ca_323,Ca_Au,Cala,0%,22.60000038,18.20000076,24.29999924,2715.776367,yes,D - platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,15.1,6.3,14.69999981,Sub-parallel,0.807692264,0.604938283,0.748971248
+Ca_324,Ca_Au,Cala,1-33%,24.29999924,34.29999924,28,6238.23877,yes,D - platform,Semi-circumferential,Bladelet,1,Unidirectional,Flake,7.1,8.8,22.29999924,Sub-parallel,0.650145765,0.796428544,1.224999973
+Ca_325,Ca_Au,Cala,66-99%,53.70000076,47.29999924,34.79999924,40014.88672,yes,A - initial core,Initial semi-circumferential,Blade-Flake,1,Unidirectional,Flake,52,25,52,Sub-parallel,1.099365768,1.494252906,1.35919541
+Ca_326,Ca_Au,Cala,0%,48.59999847,24.10000038,19.89999962,13187.59277,no,Bipolar,Bipolar,Blade-Flake,2-opposed,Bidirectional,Flake,NA,NA,44.2,Sub-parallel,1.834024867,2.22110557,1.211055319
+Ca_327,Ca_Au,Cala,33-66%,34.90000153,19,10.60000038,4103.523926,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,34.4,Sub-parallel,1.810526316,3.245282903,1.792452766
+Ca_328,Ca_Au,Cala,1-33%,32.79999924,18,13.89999962,3524.308105,no,D- platform;I - core shatter,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.294964064
+Ca_329,Ca_Au,Cala,33-66%,44.29999924,36,15.80000019,10245.92285,no,C - parallel,Parallel,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,2.278480985
+Ca_330,Ca_Au,Cala,33-66%,35,38.09999847,25.89999962,15253.05371,no,B - inclined,Inclined,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,1.471042434
+Ca_331,Ca_Au,Cala,33-66%,43.59999847,38.20000076,25.79999924,18277.73828,no,F - multidirectional,Multidirectional,Flake,3,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.480620228
+Ca_332,Ca_Au,Cala,33-66%,44.59999847,49.70000076,52.09999847,35759.65625,no,D - platform,Platform flake,Flake,2-opposed,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,0.953934783
+Ca_333,Ca_Au,Cala,0%,31,36,23.5,15217.5498,no,F - multidirectional,Multidirectional,Flake,3,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.531914894
+Ca_334,Ca_Au,Cala,1-33%,38.20000076,38.20000076,28.79999924,17264.77734,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.32638895
+Ca_335,Ca_Au,Cala,1-33%,30,27,22.60000038,8405.554688,no,F - multidirectional,Multidirectional,Flake,3,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.194690245
+Ca_336,Ca_Au,Cala,33-66%,31,29,22,11420.21777,no,D - platform,Platform flake,Flake,2-opposed,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.318181818
+Ca_338,Ca_Au,Cala,33-66%,38.5,32.5,12.60000038,6965.791504,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.579365002
+Ca_339,Ca_Au,Cala,33-66%,34.70000076,28.70000076,8.600000381,3784.645264,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,3.337209243
+Ca_340,Ca_Au,Cala,33-66%,29.29999924,31,13.10000038,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.366412145
+Ca_341,Ca_Au,Cala,1-33%,19,30,9.600000381,2235.781494,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,3.124999876
+Ca_342,Ca_Au,Cala,1-33%,25.10000038,25.60000038,9.5,2335.856934,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.694736882
+Ca_348,Ca_Au,Cala,0%,24,10.5,7.800000191,938.951355,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.346153813
+Ca_349,Ca_Au,Cala,0%,32.70000076,14.89999962,12.5,2741.130615,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.19199997
+Ca_350,Ca_Au,Cala,0%,29.29999924,21,8,2194.633301,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,2.625
+Ca_353,Ca_Au,Cala,0%,21.60000038,17.70000076,10.5,1215.631836,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.685714358
+Ca_354,Ca_Au,Cala,1-33%,22.70000076,10.19999981,8,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.274999976
+Ca_360,Ca_Au,Cala,1-33%,54.90000153,18,39.70000076,13750.78223,yes,D - platform,Burin core,Bladelet,1,Unidirectional,Bladelet,27.4,7.5,37.5,Sub-parallel,2.083333333,0.944584365,0.453400495
+Ca_361,Ca_Au,Cala,0%,30.60000038,19.5,29.29999924,7424.905762,yes,E - carinated,Carinated burin,Bladelet,1,Unidirectional,Bladelet,19.2,5.3,30.10000038,Sub-parallel,1.543589763,1.027303794,0.665529028
+Ca_362,Ca_Au,Cala,33-66%,30.5,14,33.90000153,4944.375,yes,E - carinated,Carinated burin,Bladelet-Flake,2-opposed,Bidirectional,Bladelet,12.5,3.6,13.39999962,Sub-parallel,0.95714283,0.395280207,0.412979332
+Ca_363,Ca_Au,Cala,1-33%,16.20000076,22.10000038,27,4001.938477,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,15.4,4,20.70000076,Convergent,0.936651602,0.766666695,0.818518533
+Ca_364,Ca_Au,Cala,1-33%,22.60000038,36.29999924,23,18557.53125,yes,A - initial core,Initial carinated,Bladelet-Flake,1,Unidirectional,Flake,17.5,20.3,34,Convergent,0.936639138,1.47826087,1.578260837
+Ca_368,Ca_Au,Cala,0%,36.59999847,28.20000076,14.10000038,NA,no,Bipolar,Bipolar,Flake,3,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2
+Ca_378,Ca_Au,Cala,1-33%,26,21.79999924,8.899999619,2118.713379,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Bladelet,24.4,7.4,25.3,Sub-parallel,1.160550499,2.842696751,2.449438222
+Ca_379,Ca_Au,Cala,1-33%,26.70000076,26,16.20000076,4259.614746,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.604938196
+Ca_380,Ca_Au,Cala,0%,24.10000038,20.70000076,8.300000191,1794.3396,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.493975938
+Ca_381,Ca_Au,Cala,0%,34.5,14,8.800000191,1413.050781,no,Bipolar,Bipolar,Flake,2-opposed,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.590909056
+Ca_382,Ca_Au,Cala,0%,22,8.5,7.900000095,688.326355,no,Bipolar,Bipolar,Flake,2-opposed,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.075949354
+Ca_397,Ca_Au,Cala,1-33%,31.5,21,45,9859.675781,yes,E - carinated,Carinated burin,Bladelet,1,Unidirectional,Bladelet,21.9,5.9,30,Convergent,1.428571429,0.666666667,0.466666667
+Ca_398,Ca_Au,Cala,33-66%,28.89999962,15.60000038,22.10000038,4201.271973,yes,D - platform,Multi-platform burin,Bladelet,2-opposed,Unidirectional,Bladelet,14.2,3.9,20.5,Sub-parallel,1.314102532,0.927601794,0.705882358
+Ca_399,Ca_Au,Cala,0%,52.40000153,21.10000038,31.10000038,9332.424805,yes,A - initial core,Initial burin core,Bladelet-Flake,1,Unidirectional,Flake,24,11.6,34,Sub-parallel,1.611374379,1.093247575,0.678456596
+Ca_400,Ca_Au,Cala,0%,19,14,38.5,2963.570068,yes,E - carinated,Carinated burin,Bladelet,1,Unidirectional,Bladelet,13.1,4.7,14.69999981,Convergent,1.049999986,0.381818177,0.363636364
+Ca_401,Ca_Au,Cala,0%,32.29999924,11.60000038,18.70000076,2699.508057,yes,D - platform,Burin core,Bladelet,1,Unidirectional,Bladelet,20,6.1,32,Sub-parallel,2.758620599,1.711229877,0.620320851
+Ca_402,Ca_Au,Cala,0%,36,22,13.10000038,3835.812988,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.679389264
+Ca_412,Ca_Au,Cala,33-66%,25.39999962,10.39999962,11.89999962,1556.019287,yes,D - platform,Burin core,Bladelet,1,Unidirectional,Bladelet,18.5,4.9,25.10000038,Sub-parallel,2.413461663,2.109243797,0.873949576
+Ca_447,Ca_Au,Cala,66-99%,40.70000076,32.20000076,16.79999924,8369.113281,no,H - tested raw material nodule,Tested,Flake,1,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.916666799
+Ca_448,Ca_Au,Cala,33-66%,24.29999924,23.20000076,20.10000038,12040.91602,yes,A - initial core,Initial carinated,Flake,1,Unidirectional,Flake,15.8,13.7,18.4,Sub-parallel,0.793103422,0.915422868,1.154228872
+Ca_449,Ca_Au,Cala,0%,13.89999962,33,32.40000153,5770.73291,yes,A - initial core,Initial carinated,Flake,1,Unidirectional,Flake,11.5,9.9,13.1,Sub-parallel,0.396969697,0.404320969,1.01851847
+Ca_464,Ca_Au,Cala,33-66%,24,40,43.40000153,16578.0957,no,F - multidirectional,Multidirectional,Flake,1,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,0.921658954
+Ca_466,Ca_Au,Cala,33-66%,96.59999847,63.79999924,37,86567.02344,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.724324304
+Ca_501,Ca_Au,Cala,33-66%,51,38.70000076,18.10000038,12327.87402,no,C - parallel,Parallel,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,2.138121544
+Ca_502,Ca_Au,Cala,33-66%,16.70000076,31.20000076,30.60000038,4842.364746,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,14.2,4.1,16.29999924,Convergent,0.52243586,0.532679707,1.019607855
+Ca_519,Ca_Au,Cala,0%,28.79999924,9.899999619,9.899999619,1137.156006,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Bladelet,17.8,4.8,NA,Sub-parallel,NA,NA,1
+Ca_520,Ca_Au,Cala,1-33%,21.89999962,9.399999619,16,1527.863892,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Bladelet,18.3,5.8,NA,Sub-parallel,NA,NA,0.587499976
+Ca_521,Ca_Au,Cala,0%,24.60000038,17.70000076,11.39999962,1758.684204,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.552631697
+Ca_522,Ca_Au,Cala,1-33%,38.70000076,28.60000038,12.69999981,4915.174805,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.251968568
+Ca_523,Ca_Au,Cala,33-66%,40.40000153,20.60000038,15.19999981,5280.525879,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.3552632
+Ca_524,Ca_Au,Cala,0%,39.79999924,11.69999981,14.5,3116.657715,yes,D - platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,34.8,7,39.5,Sub-parallel,3.376068431,2.724137931,0.806896539
+Ca_526,Ca_Au,Cala,1-33%,33,15.5,16.89999962,3468.241699,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Bladelet,11.4,5.9,NA,Sub-parallel,NA,NA,0.917159784
+Ca_528,Ca_Au,Cala,0%,34.20000076,36.90000153,23.20000076,7607.953613,no,Bipolar,Bipolar,Blade-Flake,1,Unidirectional,Bladelet,26,7.5,NA,Sub-parallel,NA,NA,1.590517255
+Ca_529,Ca_Au,Cala,0%,32.5,43.90000153,25,9420.744141,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.756000061
+Ca_530,Ca_Au,Cala,66-99%,87.6,47,43,70584.39063,no,H - tested raw material nodule,Tested,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.093023256
+Ca_532,Ca_Au,Cala,0%,38,21.20000076,22.89999962,NA,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,0.925764241
+Ca_570,Ca_Au,Cala,0%,18.60000038,17,11.19999981,NA,no,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.517857169
+Ca_689,Ca_Au,Cala,66-99%,34.20000076,28.5,24.5,10675.14746,no,H - tested raw material nodule,Tested,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.163265306
+Ca_711,Ca_Au,Cala,66-99%,100,47.20000076,40,NA,no,H - tested raw material nodule,Tested,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.180000019
+Ca_712,Ca_Au,Cala,66-99%,45.59999847,24,19,NA,no,H - tested raw material nodule,Tested,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.263157895
+Ca_716,Ca_Au,Cala,0%,33.59999847,24.5,20.10000038,6610.796875,no,F - Multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.21890545
+Ca_759,Ca_Au,Cala,0%,33,19,10,3452.803467,yes,D - platform,Wide-Faced,Bladelet,1,Unidirectional,Bladelet,23.89999962,8.300000191,26.7,Sub-parallel,1.405263158,2.67,1.9
+Ca_770,Ca_Au,Cala,33-66%,55.90000153,43.79999924,21.70000076,NA,no,C - parallel,Parallel,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,2.018433074
+Ca_771,Ca_Au,Cala,33-66%,35.20000076,16.29999924,24.89999962,6766.644531,no,D- platform;I - core shatter,Platform flake,Undetermined,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,0.654618453
+Ca_772,Ca_Au,Cala,66-99%,31,21.89999962,13.5,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.622222194
+Ca_855,Ca_Au,Cala,0%,33,14.39999962,16.79999924,4215.058594,yes,D - platform,Narrow-sided,Bladelet-Flake,1,Unidirectional,Flake,21.8,12.3,34,Sub-parallel,2.361111173,2.023809615,0.857142873
+Ca_860,Ca_Au,Cala,0%,49.59999847,20,7.300000191,NA,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.739725956
+Ca_914,Ca_Au,Cala,33-66%,34.70000076,26,19,6885.767578,no,I - core shatter,Undetermined,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.368421053
+Ca_919,Ca_Au,Cala,66-99%,33,22.39999962,10.80000019,NA,no,Bipolar,Bipolar,Flake,2-opposed,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.074074002
+Ca_1026,Ca_Au,Cala,1-33%,26.20000076,18.39999962,18.89999962,2212.939697,yes,D- platform;I - core shatter,Narrow-sided,Bladelet,1,Unidirectional,Undetermined,NA,NA,22,Sub-parallel,1.195652199,1.164021187,0.973544973
+Ca_1027,Ca_Au,Cala,33-66%,23.4,19.9,33.8,4608.725586,yes,A - Initial core,Initial carinated,Bladelet-Flake,1,Unidirectional,Flake,11,8.5,12.8,Sub-parallel,0.64321608,0.378698225,0.588757396
+Ca_1290,Ca_Au,Cala,66-99%,32.40000153,22.5,11.60000038,3625.981445,no,H - tested raw material nodule,Tested,Flake,1,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.939655109
+Ca_1347,Ca_Au,Cala,66-99%,26.70000076,14.80000019,12.89999962,2505.626465,no,H - tested raw material nodule,Tested,Undetermined,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,1.14728687
+Ca_1471,Ca_Au,Cala,0%,41.70000076,36.79999924,10.60000038,NA,no,Bipolar,Bipolar,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,3.471697917
+Ca_1479,Ca_Au,Cala,33-66%,48.40000153,46.59999847,18.29999924,NA,no,D - platform,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,21,Sub-parallel,0.450643792,1.147541031,2.54644811
+Ca_1487,Ca_Au,Cala,33-66%,27,35.90000153,17.70000076,4987.880859,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,16,Multidirectional,0.445682432,0.903954763,2.028248587
+Ca_1488,Ca_Au,Cala,33-66%,16.60000038,21.79999924,24.29999924,2970.395508,yes,E - carinated,Carinated core,Bladelet,1,Unidirectional,Bladelet,14.5,4.2,17.79999924,Sub-parallel,0.816513755,0.73251028,0.897119338
+Ca_1494,Ca_Au,Cala,0%,19.79999924,20.39999962,47,7310.231934,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,10.6,8.1,18.60000038,Sub-parallel,0.911764741,0.395744689,0.434042545
+Ca_1495,Ca_Au,Cala,1-33%,14.9,17.3,30.9,3527.0271,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,11.6,9.1,14.5,Convergent,0.838150289,0.469255663,0.55987055
+Ca_1501,Ca_Au,Cala,33-66%,39.79999924,49,17,12849.00098,no,Bipolar,Bipolar,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.882352941
+Ca_1502,Ca_Au,Cala,0%,14.60000038,25.10000038,30.79999924,4967.229492,yes,E - carinated,Carinated endscraper,Bladelet-Flake,1,Unidirectional,Flake,13.6,9.1,13.6,Sub-parallel,0.541832661,0.441558452,0.814935097
+Ca_1504,Ca_Au,Cala,0%,13.30000019,22,31.70000076,3770.031494,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.4,3.3,12.1,Convergent,0.55,0.381703461,0.694006293
+Ca_1509,Ca_Au,Cala,0%,23,33.59999847,32.40000153,7816.996094,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,21,7.4,22.79999924,Convergent,0.678571437,0.703703647,1.037036941
+Ca_1511,Ca_Au,Cala,1-33%,35.09999847,25.29999924,23.20000076,7856.020996,yes,D - platform,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,27.8,7.4,35.5,Sub-parallel,1.403162097,1.530172364,1.090517173
+Ca_1512,Ca_Au,Cala,0%,29.20000076,23.79999924,14.89999962,2798.08252,no,Bipolar,Bipolar,Flake,2-opposed,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.597315426
+Ca_1513,Ca_Au,Cala,0%,30.29999924,25.79999924,19.5,5001.072266,no,D - platform,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,NA,Convergent,NA,NA,1.323076884
+Ca_1516,Ca_Au,Cala,0%,14.6,26,21.1,3430.317871,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,15.1,5.9,14.60000038,Sub-parallel,0.561538476,0.691943146,1.232227488
+Ca_1517,Ca_Au,Cala,0%,9.100000381,17.5,19.39999962,1080.287231,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,8.3,3,9.300000191,Convergent,0.531428582,0.479381463,0.902061873
+Ca_1518,Ca_Au,Cala,0%,10.19999981,21.79999924,25,2322.806885,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,9.8,3.2,11.5,Convergent,0.527522954,0.46,0.87199997
+Ca_1522,Ca_Au,Cala,33-66%,10.5,16.39999962,28.3,1758.616577,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.4,4,9.600000381,Convergent,0.58536589,0.339222628,0.579505287
+Ca_1524,Ca_Au,Cala,1-33%,18.70000076,17.5,17.79999924,1745.268799,yes,E - carinated,Carinated burin,Bladelet,1,Unidirectional,Bladelet,12.2,5.5,18,Convergent,1.028571429,1.011235998,0.983146109
+Ca_1526,Ca_Au,Cala,0%,32.29999924,23.60000038,13.80000019,2927.208252,no,C - parallel,Parallel,Flake,1,Centripetal,Flake,NA,NA,NA,Centripetal,NA,NA,1.710144932
+Ca_1531,Ca_Au,Cala,0%,35.59999847,29.5,16.39999962,6108.395508,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.798780529
+Ca_1532,Ca_Au,Cala,0%,40.90000153,24.60000038,19.79999924,6352.922852,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.242424309
+Ca_1533,Ca_Au,Cala,1-33%,21.5,25.5,29.20000076,4730.017578,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,11.5,3.8,15.60000038,Convergent,0.611764721,0.534246574,0.873287649
+Ca_1534,Ca_Au,Cala,0%,26.20000076,32.90000153,20.20000076,6870.780762,no,Bipolar,Bipolar,Bladelet-Flake,1,Unidirectional,Flake,19.8,12.1,21,Sub-parallel,0.638297843,1.039603921,1.628712886
+Ca_1535,Ca_Au,Cala,1-33%,31.10000038,38.40000153,37.90000153,17088.49023,yes,D- platform;I - core shatter,Semi-circumferential,Bladelet,1,Unidirectional,Undetermined,NA,NA,26.60000038,Sub-parallel,0.692708316,0.701846947,1.013192612
+Ca_1536,Ca_Au,Cala,0%,29.89999962,21.70000076,14,3873.097168,no,F - multidirectional,Multidirectional,Flake,3,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.550000054
+Ca_1537,Ca_Au,Cala,1-33%,13,21.60000038,21.5,2476.556152,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,8.8,3.5,14.10000038,Convergent,0.652777784,0.655813971,1.00465118
+Ca_1538,Ca_Au,Cala,33-66%,18,27.5,37.5,8677.043945,yes,E - carinated,Carinated endscraper,Bladelet,1,Unidirectional,Bladelet,10.9,4.9,14.89999962,Sub-parallel,0.541818168,0.397333323,0.733333333
+Ca_1539,Ca_Au,Cala,0%,37.79999924,31.70000076,16.39999962,10834.14258,no,F - multidirectional,Multidirectional,Flake,2-opposed,Multidirectional,Flake,NA,NA,NA,Multidirectional,NA,NA,1.93292692
+CTC_1,CTC_rsa',Castelcivita,0%,59.5,36.09999847,26.70000076,22491.4,Yes,Platform laminar,Semi-circumferential,Blade-Bladelet,1,Unidirectional,Bladelet,37.79999924,11.69999981,59.29999924,Sub-parallel,1.642659328,2.220973691,1.352059829
+CTC_2,CTC_rsa',Castelcivita,0%,42.20000076,25.70000076,15.89999962,7739.2,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,22.20000076,9.600000381,38.59999847,Sub-parallel,1.501945421,2.427672918,1.616352288
+CTC_3,CTC_rsa',Castelcivita,1-33%,36.5,32.59999847,11.80000019,5685.07,Yes,Platform laminar,Wide-faced flat,Bladelet,1,Unidirectional,Bladelet,23.20000076,8.300000191,36.29999924,Sub-parallel,1.113496961,3.076271073,2.76271169
+CTC_4,CTC_rsa',Castelcivita,0%,31.70000076,27.79999924,18.5,8674.84,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,26.5,10.60000038,28.39999962,Sub-parallel,1.021582748,1.535135115,1.502702662
+CTC_5,CTC_rsa',Castelcivita,1-33%,47.09999847,22.39999962,48.09999847,18245.88,Yes,Platform laminar,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,31.5,10,37,Sub-parallel,1.651785742,0.769230794,0.465696473
+CTC_6,CTC_rsa',Castelcivita,0%,37.90000153,28.39999962,20.60000038,5449.3,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,20.70000076,8.100000381,34.1,Sub-parallel,1.200704241,1.655339775,1.378640733
+CTC_7,CTC_rsa',Castelcivita,1-33%,29.79999924,26.70000076,16,5154.46,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,27,7.900000095,37.70000076,Convergent,1.411985007,2.356250048,1.668750048
+CTC_8,CTC_rsa',Castelcivita,0%,17.5,25.79999924,20,3143.5,Yes,Shatter laminar,Shatter,Bladelet,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,1.289999962
+CTC_9,CTC_rsa',Castelcivita,1-33%,27.89999962,13.80000019,25,2848.42,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Bidirectional,Bladelet,21,7,27.5,Convergent,1.992753596,1.1,0.552000008
+CTC_10,CTC_rsa',Castelcivita,33-66%,31.60000038,17.20000076,18.10000038,4184.02,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Bidirectional,Bladelet,24.70000076,7.400000095,27.5,Convergent,1.598837139,1.519336985,0.950276265
+CTC_11,CTC_rsa',Castelcivita,33-66%,39,45.79999924,37,29203.44,No,Platform flake,NA,Flake,2,Bidirectional,Flake,NA,NA,39.70000076,Sub-parallel,0.866812258,1.072972994,1.237837817
+CTC_12,CTC_rsa',Castelcivita,1-33%,39.09999847,46.20000076,25.20000076,21731.74,No,Platform flake,NA,Flake,2,Unidirectional,Flake,NA,NA,33.7,Sub-parallel,0.729437217,1.337301547,1.833333308
+CTC_13,CTC_rsa',Castelcivita,33-66%,36.20000076,41.79999924,37.29999924,15127.32,Yes,Initial laminar,Initial,Flake,1,Unidirectional,Flake,NA,NA,30.5,Sub-parallel,0.729665085,0.817694387,1.120643434
+CTC_14,CTC_rsa',Castelcivita,0%,30.60000038,34.5,22.10000038,9229.53,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Bidirectional+Unidirectional,Bladelet,26,8,30.39999962,Sub-parallel,0.881159409,1.37556557,1.561085946
+CTC_15,CTC_rsa',Castelcivita,33-66%,31.39999962,33,40.20000076,10784.81,No,Platform flake,NA,Flake,1,Unidirectional,Flake,NA,NA,25.79999924,Sub-parallel,0.781818159,0.641791014,0.820895507
+CTC_16,CTC_rsa',Castelcivita,0%,21.20000076,31.5,27.70000076,8063.12,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,21.6,9.8,22.60000038,Convergent,0.71746033,0.815884468,1.137184084
+CTC_17,CTC_rsa',Castelcivita,33-66%,48.59999847,43.09999847,23.60000038,17951.14,No,Multidirectional,NA,Flake,2,Unidirectional,Flake,35.2,18.2,41.40000153,Sub-parallel,0.960556914,1.754237325,1.826271092
+CTC_18,CTC_rsa',Castelcivita,33-66%,50.20000076,39.90000153,34.59999847,27746.82,Yes,Platform laminar,Multi-platform,Blade-Bladelet,2-unrelated,Bidirectional,Bladelet,36,8.9,49.5,Sub-parallel,1.240601456,1.430635901,1.153179286
+CTC_19,CTC_rsa',Castelcivita,33-66%,42.90000153,46.09999847,26.70000076,16830.02,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Flake,26.39999962,19.89999962,43,Sub-parallel,0.932754912,1.610486846,1.726591654
+CTC_20,CTC_gic-ars,Castelcivita,0%,59.09999847,53.59999847,26.5,31984.67,Yes,Platform laminar,Multi-platform,Blade,2-unrelated,Unidirectional,Blade,53,15.30000019,61,Sub-parallel,1.138059734,2.301886792,2.022641452
+CTC_21,CTC_rsa',Castelcivita,33-66%,25.10000038,33.40000153,15.5,5245.08,No,Platform flake,NA,Flake,2,Bidirectional,Flake,NA,NA,26.20000076,Sub-parallel,0.784431125,1.69032263,2.154838808
+CTC_22,CTC_rsa',Castelcivita,0%,31.70000076,31.29999924,19.10000038,6255.48,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Bidirectional,Bladelet,30.2,9.2,33,Sub-parallel,1.054313125,1.727748657,1.638743383
+CTC_23,CTC_rsa',Castelcivita,0%,32.90000153,22.60000038,20,5370.43,Yes,Platform laminar,Semi-circumferential,Bladelet,2-opposed,Unidirectional,Bladelet,21,6.199999809,31.29999924,Sub-parallel,1.384955695,1.564999962,1.130000019
+CTC_24,CTC_rsa',Castelcivita,0%,24,22.70000076,19.20000076,4084.39,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,24.5,7.199999809,24.29999924,Sub-parallel,1.070484512,1.26562491,1.182291659
+CTC_25,CTC_rsa',Castelcivita,33-66%,35.59999847,42.40000153,33.79999924,14456.08,No,Multidirectional,NA,Flake,3,NA,Undetermined,NA,NA,NA,Multidirectional,NA,NA,1.254437943
+CTC_26,CTC_rsa',Castelcivita,33-66%,43.20000076,41.09999847,23.5,13011.77,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,23.6,10.1,36.40000153,Convergent,0.885644839,1.548936235,1.748936105
+CTC_27,CTC_rsa',Castelcivita,0%,35.20000076,21.79999924,18,5219.49,No,Multidirectional,NA,Flake,3,NA,Undetermined,NA,NA,NA,Multidirectional,NA,NA,1.211111069
+CTC_28,CTC_rsa',Castelcivita,1-33%,26.5,18.60000038,28.89999962,8754.26,Yes,Initial laminar,Initial,Undetermined,2-opposed,Unidirectional,Undetermined,NA,NA,25.79999924,Sub-parallel,1.387096705,0.892733549,0.643598638
+CTC_29,CTC_rsa',Castelcivita,1-33%,23.70000076,18.20000076,26.5,4974.51,Yes,Platform laminar,Narrow-sided,Bladelet,3,Bidirectional,Bladelet,21,7.8,23.29999924,Sub-parallel,1.280219685,0.879245254,0.686792482
+CTC_30,CTC_rsa',Castelcivita,66-99%,38.09999847,57.40000153,47.70000076,45568.27,Yes,Initial laminar,Initial,Flake,1,Unidirectional,Flake,22,18.7,36.59999847,Sub-parallel,0.637630618,0.767295553,1.203354311
+CTC_31,CTC_rsa',Castelcivita,66-99%,32.09999847,47.79999924,41.90000153,20963.03,Yes,Initial laminar,Initial,Flake,1,Unidirectional,Flake,23.8,26.7,31,Sub-parallel,0.648535575,0.739856775,1.140811396
+CTC_32,CTC_rsa',Castelcivita,1-33%,31.89999962,45.90000153,29.60000038,12312.2,No,Platform flake,NA,Flake,1,Unidirectional,Flake,NA,NA,31.39999962,Sub-parallel,0.684095829,1.060810784,1.550675707
+CTC_33,CTC_rsa',Castelcivita,33-66%,53.59999847,33.79999924,19.39999962,14390.77,Yes,Initial laminar,Initial,Flake,1,Unidirectional,Flake,NA,NA,48.79999924,Sub-parallel,1.443786992,2.515463928,1.742268036
+CTC_34,CTC_rsa',Castelcivita,1-33%,48.59999847,41.09999847,26.20000076,23846.12,Yes,Platform laminar,Semi-circumferential,Bladelet,2-opposed,Bidirectional,Undetermined,NA,NA,44.1,Sub-parallel,1.072992741,1.683206058,1.568702186
+CTC_35,CTC_rsa',Castelcivita,33-66%,26.20000076,27.60000038,20.39999962,5413.78,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Flake,16.39999962,8.800000191,24.20000076,Sub-parallel,0.87681161,1.186274569,1.35294122
+CTC_36,CTC_rsa',Castelcivita,1-33%,28.5,35.29999924,19.10000038,8227.4,No,Platform flake,NA,Flake,1,Unidirectional,Flake,NA,NA,21.89999962,Sub-parallel,0.620396603,1.146596816,1.848167463
+CTC_37,CTC_rsa',Castelcivita,0%,49.79999924,40.59999847,31.20000076,21900.18,No,Platform flake,NA,Flake,1,Bidirectional,Flake,NA,NA,46.6,Sub-parallel,1.147783294,1.493589707,1.301281971
+CTC_38,CTC_rsa',Castelcivita,1-33%,30.10000038,43.90000153,31.20000076,16382.51,No,Platform flake,NA,flake,1,Unidirectional,Flake,NA,NA,28.4,Sub-parallel,0.646924807,0.910256388,1.407051297
+CTC_39,CTC_rsa',Castelcivita,1-33%,28.79999924,35.70000076,17.39999962,7424.88,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Flake,NA,NA,28.20000076,Sub-parallel,0.789915971,1.620689734,2.051724226
+CTC_42,CTC_rsa',Castelcivita,0%,37.29999924,30.89999962,18.89999962,5152.38,Yes,Shatter laminar,Shatter,Bladelet,1,Unidirectional,Undetermined,NA,NA,37.20000076,Sub-parallel,1.203883535,1.968254048,1.634920648
+CTC_48,CTC_rsa',Castelcivita,33-66%,34.90000153,37,21,14911.86,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,30.20000076,7.300000191,34.70000076,Convergent,0.937837858,1.652380989,1.761904762
+CTC_49,CTC_rsa',Castelcivita,1-33%,20.10000038,26.70000076,17.79999924,7448.24,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,16.89999962,7.300000191,19.29999924,Sub-parallel,0.722846393,1.084269667,1.500000107
+CTC_50,CTC_gic-ars,Castelcivita,0%,20.1,32.29999924,36.59999847,8403.6,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,12.89999962,5.099999905,20.10000038,Convergent,0.622291048,0.549180361,0.882513677
+CTC_51,CTC_gic-ars,Castelcivita,0%,18.1,29.5,38.2,5706.39,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,16.29999924,4.699999809,17.60000038,Sub-parallel,0.596610182,0.460732994,0.772251309
+CTC_59,CTC_rsa',Castelcivita,0%,30.20000076,35,18.70000076,6535.8,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,14.7,5.8,27.1,Convergent,0.774285714,1.449197802,1.871657678
+CTC_60,CTC_rsa',Castelcivita,0%,21.39999962,31.29999924,16.39999962,4788.02,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,19.79999924,5.400000095,20.89999962,Convergent,0.667731633,1.27439025,1.908536583
+CTC_61,CTC_rsa',Castelcivita,0%,21.2,38.4,45.6,14613.78,Yes,Carinated,Carinated,Bladelet,2-opposed,Unidirectional,Flake,15,9.2,17.6,Sub-parallel,0.458333333,0.385964912,0.842105263
+CTC_62,CTC_rsa',Castelcivita,0%,49.59999847,24.89999962,17.79999924,6839.12,Yes,Carinated,Carinated,Bladelet,2-opposed,Unidirectional,Bladelet,12.6,4.2,19.70000076,Convergent,0.791164701,1.106741663,1.398876443
+CTC_63,CTC_rsa',Castelcivita,66-99%,15.5,60.9,26.1,10356.28,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Flake,13.5,12.9,14.1,Convergent,0.231527094,0.540229885,2.333333333
+CTC_78,CTC_rsa',Castelcivita,0%,25.39999962,21.10000038,11.39999962,2099.5,No,Bipolar,NA,Bladelet,2,Bidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,1.850877288
+CTC_79,CTC_rsa',Castelcivita,1-33%,23,13.80000019,8.600000381,1133.75,No,Bipolar,NA,Bladelet,2,Bidirectional,NA,NA,NA,21.6,Sub-parallel,1.56521737,2.511627796,1.604651114
+CTC_89,CTC_rsa',Castelcivita,1-33%,46.20000076,28.39999962,11.5,7899.68,No,Bipolar,NA,Flake,2,Bidirectional,NA,NA,NA,NA,Sub-parallel,NA,NA,2.469565184
+CTC_90,CTC_rsa',Castelcivita,33-66%,52.09999847,41.20000076,9,6243.55,Yes,Platform laminar,Burin core,Bladelet,1,Unidirectional,Bladelet,25.29999924,3.799999952,38.79999924,Sub-parallel,0.941747537,4.311111027,4.577777862
+CTC_92,CTC_rsa',Castelcivita,66-99%,14.6,36.5,52,14444.59,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,11.80000019,5.199999809,14.30000019,Convergent,0.391780827,0.275000004,0.701923077
+CTC_93,CTC_rsa',Castelcivita,33-66%,30.39999962,33.5,28.29999924,11236,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,23.70000076,7.699999809,29.79999924,Sub-parallel,0.889552216,1.053003535,1.183745615
+CTC_94,CTC_rsa',Castelcivita,33-66%,23.60000038,28.29999924,14.60000038,3538.15,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,21.39999962,6.199999809,21.29999924,Convergent,0.75265017,1.45890402,1.938356062
+CTC_95,CTC_rsa',Castelcivita,66-99%,20.2,39.90000153,52.9,18567.99,Yes,Initial carinated,Initial,Flake,1,Unidirectional,Flake,18,13.5,20.10000038,Sub-parallel,0.503759389,0.3799622,0.754253337
+CTC_100,CTC_rsa',Castelcivita,1-33%,28,36.40000153,24.5,10913.76,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,20.70000076,7.800000191,27.60000038,Convergent,0.758241737,1.126530628,1.485714348
+CTC_101,CTC_rsa',Castelcivita,0%,15.5,24.70000076,32.2,5374.57,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,16,7.199999809,15.6,Convergent,0.631578928,0.48447205,0.767080769
+CTC_103,CTC_rsa',Castelcivita,0%,26.1,34.09999847,24.5,7575.93,Yes,Carinated,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,24.89999962,10.69999981,25.89999962,Sub-parallel,0.759530815,1.057142842,1.391836672
+CTC_104,CTC_rsa',Castelcivita,0%,84.30000305,53.09999847,47.5,84400.86,No,Tested,NA,Undetermined,1,NA,NA,NA,NA,NA,NA,NA,NA,1.117894705
+CTC_313,CTC_rsa',Castelcivita,33-66%,101.5,86.40000153,38,149072.62,No,Shatter,NA,Flake,NA,Unidirectional,NA,NA,NA,NA,NA,NA,NA,2.273684251
+CTC_324,CTC_rsa',Castelcivita,0%,29.39999962,14.19999981,10.10000038,2056.5,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.405940522
+CTC_326,CTC_rsa',Castelcivita,0%,30.79999924,18.89999962,11.19999981,3006.24,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.687499995
+CTC_327,CTC_rsa',Castelcivita,0%,23.20000076,12,7.699999809,823.68,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.558441597
+CTC_329,CTC_rsa',Castelcivita,0%,26.79999924,21,5.699999809,1225.04,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,3.68421065
+CTC_331,CTC_rsa',Castelcivita,0%,18.20000076,13.39999962,4.5,472.73,No,Bipolar,NA,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,2.977777693
+CTC_332,CTC_rsa',Castelcivita,1-33%,20.79999924,27.29999924,9.199999809,1713.57,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.967391283
+CTC_333,CTC_rsa',Castelcivita,0%,24.10000038,19.20000076,9.699999809,1673.18,No,Bipolar,NA,Bladelet,2,NA,NA,NA,NA,NA,NA,NA,NA,1.979381561
+CTC_334,CTC_rsa',Castelcivita,1-33%,28.5,15.69999981,7.900000095,1527.18,No,Bipolar,NA,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,1.987341724
+CTC_335,CTC_rsa',Castelcivita,0%,35.29999924,21.79999924,9.899999619,3082.81,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.20202021
+CTC_336,CTC_rsa',Castelcivita,0%,24,16.29999924,12.60000038,2202.06,No,Bipolar,NA,Bladelet,2,NA,NA,NA,NA,NA,NA,NA,NA,1.293650694
+CTC_337,CTC_rsa',Castelcivita,0%,29.70000076,15.19999981,15.10000038,2331.35,No,Bipolar,NA,Bladelet,2,NA,NA,NA,NA,NA,NA,NA,NA,1.006622479
+CTC_338,CTC_rsa',Castelcivita,0%,28.60000038,31.60000038,10.80000019,4325.74,No,Bipolar,NA,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,2.92592591
+CTC_339,CTC_rsa',Castelcivita,0%,27.79999924,25.5,12.19999981,2757.46,No,Bipolar,NA,Bladelet,2,NA,NA,NA,NA,NA,NA,NA,NA,2.090163967
+CTC_340,CTC_rsa',Castelcivita,0%,33.90000153,22.20000076,13,3893.53,No,Bipolar,NA,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,1.707692366
+CTC_341,CTC_rsa',Castelcivita,0%,19,19.79999924,9.100000381,1420.29,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.175824001
+CTC_342,CTC_rsa',Castelcivita,0%,47.5,31.89999962,14.39999962,6798.58,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.21527781
+CTC_343,CTC_rsa',Castelcivita,66-99%,33.40000153,31.60000038,15.89999962,7085.63,No,Bipolar,NA,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,1.987421455
+CTC_344,CTC_rsa',Castelcivita,1-33%,34.70000076,25.5,10.39999962,3737.51,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.451923167
+CTC_348,CTC_rsa',Castelcivita,66-99%,23.60000038,13.5,6.300000191,908.11,No,Bipolar,NA,Undetermined,2,NA,NA,NA,NA,NA,NA,NA,NA,2.142857078
+CTC_349,CTC_rsa',Castelcivita,66-99%,23.5,17.29999924,8.100000381,1075.6,No,Bipolar,NA,Undetermined,2,NA,NA,NA,NA,NA,NA,NA,NA,2.135802275
+CTC_350,CTC_rsa',Castelcivita,0%,26.5,19.39999962,14,2246.17,No,Bipolar,NA,Undetermined,2,NA,NA,NA,NA,NA,NA,NA,NA,1.385714259
+CTC_352,CTC_rsa',Castelcivita,0%,24.70000076,20.70000076,7.599999905,1669.82,No,Bipolar,NA,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,2.723684345
+CTC_353,CTC_rsa',Castelcivita,0%,18,17.39999962,9.399999619,1150.48,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.851063864
+CTC_354,CTC_rsa',Castelcivita,0%,35.59999847,17.70000076,7,2160.58,No,Bipolar,NA,Undetermined,2,NA,NA,NA,NA,NA,NA,NA,NA,2.528571537
+CTC_355,CTC_rsa',Castelcivita,1-33%,34,13.5,17,3096.02,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,0.794117647
+CTC_356,CTC_rsa',Castelcivita,0%,25.29999924,23.20000076,11.10000038,2975.92,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.090090087
+CTC_357,CTC_rsa',Castelcivita,0%,29.60000038,17.10000038,11.80000019,1944.52,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.449152551
+CTC_358,CTC_rsa',Castelcivita,0%,24.70000076,13.89999962,10.69999981,1409.52,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.299065408
+CTC_359,CTC_rsa',Castelcivita,0%,23.39999962,18.29999924,6.300000191,942.25,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.904761696
+CTC_360,CTC_rsa',Castelcivita,0%,29,16.70000076,7.699999809,1187.67,No,Bipolar,NA,Undetermined,2,NA,NA,NA,NA,NA,NA,NA,NA,2.168831321
+CTC_362,CTC_rsa',Castelcivita,0%,28.89999962,10.30000019,14.89999962,1426.9,No,Bipolar,NA,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,0.691275198
+CTC_365,CTC_rsa',Castelcivita,0%,NA,8.399999619,8.300000191,436.09,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.012048124
+CTC_366,CTC_rsa',Castelcivita,0%,15.30000019,12,8,615.99,No,Bipolar,NA,Undetermined,2,NA,NA,NA,NA,NA,NA,NA,NA,1.5
+CTC_369,CTC_rsa',Castelcivita,0%,24,11.39999962,9,827.8,No,Bipolar,NA,Undetermined,1,NA,NA,NA,NA,NA,NA,NA,NA,1.266666624
+CTC_371,CTC_rsa',Castelcivita,1-33%,37,35,34,12188.34,No,Multidirectional,NA,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,1.029411765
+CTC_372,CTC_rsa',Castelcivita,1-33%,35.70000076,30.29999924,14.5,5869.9,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.08965512
+CTC_375,CTC_rsa',Castelcivita,33-66%,41.59999847,29,10.5,5433.83,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.761904762
+CTC_376,CTC_rsa',Castelcivita,0%,34.59999847,26,17,6309.06,Yes,Shatter laminar,Shatter,Blade-Bladelet,1,NA,Undetermined,NA,NA,31.79999924,NA,1.223076894,1.870588191,1.529411765
+CTC_377,CTC_rsa',Castelcivita,33-66%,24,51.29999924,19.20000076,8552.39,No,Multidirectional,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.671874855
+CTC_378,CTC_rsa',Castelcivita,1-33%,42.40000153,40.59999847,20.89999962,15896.45,No,Platform flake,NA,Flake,1,Unidirectional,Flake,NA,NA,23.5,Sub-parallel,0.578817756,1.124401934,1.942583694
+CTC_379,CTC_rsa',Castelcivita,1-33%,41.59999847,29,19.5,8942.08,No,Multidirectional,NA,Flake,3,NA,Flake,NA,NA,NA,NA,NA,NA,1.487179487
+CTC_664,CTC_rsa',Castelcivita,66-99%,28.79999924,21,8.399999619,1545.92,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.500000113
+CTC_681,CTC_rsa',Castelcivita,0%,27.5,11.89999962,11.60000038,1300.22,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.025862003
+CTC_683,CTC_rsa',Castelcivita,1-33%,43.09999847,17.89999962,27.79999924,6782.9,Yes,Platform laminar,Burin core,Bladelet,1,Unidirectional,Flake,NA,NA,43.20000076,Sub-parallel,2.413407915,1.553956904,0.643884896
+CTC_684,CTC_rsa',Castelcivita,66-99%,110,34.40000153,33.29999924,48320.9,Yes,Initial laminar,Initial,Flake,1,Unidirectional,Flake,NA,NA,27.2,Sub-parallel,0.790697639,0.816816835,1.033033103
+CTC_687,CTC_rsa',Castelcivita,0%,36.79999924,13.30000019,17.60000038,3517.28,No,Bipolar,Burin core,Bladelet,1,Unidirectional,Bladelet,NA,NA,35.90000153,Sub-parallel,2.699248197,2.03977277,0.755681813
+CTC_689,CTC_rsa',Castelcivita,33-66%,38.90000153,17.70000076,27.29999924,4427.51,Yes,Initial laminar,Initial,Undetermined,1,Unidirectional,Undetermined,NA,NA,39,Sub-parallel,2.203389736,1.428571468,0.648351694
+CTC_690,CTC_rsa',Castelcivita,33-66%,36.5,9.699999809,15,2543.36,No,Bipolar,Burin core,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,0.646666654
+CTC_694,CTC_rsa',Castelcivita,0%,32.40000153,30,14.10000038,4607.65,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.127659517
+CTC_695,CTC_rsa',Castelcivita,0%,36.79999924,22,9.699999809,3731.33,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.268041282
+CTC_696,CTC_rsa',Castelcivita,0%,27.79999924,24.79999924,11,2607.59,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.254545385
+CTC_697,CTC_rsa',Castelcivita,0%,20.60000038,24.10000038,8.800000191,1327.15,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.738636347
+CTC_698,CTC_rsa',Castelcivita,0%,35.09999847,24.29999924,10.30000019,3456.16,Yes,Platform laminar,Wide-faced flat,Bladelet,1,Unidirectional,Bladelet,35,7.699999809,35,Sub-parallel,1.440329263,3.39805819,2.359223184
+CTC_699,CTC_gic-ars,Castelcivita,0%,24.39999962,28.39999962,13,3738.09,No,Bipolar,NA,Bladelet,4,NA,NA,NA,NA,NA,NA,NA,NA,2.184615355
+CTC_700,CTC_rsa',Castelcivita,0%,34.20000076,37,15.80000019,11420.69,No,Tested,NA,Undetermined,1,NA,NA,NA,NA,NA,NA,NA,NA,2.341772124
+CTC_720,CTC_rsa',Castelcivita,1-33%,23.10000038,19.29999924,25,3500.99,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,20.5,5.800000191,24.5,Convergent,1.269430102,0.98,0.77199997
+CTC_729,CTC_rsa',Castelcivita,0%,29.70000076,25.10000038,25,NA,No,Shatter,NA,Undetermined,NA,NA,Undetermined,NA,NA,NA,NA,NA,NA,1.004000015
+CTC_765,CTC_gic-ars,Castelcivita,0%,41.29999924,32.20000076,15.60000038,7763.32,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.064102563
+CTC_766,CTC_gic-ars,Castelcivita,0%,27,22.5,10.5,2561.76,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.142857143
+CTC_767,CTC_gic-ars,Castelcivita,1-33%,29.39999962,11.89999962,9.5,1335.87,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.252631539
+CTC_768,CTC_gic-ars,Castelcivita,0%,29.60000038,23.29999924,11,2689.93,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.118181749
+CTC_769,CTC_gic-ars,Castelcivita,0%,30.60000038,11.60000038,7.199999809,1221.6,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.611111207
+CTC_770,CTC_gic-ars,Castelcivita,0%,30.5,13.5,10.60000038,1546.72,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.27358486
+CTC_771,CTC_gic-ars,Castelcivita,0%,26.5,17.10000038,16.39999962,2839.32,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.042682974
+CTC_774,CTC_gic-ars,Castelcivita,0%,21.39999962,19.79999924,8.399999619,1080.26,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.357142874
+CTC_775,CTC_gic-ars,Castelcivita,0%,22.5,19.29999924,9.800000191,1596.95,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.969387639
+CTC_776,CTC_rsa',Castelcivita,0%,29.39999962,16,8.300000191,1389.38,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.927710799
+CTC_779,CTC_gic-ars,Castelcivita,1-33%,35.40000153,36.5,15.30000019,10334.44,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,2.385620885
+CTC_780,CTC_gic-ars,Castelcivita,0%,48,17,23,5081.02,No,Bipolar,NA,Bladelet,1,NA,NA,NA,NA,46.90000153,NA,2.758823619,2.039130501,0.739130435
+CTC_784,CTC_gic-ars,Castelcivita,0%,37.40000153,7.099999905,12.19999981,1424.42,Yes,Platform laminar,Burin core,Bladelet,2-opposed,Bidirectional,Bladelet,13.7,3.4,34,Sub-parallel,4.788732458,2.786885289,0.581967214
+CTC_785,CTC_gic-ars,Castelcivita,0%,38.29999924,49.5,18.5,12383.21,No,Multidirectional,Burin core,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,2.675675676
+CTC_788,CTC_gic-ars,Castelcivita,33-66%,54.20000076,45.79999924,19.79999924,23261.54,No,Multidirectional,Burin core,Undetermined,1,NA,NA,NA,NA,NA,NA,NA,NA,2.313131364
+CTC_796,CTC_gic-ars,Castelcivita,0%,10.4,27.10000038,29.6,3381,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,10,7,10.2,Convergent,0.376383759,0.344594595,0.915540553
+CTC_799,CTC_gic-ars,Castelcivita,0%,10.3,22.39999962,21.1,1793.05,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,9.6,6.6,10.2,Convergent,0.455357151,0.483412322,1.061611356
+CTC_800,CTC_gic-ars,Castelcivita,33-66%,19.8,40.09999847,41.5,10267.41,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Flake,NA,NA,17.8,Convergent,0.443890291,0.428915663,0.966265023
+CTC_801,CTC_gic-ars,Castelcivita,0%,19.6,29,19.5,7966.67,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,14.2,6.8,22.5,Convergent,0.775862069,1.153846154,1.487179487
+CTC_802,CTC_gic-ars,Castelcivita,66-99%,20.6,37.5,44.1,12802.42,Yes,Initial carinated,Initial,Bladelet,1,Unidirectional,Flake,12.4,9.7,16.6,Sub-parallel,0.442666667,0.376417234,0.850340136
+CTC_803,CTC_gic-ars,Castelcivita,1-33%,18.2,34.90000153,36.5,7159.61,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,12,4.9,17.39999962,Sub-parallel,0.498567302,0.476712318,0.956164425
+CTC_804,CTC_gic-ars,Castelcivita,1-33%,14.6,29,17.3,2608.83,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,6.7,3.9,10.69999981,Sub-parallel,0.368965511,0.618497099,1.676300578
+CTC_945,CTC_gic-ars,Castelcivita,0%,12.1,28,37.5,6086.92,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,10.9,5.1,11.4,Sub-parallel,0.407142857,0.304,0.746666667
+CTC_950,CTC_gic-ars,Castelcivita,0%,11.6,29.60000038,29.6,4150.15,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,9.4,5.7,10.60000038,Sub-parallel,0.358108116,0.358108121,1.000000013
+CTC_953,CTC_gic-ars,Castelcivita,0%,12.1,22.20000076,26.9,2245.71,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Undetermined,NA,NA,10.6,Convergent,0.477477461,0.394052045,0.825278839
+CTC_954,CTC_gic-ars,Castelcivita,0%,12.7,21.6,20.9,1259.82,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,9.1,4.2,11.6,Convergent,0.537037037,0.555023923,1.033492823
+CTC_955,CTC_gic-ars,Castelcivita,0%,14.6,31,32.7,6931.11,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,11,7.4,14.5,Sub-parallel,0.467741935,0.443425076,0.948012232
+CTC_956,CTC_gic-ars,Castelcivita,0%,14.3,18.8,32.7,3693.22,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,9.5,4.7,15.5,Convergent,0.824468085,0.474006116,0.574923547
+CTC_958,CTC_gic-ars,Castelcivita,1-33%,15.5,24.3,23.7,2853.42,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,9.5,3.7,12.60000038,Convergent,0.518518534,0.531645586,1.025316456
+CTC_974,CTC_gic-ars,Castelcivita,1-33%,27.79999924,25.70000076,7.300000191,1979.06,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,3.520547957
+CTC_975,CTC_gic-ars,Castelcivita,1-33%,16,25.29999924,23.79999924,4276.91,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,14.8,4.3,14,Convergent,0.5533597,0.588235313,1.063025212
+CTC_977,CTC_gic-ars,Castelcivita,0%,20.39999962,27.5,19.79999924,4704.28,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Flake,12.39999962,7.199999809,13.5,Sub-parallel,0.490909091,0.681818208,1.388888942
+CTC_978,CTC_gic-ars,Castelcivita,1-33%,35.29999924,12.39999962,35.79999924,6024.83,Yes,Platform laminar + carinated,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,17.7,4.2,18,Convergent,1.451612948,0.502793307,0.346368712
+CTC_979,CTC_gic-ars,Castelcivita,0%,44,18.79999924,25,8569.8,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,12.39999962,3.900000095,30.29999924,Convergent,1.611702152,1.21199997,0.75199997
+CTC_980,CTC_gic-ars,Castelcivita,1-33%,20,42.20000076,31.5,12313.44,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Undetermined,NA,NA,19.60000038,Sub-parallel,0.464454977,0.622222234,1.339682564
+CTC_981,CTC_gic-ars,Castelcivita,0%,23.79999924,49.40000153,42.20000076,22589,Yes,Carinated,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,22.89999962,10,22.9,Sub-parallel,0.463562739,0.542654019,1.170616129
+CTC_982,CTC_gic-ars,Castelcivita,1-33%,38.09999847,23,43.70000076,16397.47,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,19.60000038,5.300000191,30.3,Sub-parallel,1.317391304,0.693363832,0.52631578
+CTC_985,CTC_gic-ars,Castelcivita,1-33%,22,34.70000076,36.79999924,9533.56,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,21,5.800000191,22.70000076,Convergent,0.654178682,0.616847859,0.942934823
+CTC_986,CTC_gic-ars,Castelcivita,0%,17,33.09999847,30.89999962,11109.4,No,Shatter,NA,Undetermined,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,1.071197375
+CTC_989,CTC_gic-ars,Castelcivita,33-66%,25.5,25,30.89999962,9657.89,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,22.79999924,7.800000191,24.29999924,Sub-parallel,0.97199997,0.786407752,0.809061499
+CTC_991,CTC_gic-ars,Castelcivita,33-66%,25.70000076,45.20000076,43.90000153,13395.14,No,Shatter,NA,Undetermined,1,NA,Undetermined,NA,NA,NA,NA,NA,NA,1.029612738
+CTC_992,CTC_gic-ars,Castelcivita,1-33%,24.79999924,36.29999924,50,12121.6,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,22.20000076,6.599999905,22.6,Convergent,0.622589545,0.452,0.725999985
+CTC_993,CTC_gic-ars,Castelcivita,1-33%,20,27.29999924,32.59999847,5010.92,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,13.8,5.1,18,Convergent,0.659340678,0.552147265,0.837423329
+CTC_994,CTC_gic-ars,Castelcivita,1-33%,35.59999847,25,30,7835.56,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,9.3,3.8,22.20000076,Sub-parallel,0.88800003,0.740000025,0.833333333
+CTC_995,CTC_gic-ars,Castelcivita,1-33%,37,31,35.90000153,11860.51,No,Multidirectional,NA,Undetermined,2,Unidirectional,Flake,8.8,6.4,7.9,Sub-parallel,0.25483871,0.220055701,0.863509713
+CTC_996,CTC_gic-ars,Castelcivita,0%,18.10000038,18.60000038,7.800000191,1102.4,Yes,Platform laminar,Wide-faced flat,Bladelet,1,Unidirectional,Bladelet,11,4.3,17.39999962,Convergent,0.935483831,2.230769127,2.384615375
+CTC_1000,CTC_gic-ars,Castelcivita,33-66%,36.59999847,18.10000038,22.20000076,7064.75,Yes,Initial carinated,Initial,Bladelet,1,Unidirectional,Bladelet,14,4.699999809,18.20000076,Convergent,1.005524883,0.819819826,0.815315305
+CTC_1002,CTC_gic-ars,Castelcivita,0%,16,24.39999962,33.90000153,3383.35,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,10.69999981,4,14.89999962,Sub-parallel,0.610655732,0.439527993,0.719763968
+CTC_1004,CTC_gic-ars,Castelcivita,0%,10.10000038,13.80000019,7.5,270.1,Yes,Shatter carinated,Shatter,Bladelet,1,Unidirectional,Bladelet,8.100000381,3.700000048,9.800000191,Convergent,0.710144932,1.306666692,1.840000025
+CTC_1006,CTC_gic-ars,Castelcivita,0%,27.89999962,22.29999924,33.59999847,7712.54,No,Shatter,NA,Undetermined,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,0.663690484
+CTC_1008,CTC_gic-ars,Castelcivita,0%,23.60000038,34.59999847,46.40000153,11304.57,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,19.79999924,9,20.7,Convergent,0.598265922,0.446120675,0.745689598
+CTC_1009,CTC_gic-ars,Castelcivita,1-33%,23.29999924,47.70000076,45.29999924,18362.89,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,9.5,5.300000191,20,Convergent,0.419287205,0.441501111,1.052980167
+CTC_1010,CTC_gic-ars,Castelcivita,33-66%,25,36.70000076,44.79999924,12236.49,Yes,Initial carinated,Initial,Flake,1,Unidirectional,Flake,7.5,8.5,16.29999924,Convergent,0.444141659,0.363839275,0.819196459
+CTC_1015,CTC_gic-ars,Castelcivita,0%,19.39999962,30.70000076,22.89999962,4320.74,Yes,Initial carinated,Initial,Undetermined,1,Unidirectional,Undetermined,NA,NA,19.29999924,Sub-parallel,0.628664455,0.842794741,1.340611409
+CTC_1018,CTC_gic-ars,Castelcivita,33-66%,19.20000076,37.29999924,29.5,7055.39,Yes,Platform laminar + carinated,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,12.4,4.9,14,Sub-parallel,0.375335128,0.474576271,1.264406754
+CTC_1019,CTC_gic-ars,Castelcivita,0%,35,14.39999962,7.5,1251.71,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.919999949
+CTC_1023,CTC_gic-ars,Castelcivita,0%,33.40000153,12.10000038,16.20000076,2208.69,Yes,Platform laminar,Burin core,Bladelet,1,Unidirectional,Bladelet,11.1,3.8,31.70000076,Sub-parallel,2.619834691,1.956790079,0.746913569
+CTC_1024,CTC_gic-ars,Castelcivita,1-33%,26.39999962,25.5,12.30000019,2091.12,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,12.19999981,3.900000095,18,Convergent,0.705882353,1.463414612,2.0731707
+CTC_1026,CTC_gic-ars,Castelcivita,0%,13.60000038,23.10000038,28.79999924,2348.56,Yes,Shatter carinated,Shatter,Bladelet,1,Unidirectional,Bladelet,9.800000191,4.099999905,12.39999962,Convergent,0.536796512,0.430555554,0.802083368
+CTC_1088,CTC_gic-ars,Castelcivita,0%,15.10000038,31,31.5,5577.26,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,13.3,4.7,14.89999962,Sub-parallel,0.480645149,0.473015861,0.984126984
+CTC_1127,CTC_gic-ars,Castelcivita,0%,13,25.89999962,20.39999962,2225.12,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,9.6,5.9,12.69999981,Convergent,0.49034749,0.622549022,1.269607848
+CTC_1287,CTC_gic-ars,Castelcivita,66-99%,55.79999924,66.40000153,57.5,128446.61,Yes,Initial laminar,Initial,Blade-Bladelet,1,Unidirectional,Undetermined,NA,NA,54.20000076,Sub-parallel,0.816265053,0.942608709,1.154782635
+CTC_1288,CTC_gic-ars,Castelcivita,66-99%,48.40000153,29,41,25008.38,Yes,Initial laminar,Initial,Blade-Bladelet,1,Unidirectional,Blade,30,12.8,34.4,Sub-parallel,1.186206897,0.83902439,0.707317073
+CTC_1294,CTC_gic-ars,Castelcivita,66-99%,56.29999924,40.40000153,20,24489.12,No,Multidirectional,NA,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,2.020000077
+CTC_1295,CTC_gic-ars,Castelcivita,0%,35.29999924,19.10000038,21.39999962,4123.1,Yes,Platform laminar,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,22.70000076,4.900000095,23.20000076,Sub-parallel,1.214659701,1.084112204,0.892523398
+CTC_1304,CTC_gic-ars,Castelcivita,0%,14.60000038,21.70000076,17.20000076,2877.34,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,10,3.299999952,12,Convergent,0.552995372,0.697674388,1.261627895
+CTC_1314,CTC_gic-ars,Castelcivita,0%,25.10000038,32.40000153,32.59999847,15671.08,No,Shatter,NA,Undetermined,1,Unidirectional,Undetermined,NA,NA,24.20000076,Sub-parallel,0.746913568,0.742331346,0.993865124
+CTC_1328,CTC_gic-ars,Castelcivita,1-33%,52.70000076,37.5,25.5,15743.11,Yes,Platform laminar,Semi-circumferential,Blade,1,Unidirectional,Flake,25.20000076,13.9,44.40000153,Convergent,1.184000041,1.741176531,1.470588235
+CTC_1329,CTC_gic-ars,Castelcivita,0%,29.89999962,32.09999847,15.19999981,4779.1,Yes,Platform laminar,Wide-faced flat,Bladelet,2-opposed,Bidirectional,Bladelet,27.4,6.8,29.79999924,Sub-parallel,0.92834893,1.96052629,2.111842031
+CTC_1331,CTC_gic-ars,Castelcivita,0%,11.8,34.2,19.6,3317.91,Yes,Initial carinated,Initial,Bladelet,1,Unidirectional,Bladelet,7,5.8,11.7,Sub-parallel,0.342105263,0.596938776,1.744897959
+CTC_1332,CTC_gic-ars,Castelcivita,1-33%,38.09999847,33.20000076,30,7946.59,No,Platform flake,NA,Flake,1,Unidirectional,Flake,27.70000076,18.29999924,34.09999847,Sub-parallel,1.027108364,1.136666616,1.106666692
+CTC_1333,CTC_rsa',Castelcivita,1-33%,53.2,38.5,20,20186,Yes,Platform laminar,Wide-faced flat,Blade-Bladelet,1,Bidirectional,Bladelet,26.1,7.8,54.20000076,Sub-parallel,1.407792228,2.710000038,1.925
+CTC_1340,CTC_gic-ars,Castelcivita,0%,21.5,28.89999962,12.39999962,2853.35,No,Multidirectional,NA,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,2.330645202
+CTC_1348,CTC_gic-ars,Castelcivita,0%,59.59999847,47,63.40000153,63088.27,Yes,Initial laminar,Initial,Flake,1,Unidirectional,Flake,35.6,18.9,37.7,Sub-parallel,0.80212766,0.59463721,0.741324903
+CTC_1349,CTC_gic-ars,Castelcivita,0%,26.60000038,23.79999924,23.5,5149.59,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,25.79999924,8.199999809,26.9,Convergent,1.130252137,1.144680851,1.012765925
+CTC_1350,CTC_rsa',Castelcivita,0%,30.20000076,20.5,13.19999981,3157.33,Yes,Platform laminar,Wide-faced flat,Bladelet,1,Unidirectional,Bladelet,24.10000038,6.300000191,26.60000038,Sub-parallel,1.297560994,2.015151573,1.553030325
+CTC_1351,CTC_gic-ars,Castelcivita,0%,31.29999924,14.80000019,36,5818.26,Yes,Platform laminar,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,15.2,6,20.5,Sub-parallel,1.385135117,0.569444444,0.411111116
+CTC_1352,CTC_gic-ars,Castelcivita,0%,36.59999847,32.70000076,18.10000038,9138.97,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,32,6.9,36.79999924,Sub-parallel,1.125382214,2.033149087,1.806629838
+CTC_1353,CTC_gic-ars,Castelcivita,1-33%,37.09999847,20.79999924,47,7768.37,Yes,Platform laminar,Semi-circumferential,Blade-Bladelet,1,Unidirectional,Blade,24.39999962,12.1,28.79999924,Convergent,1.384615399,0.612765941,0.442553175
+CTC_1354,CTC_gic-ars,Castelcivita,33-66%,23.3,24.7,36,7098.5,Yes,Initial carinated,Initial,Bladelet,1,Unidirectional,Bladelet,19.89999962,7.199999809,22.79999924,Sub-parallel,0.923076892,0.633333312,0.686111111
+CTC_1355,CTC_gic-ars,Castelcivita,0%,21.20000076,34,23.5,5976.12,No,Platform flake,NA,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.446808511
+CTC_1356,CTC_gic-ars,Castelcivita,1-33%,34.20000076,44.20000076,19.60000038,10413.47,No,Multidirectional,NA,Flake,1,NA,Flake,NA,NA,NA,NA,NA,NA,2.255102036
+CTC_1357,CTC_gic-ars,Castelcivita,66-99%,28.79999924,25.70000076,35.70000076,10715.5,Yes,Initial laminar,Initial,Bladelet,1,Unidirectional,Flake,NA,NA,30.10000038,Sub-parallel,1.171206206,0.843137248,0.719887961
+CTC_1358,CTC_gic-ars,Castelcivita,33-66%,37,31.79999924,19,11451.77,No,Multidirectional,NA,Flake,1,Unidirectional,Flake,NA,NA,26.6,Sub-parallel,0.836478007,1.4,1.673684171
+CTC_1359,CTC_gic-ars,Castelcivita,0%,49.59999847,35.09999847,35.59999847,28326.06,No,Multidirectional,NA,Flake,3,NA,Flake,NA,NA,NA,NA,NA,NA,0.985955056
+CTC_1360,CTC_gic-ars,Castelcivita,1-33%,60,43.20000076,26.5,28014.31,Yes,Platform laminar,Semi-circumferential,Blade,1,Unidirectional,Blade,44.79999924,14,58.59999847,Sub-parallel,1.356481422,2.211320697,1.630188708
+CTC_1361,CTC_gic-ars,Castelcivita,0%,30.20000076,32.29999924,23.20000076,10332.51,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,18.4,6.1,29.79999924,Sub-parallel,0.922600617,1.284482684,1.392241301
+CTC_1362,CTC_gic-ars,Castelcivita,1-33%,35.59999847,26.10000038,16.70000076,5467.52,No,Multidirectional,NA,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,1.562874203
+CTC_1363,CTC_gic-ars,Castelcivita,0%,29.39999962,27.39999962,17.5,5909.45,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,24.60000038,6.800000191,26,Convergent;Sub-parallel,0.948905123,1.485714286,1.565714264
+CTC_1364,CTC_gic-ars,Castelcivita,0%,24.20000076,17.20000076,32,4432.62,No,Multidirectional,NA,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,0.537500024
+CTC_1365,CTC_gic-ars,Castelcivita,1-33%,28.5,22.5,19.70000076,4461.63,No,Multidirectional,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.142131936
+CTC_1366,CTC_gic-ars,Castelcivita,33-66%,29.89999962,42.40000153,29.39999962,15125.47,No,Platform flake,NA,Flake,2,Bidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.442176941
+CTC_1367,CTC_gic-ars,Castelcivita,66-99%,67.80000305,31,56.90000153,55068.09,Yes,Initial laminar,Initial,Undetermined,1,Crossed,Undetermined,NA,NA,45.9,Sub-parallel,1.480645161,0.806678361,0.544815451
+CTC_1369,CTC_gic-ars,Castelcivita,1-33%,65,40,30.5,32098.89,No,Shatter,NA,Flake,NA,NA,NA,NA,NA,NA,NA,NA,NA,1.31147541
+CTC_1374,CTC_gic-ars,Castelcivita,1-33%,38.29999924,36.40000153,40.29999924,12027.87,No,Shatter,NA,Undetermined,1,Unidirectional,Flake,NA,NA,31.39999962,Convergent,0.862637316,0.779156333,0.903225861
+CTC_1503,CTC_gic-ars,Castelcivita,0%,42.70000076,17.29999924,10.69999981,2399.14,Yes,Platform laminar,Burin core,Bladelet,1,Unidirectional,Bladelet,9,5.4,25,Sub-parallel,1.445086769,2.33644864,1.616822388
+CTC_1508,CTC_gic-ars,Castelcivita,1-33%,12.1,26.5,19.2,2901.81,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,10.60000038,4.800000191,14.5,Sub-parallel,0.547169811,0.755208333,1.380208333
+CTC_1512,CTC_rsa',Castelcivita,33-66%,30,25.29999924,24,6126.98,No,Shatter,Burin core,Undetermined,NA,NA,Undetermined,NA,NA,NA,NA,NA,NA,1.054166635
+CTC_1513,CTC_gic-ars,Castelcivita,1-33%,14.5,39.5,29.70000076,8404.46,No,Multidirectional,Burin core,Flake,1,NA,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.329966296
+CTC_1515,CTC_gic-ars,Castelcivita,0%,35.29999924,17.20000076,17.10000038,3863.88,No,Bipolar,Burin core,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.005847975
+CTC_1660,CTC_gic-ars,Castelcivita,0%,32,19,15,2838.38,No,Bipolar,NA,Flake,2,NA,NA,NA,NA,NA,NA,NA,NA,1.266666667
+CTC_1871,CTC_gic-ars,Castelcivita,0%,19,26,25.5,2880.27,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,17.4,6.5,18.5,Convergent,0.711538462,0.725490196,1.019607843
+CTC_1889,CTC_gic-ars,Castelcivita,33-66%,27.89999962,25.60000038,45.90000153,11902.92,No,Shatter,NA,Flake,1,Unidirectional,NA,NA,NA,26,Sub-parallel,1.015624985,0.566448783,0.557734194
+CTC_1950,CTC_rsa',Castelcivita,0%,32,37.90000153,51.59999847,20888.17,Yes,Carinated,Multi-platform,Bladelet,2-unrelated,Unidirectional,Flake,9.3,11.9,27.20000076,Convergent,0.717678091,0.527131813,0.734496175
+CTC_1965,CTC_rsa',Castelcivita,0%,36.40000153,37.20000076,28.20000076,19019.43,No,Multidirectional,NA,Flake,3,NA,NA,NA,NA,26.39999962,NA,0.709677395,0.936170174,1.319148928
+CTC_1966,CTC_rsa',Castelcivita,0%,28.89999962,45.70000076,19.70000076,12609.99,Yes,Platform laminar,Wide-faced flat,Bladelet,1,Unidirectional,Bladelet,22.7,9.5,29.10000038,Sub-parallel,0.636761486,1.477157323,2.319796903
+CTC_1967,CTC_rsa',Castelcivita,1-33%,29.20000076,25.5,13.80000019,4383.73,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,25,6.8,27.79999924,Sub-parallel,1.090196049,2.014492671,1.847826062
+RB_1018,RB_A1,Bombrini,1-33%,21.4,29,24,3113.247559,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,11.9,4.8,13.80000019,Sub-parallel,0.475862076,0.575000008,1.208333333
+RB_1020,RB_A1,Bombrini,1-33%,29.60000038,38.5,13,5610.946777,No,Platform flake,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,26.5,Sub-parallel,0.688311688,2.038461538,2.961538462
+RB_1021,RB_A1,Bombrini,0%,19.4,25.7,27.5,6394.330078,Yes,Platform laminar,Multi-platform,Bladelet-Flake,2-unrelated,Unidirectional,Bladelet,8.3,3.4,22.60000038,Convergent,0.879377447,0.821818196,0.934545455
+RB_1022,RB_A1,Bombrini,0%,19.89999962,25,26.60000038,6891.458984,Yes,Shatter,Shatter laminar,Bladelet,1,Unidirectional,Undetermined,NA,NA,20,Sub-parallel,0.8,0.751879688,0.939849611
+RB_1023,RB_A1,Bombrini,0%,25.89999962,18.10000038,12.19999981,2360.431641,Yes,Platform laminar,Wide-faced flat,Bladelet,2-opposed,Bidirectional,Bladelet,18,4.8,25.89999962,Sub-parallel,1.430939175,2.122950822,1.483606612
+RB_1030,RB_A1,Bombrini,0%,15.39999962,13.10000038,8.5,1071.243652,Yes,Shatter,Shatter laminar,Bladelet,1,Unidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,1.541176515
+RB_1033,RB_A1,Bombrini,33-66%,27.89999962,22.70000076,43.29999924,11996.9834,No,Tested,Tested,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,0.524249449
+RB_1040,RB_A1,Bombrini,66-99%,19.70000076,43.90000153,12.19999981,3379.51709,Yes,Initial,Initial laminar,Flake,1,Unidirectional,Flake,NA,NA,43.2,Sub-parallel,0.984054636,3.540983662,3.598360837
+RB_1046,RB_A1,Bombrini,0%,38.90000153,14.89999962,6.900000095,2159.197998,Yes,Platform laminar,Burin core,Bladelet,1,Unidirectional,Bladelet,25.3,6.3,34.40000153,Sub-parallel,2.308724994,4.985507399,2.159420205
+RB_1047,RB_A1,Bombrini,0%,26.79999924,23.79999924,11.5,2779.836914,Yes,Platform laminar,Wide-faced flat,Bladelet,1,Unidirectional,Flake,6,8.2,27.29999924,Sub-parallel,1.147058828,2.373912977,2.069565151
+RB_1055,RB_A1,Bombrini,0%,14.39999962,19.10000038,11.89999962,1026.000244,No,Platform flake,Platform flake,Undetermined,1,Unidirectional,Flake,NA,NA,NA,Convergent,NA,NA,1.6050421
+RB_1060,RB_A1,Bombrini,1-33%,39.29999924,31,22.79999924,8875.226563,No,Platform flake,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,35.5,Sub-parallel,1.14516129,1.557017596,1.359649168
+RB_1061,RB_A1,Bombrini,0%,16.29999924,19.89999962,15.30000019,3000.860596,No,Shatter,Shatter,Undetermined,NA,NA,NA,NA,NA,NA,NA,NA,NA,1.300653554
+RB_1079,RB_A1,Bombrini,1-33%,24.39999962,18.10000038,28,4431.58,Yes,Platform laminar,Narrow-sided,Undetermined,1,Unidirectional,Bladelet,15.1,5.8,21.4,Sub-parallel,1.182320417,0.764285714,0.646428585
+RB_1086,RB_A1,Bombrini,33-66%,20.60000038,14.80000019,9.100000381,1084.336548,No,Platform flake,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,16.5,Sub-parallel,1.11486485,1.813186737,1.626373579
+RB_1145,RB_A2,Bombrini,0%,36.29999924,39.20000076,37.79999924,23191.93164,No,Multidirectional,Multidirectional,Flake,3,NA,Flake,NA,NA,NA,NA,NA,NA,1.037037078
+RB_1146,RB_A2,Bombrini,1-33%,23,27.10000038,24.10000038,6020.734375,No,Platform flake,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,1.124481326
+RB_1147,RB_A2,Bombrini,0%,21.39999962,38.59999847,47.70000076,17020.86328,No,Platform flake,Platform flake,Flake,2-opposed,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,0.809224274
+RB_1148,RB_A2,Bombrini,1-33%,42.20000076,16.20000076,26.79999924,8385.614258,Yes,Platform laminar,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,25.6,6,36.5,Sub-parallel,2.253086314,1.361940337,0.604477658
+RB_1149,RB_A2,Bombrini,0%,57.09999847,32.70000076,20,13111.2373,No,Parallel,Multidirectional,Flake,1,NA,Flake,NA,NA,NA,NA,NA,NA,1.635000038
+RB_1150,RB_A2,Bombrini,0%,36.40000153,26.70000076,23,8839.828125,No,Multidirectional,Multidirectional,Bladelet-Flake,3,NA,Flake,NA,NA,NA,NA,NA,NA,1.160869598
+RB_1151,RB_A2,Bombrini,33-66%,60,66.19999695,27.5,52072.61328,No,Tested,Tested,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,2.407272616
+RB_1152,RB_A2,Bombrini,1-33%,38,24,19,6907.495605,No,Tested,Tested,Undetermined,1,NA,NA,NA,NA,NA,NA,NA,NA,1.263157895
+RB_1156,RB_A2,Bombrini,33-66%,23.70000076,38.5,13.19999981,6022.821777,No,Platform flake,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,NA,Sub-parallel,NA,NA,2.916666709
+RB_1157,RB_A2,Bombrini,0%,26,28,21.70000076,7343.620605,No,Multidirectional,Multidirectional,Flake,3,NA,Flake,NA,NA,NA,NA,NA,NA,1.290322535
+RB_1160,RB_A2,Bombrini,100%,41.70000076,39.20000076,14.19999981,7928.59375,No,Platform flake,Platform flake,Flake,1,Unidirectional,Flake,NA,NA,19.79999924,Sub-parallel,0.505102012,1.394366162,2.760563471
+RB_1162,RB_A2,Bombrini,0%,27,28.39999962,13.30000019,4909.080566,No,Shatter,Shatter,Undetermined,1,NA,NA,NA,NA,NA,NA,NA,NA,2.135338287
+RB_1164,RB_A2,Bombrini,0%,17.60000038,9,18.20000076,1131.302002,Yes,Bipolar,Bipolar,Bladelet,2-opposed,Bidirectional,Bladelet,15.6,4.1,17,Sub-parallel,1.888888889,0.934065895,0.494505474
+RB_344,RB_A1,Bombrini,0%,25.39999962,17.10000038,12.10000038,2605.665771,No,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Undetermined,NA,NA,NA,Sub-parallel,NA,NA,1.413223127
+RB_409,RB_A1,Bombrini,33-66%,16.79999924,9.5,26.60000038,1753.108521,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,10.1,3.6,18.20000076,Convergent,1.915789554,0.684210545,0.357142852
+RB_558,RB_A1,Bombrini,33-66%,28.79999924,36.29999924,63.20000076,30753.66992,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Flake,11.8,10.5,31.5,Sub-parallel,0.867768613,0.498417716,0.57436707
+RB_559,RB_A1,Bombrini,0%,48.79999924,38.20000076,27.10000038,19198.46094,No,Multidirectional,Multidirectional,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.409594104
+RB_560,RB_A1,Bombrini,1-33%,36.79999924,31.60000038,45.79999924,31921.19922,Yes,Platform laminar,Semi-circumferential,Blade;Bladelet,1,Unidirectional,Bladelet,20.6,9.7,37,Sub-parallel,1.170886062,0.807860275,0.689956352
+RB_561,RB_A1,Bombrini,1-33%,41.90000153,37.40000153,35.20000076,22038.07227,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,20.8,6.1,40.70000076,Convergent,1.08823527,1.156249997,1.06250002
+RB_562,RB_A1,Bombrini,1-33%,30.39999962,22.29999924,31.39999962,10776.55859,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,22,8.4,23.1,Sub-parallel,1.035874475,0.735668799,0.710191067
+RB_563,RB_A1,Bombrini,1-33%,29.60000038,30,38.40000153,12776.66895,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,19.5,8.2,28,Convergent,0.933333333,0.729166638,0.781249969
+RB_564,RB_A1,Bombrini,33-66%,30.5,37.20000076,24.60000038,7987.208984,Yes,Initial,Initial laminar,Bladelet-Flake,1,Unidirectional,Flake,21.6,20.9,22.39999962,Sub-parallel,0.602150515,0.910569076,1.51219513
+RB_565,RB_A1,Bombrini,1-33%,31.79999924,28.10000038,16.70000076,7119.359863,No,Multidirectional,Multidirectional,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.682634677
+RB_566,RB_A1,Bombrini,33-66%,31.70000076,36.70000076,13.60000038,6535.176758,Yes,Platform laminar,Wide-faced flat,Bladelet-Flake,1,Unidirectional,Bladelet,25,9.4,31.20000076,Convergent,0.850136243,2.294117639,2.698529392
+RB_567,RB_A1,Bombrini,0%,19.79999924,25.10000038,20.29999924,3759.762451,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,15.9,7,19.20000076,Sub-parallel,0.764940258,0.945812881,1.236453267
+RB_568,RB_A1,Bombrini,33-66%,32.09999847,21.29999924,19.5,5683.362305,Yes,Platform laminar,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,16.9,5.7,31,Sub-parallel,1.455399113,1.58974359,1.092307653
+RB_569,RB_A1,Bombrini,0%,28.29999924,23.89999962,14.39999962,4359.668945,Yes,Platform laminar,Wide-faced flat,Bladelet,1,Unidirectional,Bladelet,15.3,6.4,25.39999962,Convergent,1.062761507,1.763888909,1.65972224
+RB_570,RB_A1,Bombrini,0%,26.89999962,24.20000076,20.29999924,5063.742676,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,19.7,5.6,23.89999962,Convergent,0.987603259,1.177339927,1.192118309
+RB_571,RB_A1,Bombrini,1-33%,41.29999924,29.79999924,16,6642.842773,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,23.7,8.7,38.70000076,Convergent,1.298657777,2.418750048,1.862499952
+RB_572,RB_A1,Bombrini,0%,19.5,9.699999809,8,621.2302246,Yes,Bipolar,Bipolar,Bladelet-Flake,2-opposed,Bidirectional,Bladelet,14.8,5,19.39999962,Sub-parallel,2,2.424999952,1.212499976
+RB_573,RB_A1,Bombrini,33-66%,25.79999924,24,8.300000191,2431.598633,Yes,Platform laminar,Wide-faced flat,Bladelet,1,Unidirectional,Bladelet,15.7,4.9,25.39999962,Sub-parallel,1.058333317,3.060240848,2.891566199
+RB_575,RB_A2,Bombrini,0%,90,75.09999847,50.40000153,141999.2813,No,Multidirectional,Multidirectional,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,1.49007929
+RB_576,RB_A2,Bombrini,33-66%,49.40000153,51.79999924,49.79999924,58862.01563,No,Tested,Tested,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,1.040160643
+RB_577,RB_A2,Bombrini,0%,42,49.70000076,39.20000076,28674.16797,No,Multidirectional,Multidirectional,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,1.267857138
+RB_578,RB_A2,Bombrini,33-66%,33.20000076,29.29999924,30.60000038,14202.96777,Yes,Initial,Initial laminar,Bladelet-Flake,1,Unidirectional,Undetermined,NA,NA,32,Sub-parallel,1.092150199,1.045751621,0.957516303
+RB_579,RB_A2,Bombrini,33-66%,32.70000076,44.20000076,59.90000153,25863.13477,Yes,Carinated,Carinated,Bladelet-Flake,1,Unidirectional,Flakelet,12.5,8,24.79999924,Convergent,0.561085946,0.414023349,0.737896488
+RB_580,RB_A2,Bombrini,0%,51.90000153,37.20000076,25.70000076,17549.87695,No,Multidirectional,Multidirectional,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.447470804
+RB_581,RB_A2,Bombrini,66-99%,43.09999847,34,26,14257.42578,Yes,Initial,Initial laminar,Bladelet-Flake,1,Unidirectional,Bladelet,14.8,7.1,19.7,Convergent,0.579411765,0.757692308,1.307692308
+RB_582,RB_A2,Bombrini,0%,22.8,23.3,41.6,8683.68457,Yes,Carinated,Carinated,Bladelet-Flake,1,Unidirectional,Bladelet,14.5,6,16.4,Convergent,0.703862661,0.394230769,0.560096154
+RB_583,RB_A2,Bombrini,33-66%,37.09999847,36.90000153,19.79999924,11495.57617,No,Multidirectional,Multidirectional,Flake,1,Centripetal,Flake,10.8,12,NA,NA,NA,NA,1.863636513
+RB_584,RB_A2,Bombrini,0%,42.90000153,34.90000153,19.60000038,7682.316406,No,Multidirectional,Multidirectional,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.780612288
+RB_585,RB_A2,Bombrini,0%,33,22.79999924,19.79999924,4665.671875,Yes,Platform laminar,Semi-circumferential,Bladelet-Flake,1,Unidirectional,Bladelet,25.1,6.3,28.60000038,Sub-parallel,1.254386024,1.444444519,1.151515157
+RB_586,RB_A2,Bombrini,0%,20,19.89999962,14.30000019,1982.296997,Yes,Shatter,Shatter laminar,Bladelet,1,Unidirectional,Undetermined,NA,NA,20.10000038,Sub-parallel,1.01005029,1.405594414,1.391608346
+RB_587,RB_A2,Bombrini,1-33%,26.5,32.40000153,30.79999924,14571.57324,No,Platform flake,Platform flake,Flake,1,Unidirectional,Flake,17.4,12.8,27,Sub-parallel,0.833333294,0.876623398,1.051948128
+RB_588,RB_A2,Bombrini,1-33%,30.70000076,13.5,26.79999924,6023.888672,Yes,Platform laminar,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,24.7,5.6,28.60000038,Sub-parallel,2.118518547,1.067164224,0.503731358
+RB_589,RB_A2,Bombrini,1-33%,26.60000038,17.79999924,17.39999962,3386.852295,Yes,Shatter,Shatter laminar,Bladelet-Flake,1,Unidirectional,Undetermined,NA,NA,25.5,Sub-parallel,1.432584331,1.465517274,1.022988484
+RB_590,RB_A2,Bombrini,1-33%,22.20000076,17.29999924,15.39999962,2034.804077,No,Multidirectional,Multidirectional,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.123376602
+RB_591,RB_A2,Bombrini,0%,19.79999924,24.70000076,25.29999924,5431.98584,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,11.2,5.3,19.89999962,Sub-parallel,0.805667976,0.786561273,0.976284645
+RB_592,RB_A2,Bombrini,0%,20.20000076,19,25.5,4968.677246,Yes,Platform laminar,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,17.6,4.8,23.29999924,Convergent,1.226315749,0.91372546,0.745098039
+RB_593,RB_A2,Bombrini,33-66%,36.40000153,12.19999981,10,2793.793701,Yes,Platform laminar,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,19.1,5.5,36.5,Sub-parallel,2.991803325,3.65,1.219999981
+RB_594,RB_A2,Bombrini,33-66%,52.59999847,33,18,15621.30371,No,Multidirectional,Multidirectional,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.833333333
+RB_595,RB_A2,Bombrini,1-33%,31.20000076,27.39999962,18.29999924,8445.05957,No,Shatter,Shatter,Flake,1,Unidirectional,NA,NA,NA,NA,Sub-parallel,NA,NA,1.497267801
+RB_596,RB_A2,Bombrini,0%,20.79999924,19.20000076,15,3313.286865,No,Multidirectional,Multidirectional,Flake,3,NA,NA,NA,NA,NA,NA,NA,NA,1.280000051
+RB_597,RB_A2,Bombrini,0%,30.79999924,21.10000038,13,3941.932861,No,Multidirectional,Multidirectional,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.623076952
+RB_598,RB_A2,Bombrini,33-66%,35.90000153,16.60000038,11.5,3056.79541,No,Multidirectional,Multidirectional,Flake,2-opposed,NA,NA,NA,NA,NA,NA,NA,NA,1.443478294
+RB_599,RB_A2,Bombrini,1-33%,31,33.59999847,15.19999981,6804.045898,No,Shatter,Shatter,Flake,1,NA,NA,NA,NA,NA,NA,NA,NA,2.210526243
+RF.b_223,RF_A2-A1,Fumane,0%,31.6,8.5,43.8,2977.631348,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,25.5,3.6,29.4,Convergent,3.458823529,0.671232877,0.194063927
+RF.b_284,RF_A2-A1,Fumane,0%,25.7,9.3,34.8,5508.197754,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,12.2,4.5,23.5,Sub-parallel,2.52688172,0.675287356,0.267241379
+RF.b_286,RF_A2-A1,Fumane,0%,13.2,25.39999962,39.8,1408.8927,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,19.2,3.8,13.1,Convergent,0.515748039,0.329145729,0.638190945
+RF.b_302,RF_A2-A1,Fumane,0%,19.3,7.9,38.1,1988.741333,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,13.3,3,14.5,Convergent,1.835443038,0.380577428,0.207349081
+RF.b_324,RF_A2-A1,Fumane,0%,28.9,18.2,64.1,8329.889648,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,10.4,3.7,12.5,Sub-parallel,0.686813187,0.1950078,0.283931357
+RF.b_354,RF_A2-A1,Fumane,0%,15.5,15.8,27.2,1273.053589,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,15,3.6,15.5,Sub-parallel,0.981012658,0.569852941,0.580882353
+RF.b_6232,RF_A2-A1,Fumane,1-33%,13.2,21.2,39.6,NA,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,12.60000038,4.300000191,13.2,Convergent,0.622641509,0.333333333,0.535353535
+RF.b_6243,RF_A2-A1,Fumane,0%,17.6,22.1,61,NA,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,NA,NA,NA,17.6,Convergent,0.79638009,0.28852459,0.362295082
+RF.b_6294,RF_A2-A1,Fumane,66-99%,16.3,33.2,43.2,13395.54102,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,11.9,3.5,13.8,Convergent,0.415662651,0.319444444,0.768518519
+RF.b_6295,RF_A2-A1,Fumane,66-99%,18.3,36.5,41.9,11614.08984,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,13.7,5.5,15.1,Sub-parallel,0.41369863,0.360381862,0.871121718
+RF.b_6296,RF_A2-A1,Fumane,0%,16.4,34,NA,NA,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,NA,NA,NA,18.2,Convergent,0.535294118,NA,NA
+RF.b_6297,RF_A2-A1,Fumane,1-33%,13.9,32.8,56.8,NA,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,NA,NA,NA,13.8,Convergent,0.420731707,0.242957746,0.577464789
+RF.b_6302,RF_A2-A1,Fumane,1-33%,14.4,23.2,35.6,NA,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,NA,NA,NA,14.8,Convergent,0.637931034,0.415730337,0.651685393
+RF.b_6303,RF_A2-A1,Fumane,1-33%,21,28.8,29.8,6790.408203,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,16,7.1,15.8,Sub-parallel,0.548611111,0.530201342,0.966442953
+RF.b_9801,RF_D3b.alpha,Fumane,1-33%,21.4,33.9,55.8,12590.36719,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,19.9,5.3,21.4,Convergent,0.631268437,0.383512545,0.607526882
+RF.b_9812,RF_D3b.alpha,Fumane,1-33%,22.9,39.4,58,16522.93164,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,18.3,4.3,17.9,Convergent,0.454314721,0.30862069,0.679310345
+RF.b_9814,RF_D3b.alpha,Fumane,33-66%,14.4,18,24.5,2453.239258,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,15.2,3.7,13.7,Convergent,0.761111111,0.559183673,0.734693878
+RF.c_10,RF_A2-A1,Fumane,33-66%,53,24,47.70000076,25815.7207,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,33.79999924,7,46.40000153,Convergent,1.933333397,0.972746348,0.503144646
+RF.c_100,RF_A2-A1,Fumane,33-66%,43.5,28.60000038,37.79999924,18328.44727,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,38.40000153,8.899999619,42.59999847,Sub-parallel,1.489510416,1.126984109,0.756613782
+RF.c_102,RF_A2-A1,Fumane,1-33%,39.79999924,25.39999962,13.10000038,NA,No,Shatter,Shatter,Undetermined,2,Bidirectional,NA,NA,NA,NA,Undetermined,NA,NA,1.938931212
+RF.c_104,RF_A2-A1,Fumane,66-99%,39,24.79999924,15.5,7408.543457,Yes,Platform,Initial,Blade-Flake,1,Unidirectional,Flake,21.20000076,11,39,Sub-parallel,1.572580693,2.516129032,1.599999951
+RF.c_105,RF_A2-A1,Fumane,0%,44.79999924,42.40000153,29.29999924,NA,No,Shatter,Shatter,Flake,NA,Multidirectional,Flake,23.70000076,20.29999924,NA,NA,NA,NA,1.447099066
+RF.c_106,RF_A2-A1,Fumane,0%,30.20000076,33.29999924,18,NA,No,NA,Flake,Flake,NA,Multidirectional,Flake,36.70000076,28.5,NA,NA,NA,NA,1.849999958
+RF.c_107,RF_A2-A1,Fumane,0%,30.2,33.3,18,NA,No,Shatter,Shatter,Undetermined,NA,Undetermined,Flake,31.70000076,23.29999924,NA,NA,NA,NA,1.85
+RF.c_108,RF_A2-A1,Fumane,33-66%,56.59999847,23.29999924,30,NA,No,Shatter,Shatter,Undetermined,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,0.776666641
+RF.c_109,RF_A2-A1,Fumane,33-66%,30,42.59999847,14.5,NA,No,Shatter,Shatter,Flake,NA,Multidirectional,Flake,20.20000076,18.39999962,NA,NA,NA,NA,2.937930929
+RF.c_11,RF_A2-A1,Fumane,1-33%,50.20000076,33.09999847,23.20000076,17736.48828,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,26.5,6.300000191,50.20000076,Convergent,1.516616407,2.163793065,1.426724025
+RF.c_110,RF_A2-A1,Fumane,0%,41.09999847,24.29999924,16,NA,No,Shatter,Shatter,Undetermined,2,Undetermined,NA,NA,NA,NA,Undetermined,NA,NA,1.518749953
+RF.c_111,RF_A2-A1,Fumane,1-33%,38.40000153,20.29999924,37.29999924,15903.11816,Yes,Platform,Narrow-sided,Blade-Bladelet,1,Unidirectional,Bladelet,26.10000038,11.5,36.40000153,Sub-parallel,1.793103591,0.975871375,0.544235916
+RF.c_112,RF_A2-A1,Fumane,0%,45.70000076,29.79999924,19.20000076,NA,No,Shatter,Shatter,Flake,NA,Unidirectional,Flake,43.20000076,25,NA,Sub-parallel,NA,NA,1.552083232
+RF.c_113,RF_A2-A1,Fumane,1-33%,23.29999924,46,36.79999924,NA,No,Shatter,Shatter,Undetermined,1,Unidirectional,Bladelet,NA,NA,NA,Undetermined,NA,NA,1.250000026
+RF.c_115,RF_A2-A1,Fumane,1-33%,72,49,19.5,NA,No,NA,Flake,Flake,2,Multidirectional,Flake,45,29.79999924,68.69999695,Multidirectional,1.402040754,3.523076767,2.512820513
+RF.c_116,RF_A2-A1,Fumane,1-33%,36.59999847,29,27.5,NA,No,Shatter,Shatter,Undetermined,1,Unidirectional,Flake,29,16,28.89999962,Sub-parallel,0.996551711,1.050909077,1.054545455
+RF.c_117,RF_A2-A1,Fumane,33-66%,43.5,40.20000076,32.09999847,27001.7832,Yes,Platform,Initial,Blade-Flake,1,Unidirectional,Bladelet,32,11.30000019,35.29999924,Sub-parallel,0.878109417,1.099688502,1.252336532
+RF.c_118,RF_A2-A1,Fumane,33-66%,72.09999847,36.09999847,31.5,28298.35938,No,Tested,Tested,Blade-Flake,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,1.146031697
+RF.c_119,RF_A2-A1,Fumane,0%,52.29999924,36.5,28.10000038,NA,No,Shatter,Shatter,Flake,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,1.298932367
+RF.c_12,RF_A2-A1,Fumane,1-33%,61.5,26.20000076,20.20000076,13152.07031,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,47.40000153,11.89999962,61.5,Convergent,2.347328176,3.044554341,1.297029692
+RF.c_120,RF_A2-A1,Fumane,1-33%,62,55,27,34073.27344,Yes,Platform,Initial,Blade-Flake,1,Unidirectional,Blade,38,13.39999962,50,Sub-parallel,0.909090909,1.851851852,2.037037037
+RF.c_121,RF_A2-A1,Fumane,1-33%,40.40000153,34.20000076,34.20000076,NA,No,Shatter,Shatter,Undetermined,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,1
+RF.c_122,RF_A2-A1,Fumane,1-33%,57,67.5,38.70000076,NA,No,NA,Flake,Flake,NA,Multidirectional,Flake,55,37.59999847,NA,NA,NA,NA,1.744186012
+RF.c_123,RF_A2-A1,Fumane,1-33%,35,44,40,NA,No,Shatter,Shatter,Flake,NA,Undetermined,Flake,22.10000038,19.29999924,NA,NA,NA,NA,1.1
+RF.c_124,RF_A2-A1,Fumane,1-33%,32,50,48.5,NA,No,NA,Flake,Flake,NA,Multidirectional,Flake,21.20000076,16.10000038,NA,NA,NA,NA,1.030927835
+RF.c_125,RF_A2-A1,Fumane,1-33%,31.20000076,57,55.70000076,NA,No,NA,Flake,Flake,4,Multidirectional,Flake,24,30.89999962,NA,NA,NA,NA,1.023339304
+RF.c_126,RF_A2-A1,Fumane,0%,29.39999962,48,51.40000153,NA,No,NA,Flake,Flake,NA,Centripetal,Flake,26.60000038,24.70000076,NA,NA,NA,NA,0.933852112
+RF.c_127,RF_A2-A1,Fumane,1-33%,41.79999924,33.5,15.30000019,NA,No,NA,Flake,Flake,1,Centripetal,Flake,17.29999924,17,NA,NA,NA,NA,2.189542456
+RF.c_128,RF_A2-A1,Fumane,1-33%,41,36.20000076,19,NA,No,NA,Flake,Flake,1,Centripetal,Flake,19.70000076,19.5,NA,NA,NA,NA,1.905263198
+RF.c_129,RF_A2-A1,Fumane,1-33%,32.59999847,27.39999962,14,NA,No,NA,Flake,Flake,1,Centripetal,Flake,16.29999924,17.29999924,NA,NA,NA,NA,1.95714283
+RF.c_13,RF_A2-A1,Fumane,1-33%,48.5,36.29999924,47.79999924,34009.29688,Yes,Platform,Semicircumferential,Blade-Bladelet,1,Unidirectional,Bladelet,47.40000153,10.69999981,48.5,Convergent,1.336088182,1.014644368,0.759414222
+RF.c_130,RF_A2-A1,Fumane,33-66%,32.70000076,34.09999847,12,NA,No,NA,Flake,Flake,1,Bidirectional,Flake,23.29999924,21.70000076,NA,NA,NA,NA,2.841666539
+RF.c_131,RF_A2-A1,Fumane,1-33%,32.40000153,29.5,15,NA,No,Shatter,Shatter,Flake,NA,Centripetal,Flake,16.20000076,11.39999962,NA,NA,NA,NA,1.966666667
+RF.c_132,RF_A2-A1,Fumane,1-33%,24.5,38.79999924,36.09999847,11720.69727,Yes,Platform,Initial,Bladelet,1,Unidirectional,Bladelet,21.70000076,8.600000381,21.5,Convergent,0.554123722,0.595567892,1.074792268
+RF.c_133,RF_A2-A1,Fumane,0%,21.10000038,43.59999847,38.79999924,12603.9541,Yes,Platform,Initial,Blade-Bladelet,1,Unidirectional,Flake,22.5,15.39999962,38.5,Sub-parallel,0.883027554,0.992268061,1.123711323
+RF.c_134,RF_A2-A1,Fumane,1-33%,32,32,22,NA,No,Shatter,Shatter,Flake,NA,Multidirectional,Flake,13,25.29999924,NA,NA,NA,NA,1.454545455
+RF.c_135,RF_A2-A1,Fumane,0%,35,31,15.80000019,NA,No,Shatter,Shatter,Flake,NA,Multidirectional,Flake,10.80000019,11.30000019,NA,Multidirectional,NA,NA,1.962025293
+RF.c_136,RF_A2-A1,Fumane,33-66%,29.5,28.79999924,41.29999924,13937.08984,Yes,Platform,Initial,Bladelet,1,Unidirectional,Flake,9,5.7,29,Sub-parallel,1.006944471,0.70217919,0.697336556
+RF.c_137,RF_A2-A1,Fumane,1-33%,69.5,74.5,36.79999924,56703.5,Yes,Platform,Initial,Bladelet,1,Unidirectional,Bladelet,32.5,7.599999905,60,Sub-parallel,0.805369128,1.630434816,2.024456564
+RF.c_138,RF_A2-A1,Fumane,1-33%,37.79999924,50,63.29999924,42407.25,Yes,Platform,Initial,Blade-Bladelet,1,Unidirectional,Blade,32.59999847,14,33.29999924,Convergent,0.665999985,0.526066345,0.789889425
+RF.c_139,RF_A2-A1,Fumane,1-33%,52.79999924,30.10000038,37.79999924,25076.85547,Yes,Platform,Initial,Blade,2-opposed,Bidirectional,Blade,34.59999847,15.5,37.29999924,Sub-parallel,1.239202617,0.986772487,0.796296322
+RF.c_14,RF_A2-A1,Fumane,66-99%,42.59999847,30.29999924,42.09999847,16750.89258,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,26.5,10.5,42.59999847,Sub-parallel,1.405940579,1.011876485,0.719714972
+RF.c_140,RF_A2-A1,Fumane,1-33%,50.5,29,61.59999847,36952.38672,Yes,Platform,Initial,Blade-Bladelet,1,Unidirectional,Bladelet,27,7.5,51.5,Sub-parallel,1.775862069,0.836038982,0.470779232
+RF.c_141,RF_A2-A1,Fumane,1-33%,57.59999847,66,43.59999847,40871.32422,Yes,Platform,Initial,Blade-Bladelet,1,Unidirectional,Chip,36.40000153,16,47.5,Convergent,0.71969697,1.08944958,1.513761521
+RF.c_142,RF_A2-A1,Fumane,1-33%,43,34.79999924,26.20000076,NA,No,NA,Flake,Flake,1,Multidirectional,Flake,20.60000038,12.69999981,25.79999924,Multidirectional,0.741379305,0.984732767,1.328244207
+RF.c_144,RF_A2-A1,Fumane,0%,30.89999962,35.79999924,17.5,NA,No,Shatter,Shatter,Flake,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,2.045714242
+RF.c_145,RF_A2-A1,Fumane,1-33%,23.29999924,26.10000038,24.5,NA,No,Shatter,Shatter,Undetermined,NA,Undetermined,Flake,25.10000038,27.10000038,NA,NA,NA,NA,1.065306138
+RF.c_149,RF_A2-A1,Fumane,0%,15.80000019,26.70000076,16.5,NA,No,Shatter,Shatter,Bladelet,1,Unidirectional,NA,NA,NA,NA,Undetermined,NA,NA,1.618181864
+RF.c_15,RF_A2-A1,Fumane,33-66%,44.29999924,33.20000076,24.79999924,12337.91016,Yes,Platform,Semicircumferential,Blade-Bladelet,1,Unidirectional,Bladelet,18,6.800000191,44.29999924,Convergent,1.334337296,1.786290347,1.338709749
+RF.c_152,RF_A2-A1,Fumane,1-33%,38.09999847,20,24,7381.963867,Yes,Platform,Initial,Bladelet,1,Unidirectional,Bladelet,18.79999924,9.899999619,22,Sub-parallel,1.1,0.916666667,0.833333333
+RF.c_154,RF_A2-A1,Fumane,0%,36.09999847,28.70000076,23,NA,No,NA,Flake,Flake,NA,Multidirectional,Flake,25.10000038,20.10000038,NA,Multidirectional,NA,NA,1.24782612
+RF.c_156,RF_A2-A1,Fumane,1-33%,34.09999847,31,20.10000038,NA,No,Shatter,Shatter,Flake,NA,Multidirectional,Flake,15,11.19999981,NA,Multidirectional,NA,NA,1.542288528
+RF.c_157,RF_A2-A1,Fumane,0%,40.70000076,26.60000038,19,NA,No,Shatter,Shatter,Undetermined,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,1.40000002
+RF.c_159,RF_A2-A1,Fumane,0%,36.29999924,37.70000076,19,NA,No,NA,Flake,Flake,1,Multidirectional,Bladelet,19.20000076,9.5,NA,NA,NA,NA,1.984210566
+RF.c_16,RF_A2-A1,Fumane,1-33%,27,21.79999924,20.10000038,7599.109375,Yes,Platform,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,17.70000076,5.400000095,27,Sub-parallel,1.238532153,1.343283557,1.084577056
+RF.c_163,RF_A2-A1,Fumane,1-33%,38,43.79999924,24.5,16157.84766,Yes,Platform,Wide-faced,Bladelet-Flake,2-opposed,Bidirectional,Flake,18.1,12,38,Sub-parallel,0.867579924,1.551020408,1.787755071
+RF.c_166,RF_A2-A1,Fumane,1-33%,35.09999847,38.79999924,23.5,11140.96387,Yes,Platform,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,32,7.5,35,Convergent+Sub-parallel,0.902061873,1.489361702,1.651063797
+RF.c_167,RF_A2-A1,Fumane,33-66%,76,49.70000076,29.5,NA,No,NA,Flake,Flake,1,Multidirectional,Flake,35.90000153,15.69999981,76,Undetermined,1.529175027,2.576271186,1.684745788
+RF.c_168,RF_A2-A1,Fumane,1-33%,35.70000076,31.89999962,17.39999962,NA,No,Shatter,Shatter,Flake,NA,Multidirectional,Flake,NA,NA,NA,NA,NA,NA,1.833333352
+RF.c_17,RF_A2-A1,Fumane,1-33%,32,30.39999962,26.20000076,6612.997559,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,27.29999924,8.699999809,32,Convergent,1.052631592,1.22137401,1.160305295
+RF.c_170,RF_A2-A1,Fumane,66-99%,24.10000038,42.59999847,46.59999847,15628.26465,Yes,Platform,Initial,Bladelet,1,Unidirectional,Bladelet,22.10000038,6.400000095,23,Convergent,0.539906123,0.493562248,0.914163087
+RF.c_176,RF_A2-A1,Fumane,1-33%,47.2,12.9,32.5,6101.670898,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,24.4,5,36.6,Convergent,2.837209302,1.126153846,0.396923077
+RF.c_177,RF_A2-A1,Fumane,0%,19.10000038,25.79999924,11.60000038,NA,No,Shatter,Shatter,Undetermined,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,2.224137793
+RF.c_181,RF_A2-A1,Fumane,0%,18.79999924,12.60000038,13.89999962,NA,No,Shatter,Shatter,Bladelet,1,Unidirectional,Bladelet,NA,NA,NA,Convergent,NA,NA,0.906474872
+RF.c_184,RF_A2-A1,Fumane,1-33%,32.20000076,35.40000153,41.09999847,NA,No,Shatter,Shatter,Blade-Bladelet,1,Unidirectional,Blade,NA,13.5,32.20000076,Sub-parallel,0.909604502,0.783455035,0.861313938
+RF.c_185,RF_A2-A1,Fumane,33-66%,26.60000038,27.79999924,46.29999924,NA,No,Shatter,Shatter,Bladelet,1,Unidirectional,Bladelet,NA,9.800000191,NA,Sub-parallel,NA,NA,0.600431959
+RF.c_186,RF_A2-A1,Fumane,1-33%,33.29999924,42.70000076,17.20000076,NA,No,Shatter,Shatter,Bladelet,1,Unidirectional,Bladelet,NA,NA,NA,Sub-parallel,NA,NA,2.482558074
+RF.c_187,RF_A2-A1,Fumane,1-33%,48.59999847,39.90000153,24.20000076,NA,No,Shatter,Shatter,Bladelet-Flake,1,Unidirectional,Chip,NA,NA,NA,Sub-parallel,NA,NA,1.648760342
+RF.c_19,RF_A2-A1,Fumane,0%,58.20000076,47.29999924,43.5,61720.13281,Yes,Platform,Semicircumferential,Blade-Bladelet,1,Unidirectional,Bladelet,47.79999924,11.5,53.59999847,Sub-parallel,1.133192375,1.232183873,1.087356304
+RF.c_192,RF_A2-A1,Fumane,0%,21.2,35.90000153,40.20000076,10323.7666,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,14.39999962,5.400000095,21.2,Convergent,0.590529223,0.527363174,0.893034847
+RF.c_193,RF_A2-A1,Fumane,1-33%,35.09999847,62,28.79999924,33435.82813,Yes,Platform,Initial,Bladelet,1,Unidirectional,Bladelet,30.29999924,6.800000191,28.89999962,Sub-parallel,0.466129026,1.003472236,2.152777835
+RF.c_194,RF_A2-A1,Fumane,0%,25.6,26.6,37.3,10004.07031,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,23.8,10.2,29.2,Convergent,1.097744361,0.782841823,0.713136729
+RF.c_195,RF_D3b.alpha,Fumane,33-66%,55,41,15.80000019,NA,No,NA,Flake,Flake,1,Unidirectional,Flake,22.10000038,14.80000019,31.39999962,Convergent,0.765853649,1.987341724,2.594936678
+RF.c_20,RF_A2-A1,Fumane,1-33%,44.70000076,28.70000076,20.70000076,9388.03418,Yes,Platform,Wide-faced,Bladelet,2-opposed,Bidirectional,Bladelet,24,8.600000381,40.70000076,Sub-parallel,1.418118456,1.966183539,1.386473416
+RF.c_205,RF_D3b.alpha,Fumane,0%,45,13,43.70000076,13114.65039,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,28.70000076,7.800000191,41.40000153,Sub-parallel,3.184615502,0.94736844,0.297482832
+RF.c_207,RF_D3b.alpha,Fumane,0%,37.29999924,40.29999924,55.20000076,19628.19922,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Flake,19,13,39.59999847,Convergent,0.982630254,0.717391267,0.73007244
+RF.c_21,RF_A2-A1,Fumane,1-33%,60.59999847,49.29999924,68.59999847,81698.78125,Yes,Platform,Narrow-sided,Blade-Bladelet,1,Unidirectional,Bladelet,45.09999847,9.199999809,60.09999847,Convergent,1.219066925,0.876093292,0.718658897
+RF.c_22,RF_A2-A1,Fumane,1-33%,60.59999847,26.5,51,27759.82031,Yes,Platform,Initial,Blade-Bladelet,1,Unidirectional,Blade,44.59999847,18,57.79999924,Sub-parallel,2.181132047,1.133333318,0.519607843
+RF.c_220,RF_D3b.alpha,Fumane,1-33%,67.5,73.69999695,45.5,93557.82031,Yes,Platform,Semicircumferential,Blade-Flake,1,Unidirectional,Flake,35.5,19.89999962,65.69999695,Sub-parallel,0.891451827,1.443955977,1.619780153
+RF.c_225,RF_D3b.alpha,Fumane,1-33%,121.2,32.6,74.2,112223.8516,Yes,Platform,Multi-platform,Blade-Bladelet,2-unrelated,Unidirectional,Flake,30.8,22.2,104,Sub-parallel,3.190184049,1.401617251,0.4393531
+RF.c_23,RF_A2-A1,Fumane,0%,41.40000153,49,18.20000076,12734.41211,Yes,Platform,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,23.20000076,9,41.40000153,Sub-parallel,0.84489799,2.274725264,2.69230758
+RF.c_235,RF_D3b.alpha,Fumane,66-99%,52,41.79999924,27.89999962,24760.93359,Yes,Platform,Initial,Flake,1,Unidirectional,Flake,34.79999924,23.29999924,50,Sub-parallel,1.196172271,1.79211472,1.498207878
+RF.c_24,RF_A2-A1,Fumane,1-33%,41.79999924,40,29.60000038,18711.28125,Yes,Platform,Semicircumferential,Blade-Bladelet,1,Unidirectional,Blade,34.20000076,15.60000038,41.79999924,Convergent,1.044999981,1.412162118,1.351351334
+RF.c_241,RF_D3b.alpha,Fumane,33-66%,63,34.90000153,23.79999924,21386.95898,Yes,Platform,Initial,Blade,1,Unidirectional,Blade,63,21.79999924,63,Sub-parallel,1.805157514,2.647058908,1.466386666
+RF.c_25,RF_A2-A1,Fumane,0%,27.79999924,38.90000153,27,11337.68457,Yes,Platform,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,24.39999962,7.699999809,27.79999924,Convergent,0.714652909,1.029629601,1.440740797
+RF.c_26,RF_A2-A1,Fumane,66-99%,111.9000015,67.69999695,45.29999924,167605.3438,No,Tested,Tested,Blade-Flake,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,1.494481194
+RF.c_27,RF_A2-A1,Fumane,66-99%,116.0999985,68,60,141272.1719,Yes,Platform,Initial,Blade,1,Unidirectional,Crest,41,26.79999924,70,Sub-parallel,1.029411765,1.166666667,1.133333333
+RF.c_28,RF_A2-A1,Fumane,66-99%,95,65,30,61286.82422,No,Tested,Tested,Blade-Flake,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,2.166666667
+RF.c_29,RF_A2-A1,Fumane,66-99%,63.70000076,47,19.70000076,25819.76367,No,Tested,Tested,Bladelet,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,2.38578671
+RF.c_30,RF_A2-A1,Fumane,33-66%,55.59999847,92.5,43.29999924,93038.63281,Yes,Platform,Initial,Blade-Flake,1,Unidirectional,Flake,20,23.5,55.59999847,Sub-parallel,0.601081065,1.284064652,2.136258698
+RF.c_31,RF_A2-A1,Fumane,1-33%,74.40000153,66.69999695,54.29999924,146608.1406,Yes,Platform,Initial,Blade,1,Unidirectional,Flake,33,25.60000038,62.29999924,Sub-parallel,0.934033015,1.147329652,1.228360919
+RF.c_32,RF_A2-A1,Fumane,66-99%,76.30000305,50.5,30.60000038,NA,No,Tested,Tested,Undetermined,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,1.650326777
+RF.c_33,RF_A2-A1,Fumane,1-33%,69,47,48,54821.19141,No,Tested,Tested,Blade-Flake,NA,Undetermined,NA,NA,NA,NA,NA,NA,NA,0.979166667
+RF.c_34,RF_A2-A1,Fumane,66-99%,67.30000305,35,70,66815.59375,Yes,Platform,Initial,Blade-Flake,1,Unidirectional,Flake,31.7,23.4,65.59999847,Sub-parallel,1.874285671,0.937142835,0.5
+RF.c_35,RF_A2-A1,Fumane,33-66%,47.40000153,84.09999847,53.20000076,105553.9922,No,Tested,Tested,Blade-Flake,NA,Undetermined,NA,NA,NA,47.4,NA,0.563614755,0.890977431,1.580827016
+RF.c_36,RF_A2-A1,Fumane,0%,37.29999924,30.29999924,21.39999962,10990.63379,Yes,Platform,Wide-faced,Bladelet,1,Unidirectional,Bladelet,30.10000038,7.400000095,32.59999847,Convergent,1.075907567,1.523364442,1.41588784
+RF.c_37,RF_A2-A1,Fumane,0%,47.09999847,61.5,21,32886.20313,Yes,Platform,Wide-faced,Blade-Bladelet,1,Unidirectional,Bladelet,29.10000038,10.80000019,46.5,Sub-parallel,0.756097561,2.214285714,2.928571429
+RF.c_38,RF_A2-A1,Fumane,0%,29.60000038,30.70000076,23.20000076,7439.230469,Yes,Platform,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,19.39999962,8.5,29.60000038,Convergent,0.96416937,1.275862044,1.323275851
+RF.c_39,RF_A2-A1,Fumane,1-33%,41.40000153,45.5,21,18531.71289,Yes,Platform,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,38.29999924,7.099999905,40.20000076,Sub-parallel,0.8835165,1.91428575,2.166666667
+RF.c_40,RF_A2-A1,Fumane,1-33%,65.5,58.20000076,33.59999847,42271.98047,Yes,Platform,Semicircumferential,Blade-Bladelet,1,Unidirectional,Blade,34.70000076,12.19999981,60.90000153,Convergent,1.046391765,1.812500128,1.732142959
+RF.c_41,RF_A2-A1,Fumane,66-99%,55.20000076,37.90000153,44.40000153,23893.23242,Yes,Platform,Narrow-sided,Blade-Bladelet,2-opposed,Bidirectional,Bladelet,29.39999962,6.5,55.20000076,Convergent,1.456464341,1.243243218,0.853603609
+RF.c_42,RF_A2-A1,Fumane,33-66%,34.90000153,48.20000076,54,31210.86719,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,30.39999962,10.80000019,32.29999924,Convergent,0.670124455,0.598148134,0.892592607
+RF.c_43,RF_A2-A1,Fumane,1-33%,48.40000153,36.09999847,38.20000076,42326.77344,Yes,Platform,Narrow-sided,Blade-Bladelet,1,Unidirectional,Bladelet,19.60000038,8,46.40000153,Sub-parallel,1.285318656,1.214659702,0.945026119
+RF.c_44,RF_A2-A1,Fumane,1-33%,43.59999847,27.70000076,27.79999924,14759.75586,Yes,Platform,Narrow-sided,Blade-Bladelet,1,Unidirectional,Bladelet,19.89999962,5.699999809,41.70000076,Sub-parallel,1.505415149,1.500000068,0.996402932
+RF.c_45,RF_A2-A1,Fumane,1-33%,33.70000076,32.90000153,25.70000076,12671.07422,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,20.10000038,7.400000095,26,Sub-parallel,0.790273519,1.011673122,1.280155664
+RF.c_46,RF_A2-A1,Fumane,0%,44.59999847,37.59999847,21,14560.2627,Yes,Platform,Wide-faced,Bladelet,1,Unidirectional,Bladelet,31.29999924,11.30000019,41.3,Sub-parallel,1.0984043,1.966666667,1.790476118
+RF.c_48,RF_A2-A1,Fumane,1-33%,32.79999924,33,38.20000076,16427.12109,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,28.20000076,6.599999905,32.70000076,Convergent,0.990909114,0.856020945,0.863874328
+RF.c_49,RF_A2-A1,Fumane,0%,40.29999924,24.60000038,41.09999847,20642.49414,Yes,Platform,Multi-platform,Blade-Bladelet,3,Unidirectional,Bladelet,42.29999924,8.399999619,41.70000076,Convergent+Sub-parallel,1.695121956,1.014598596,0.598540178
+RF.c_50,RF_A2-A1,Fumane,0%,24.2,29.39999962,29.5,4993.699219,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,20.39999962,8.899999619,23,Convergent,0.782312935,0.779661017,0.996610157
+RF.c_51,RF_A2-A1,Fumane,1-33%,34.40000153,23.5,12.80000019,4477.902344,Yes,Platform,Wide-faced,Bladelet,1,Unidirectional,Bladelet,32.5,7.900000095,34.40000153,Sub-parallel,1.463829852,2.68750008,1.835937473
+RF.c_52,RF_A2-A1,Fumane,0%,44.40000153,21.70000076,34.09999847,15726.96582,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,43.70000076,10.60000038,43.29999924,Sub-parallel,1.9953916,1.269794756,0.636363687
+RF.c_53,RF_A2-A1,Fumane,1-33%,30.60000038,39.59999847,35.20000076,13916.25098,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,29.20000076,10.10000038,30.60000038,Convergent,0.772727312,0.869318174,1.124999932
+RF.c_54,RF_A2-A1,Fumane,0%,44.40000153,32.09999847,36,16007.22656,Yes,Platform,Narrow-sided,Blade-Bladelet,1,Unidirectional,Flake,20.79999924,19.20000076,43.5,Convergent,1.355140252,1.208333333,0.891666624
+RF.c_55,RF_A2-A1,Fumane,1-33%,24.4,42.90000153,41.90000153,16083.49414,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,22.7,8.5,24.29999924,Convergent,0.566433529,0.579952228,1.023866348
+RF.c_56,RF_A2-A1,Fumane,1-33%,46.5,34.20000076,39.40000153,20771.47266,Yes,Platform,Narrow-sided,Blade-Bladelet,1,Unidirectional,Bladelet,33,8.300000191,41.79999924,Convergent,1.222222173,1.060913645,0.86802029
+RF.c_59,RF_A2-A1,Fumane,1-33%,36.70000076,29.5,27.79999924,12650.41797,Yes,Platform,Semicircumferential,Bladelet,2-opposed,Bidirectional,Bladelet,31,6.199999809,36.5,Convergent,1.237288136,1.312949676,1.061151108
+RF.c_6,RF_A2-A1,Fumane,1-33%,35.79999924,30.79999924,26.20000076,9943.77832,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,34.5,8,34.40000153,Convergent,1.116883194,1.31297712,1.175572456
+RF.c_60,RF_A2-A1,Fumane,33-66%,37.5,43.59999847,55.09999847,29312.83594,Yes,Platform,Initial,Blade-Flake,1,Unidirectional,Flake,17.60000038,14,41.29999924,Sub-parallel,0.947247722,0.749546287,0.79128856
+RF.c_61,RF_A2-A1,Fumane,1-33%,54,40.70000076,52,41068.6875,Yes,Platform,Semicircumferential,Blade,1,Unidirectional,Bladelet,28.10000038,7.199999809,53.79999924,Sub-parallel,1.321867279,1.03461537,0.782692322
+RF.c_62,RF_A2-A1,Fumane,66-99%,47.90000153,48.09999847,31.70000076,25995.23828,Yes,Platform,Initial,Blade-Flake,1,Unidirectional,Flake,25.5,13,46.40000153,Sub-parallel,0.964657027,1.463722411,1.517350073
+RF.c_63,RF_A2-A1,Fumane,0%,30.5,28.5,25,9541.217773,Yes,Platform,Multi-platform,Blade-Bladelet,2-unrelated,Unidirectional,Flake,29.5,10.30000019,30.5,Sub-parallel,1.070175439,1.22,1.14
+RF.c_64,RF_A2-A1,Fumane,0%,63,51.79999924,29.60000038,30675.92969,Yes,Platform,Wide-faced,Blade,2-opposed,Bidirectional,Blade,53.79999924,15.69999981,63,Sub-parallel,1.216216234,2.128378351,1.749999952
+RF.c_65,RF_A2-A1,Fumane,0%,58.20000076,58.40000153,33.20000076,43474.74219,Yes,Platform,Multi-platform,Blade-Bladelet,3,Unidirectional,Bladelet,35.59999847,10.80000019,52.59999847,Sub-parallel,0.900684882,1.584337267,1.75903615
+RF.c_66,RF_A2-A1,Fumane,1-33%,66.40000153,46,22,26181.0918,Yes,Platform,Wide-faced,Blade,1,Unidirectional,Flake,57.90000153,12.60000038,58.70000076,Sub-parallel,1.276086973,2.668181853,2.090909091
+RF.c_67,RF_A2-A1,Fumane,1-33%,38.90000153,37.40000153,29.79999924,16113.47656,Yes,Platform,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,32,11.80000019,38.90000153,Sub-parallel,1.04010695,1.305369212,1.25503364
+RF.c_68,RF_A2-A1,Fumane,1-33%,45.70000076,44.59999847,22.60000038,18848.02734,Yes,Platform,Wide-faced,Blade-Bladelet,2-opposed,Bidirectional,Bladelet,22,7.5,41.5,Convergent,0.930493305,1.836283155,1.973451227
+RF.c_69,RF_A2-A1,Fumane,0%,40,30.70000076,19.10000038,11094.95117,Yes,Platform,Multi-platform,Bladelet,3,Unidirectional,Bladelet,33.09999847,9.300000191,39.59999847,Convergent+Sub-parallel,1.289902198,2.073298308,1.607329851
+RF.c_7,RF_A2-A1,Fumane,0%,61.70000076,52,24.5,30672.68945,Yes,Platform,Multi-platform,Blade-Bladelet,2-unrelated,Unidirectional,Bladelet,37.29999924,11.39999962,47.40000153,Convergent,0.911538491,1.93469394,2.12244898
+RF.c_70,RF_A2-A1,Fumane,0%,40.29999924,40.5,23.79999924,17745.56055,Yes,Platform,Semicircumferential,Bladelet,2-opposed,Bidirectional,Bladelet,38.40000153,9.800000191,37.59999847,Convergent,0.928395024,1.579831919,1.701680727
+RF.c_71,RF_A2-A1,Fumane,0%,42.09999847,31.39999962,21.5,10767.59375,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,22.79999924,6.800000191,32.70000076,Convergent,1.041401311,1.520930268,1.460465099
+RF.c_72,RF_A2-A1,Fumane,0%,40,43.70000076,17.60000038,12114.62598,Yes,Platform,Wide-faced,Blade-Bladelet,1,Unidirectional,Bladelet,33,10.60000038,40,Convergent,0.915331792,2.272727224,2.482954535
+RF.c_74,RF_A2-A1,Fumane,1-33%,28.79999924,25.29999924,34.20000076,9377.246094,Yes,Platform,Multi-platform,Blade-Bladelet,2-unrelated,Unidirectional,Bladelet,28.29999924,11.5,28.70000076,Sub-parallel,1.134387416,0.83918129,0.739766043
+RF.c_75,RF_A2-A1,Fumane,33-66%,69.19999695,40.70000076,34.09999847,45287.66406,Yes,Platform,Initial,Blade-Flake,1,Unidirectional,Flake,35,28.5,35,Sub-parallel,0.859950844,1.026393008,1.193548463
+RF.c_77,RF_A2-A1,Fumane,0%,50.59999847,40,24.29999924,26579.76563,Yes,Platform,Wide-faced,Blade-Bladelet,1,Unidirectional,Flake,22.5,11.30000019,48.90000153,Sub-parallel,1.222500038,2.012345805,1.646090586
+RF.c_78,RF_A2-A1,Fumane,1-33%,34.59999847,24.60000038,19.79999924,6976.428223,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,33.29999924,6.800000191,34.59999847,Sub-parallel,1.406503981,1.747474737,1.242424309
+RF.c_79,RF_A2-A1,Fumane,1-33%,32,35.40000153,48.5,21316.21094,Yes,Carinated,Carinated,Blade-Bladelet,1,Unidirectional,Flake,15.8,13.7,32,Convergent,0.903954763,0.659793814,0.729896939
+RF.c_80,RF_A2-A1,Fumane,33-66%,42.40000153,38,25.60000038,16086.81641,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,35.59999847,8.699999809,42.40000153,Sub-parallel,1.115789514,1.656250035,1.484374978
+RF.c_81,RF_A2-A1,Fumane,0%,36.29999924,42.5,23,12395.83008,Yes,Platform,Wide-faced,Bladelet,1,Unidirectional,Bladelet,17,4.5,36.29999924,Convergent,0.854117629,1.578260837,1.847826087
+RF.c_82,RF_A2-A1,Fumane,0%,28.60000038,39.40000153,44,15614.87402,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,16.60000038,6.199999809,25.70000076,Convergent,0.652284258,0.584090926,0.89545458
+RF.c_83,RF_A2-A1,Fumane,0%,33.40000153,31.29999924,29.5,8554.580078,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,28.29999924,11.10000038,31.5,Sub-parallel,1.006389801,1.06779661,1.061016923
+RF.c_84,RF_A2-A1,Fumane,66-99%,41,27.20000076,19.70000076,9551.96582,Yes,Platform,Narrow-sided,Bladelet,2-opposed,Bidirectional,Bladelet,15.30000019,4.699999809,41,Sub-parallel,1.507352899,2.081218194,1.380710645
+RF.c_86,RF_A2-A1,Fumane,0%,22.10000038,19.29999924,24.70000076,NA,No,Shatter,Shatter,Bladelet,1,Unidirectional,Bladelet,14.30000019,8.199999809,22.10000038,Convergent,1.145077785,0.89473683,0.781376463
+RF.c_87,RF_A2-A1,Fumane,1-33%,43.20000076,28.79999924,42.40000153,14373.9834,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,33,10.60000038,36,Sub-parallel,1.250000033,0.849056573,0.679245241
+RF.c_89,RF_A2-A1,Fumane,1-33%,30.79999924,43.20000076,56,35316.97656,Yes,Platform,Semicircumferential,Blade-Bladelet,1,Unidirectional,Flake,18,21,40,Convergent,0.92592591,0.714285714,0.771428585
+RF.c_9,RF_A2-A1,Fumane,0%,33.79999924,32.59999847,22.89999962,8652.910156,Yes,Platform,Semicircumferential,Bladelet,1,Unidirectional,Bladelet,32.20000076,9.600000381,33.59999847,Sub-parallel,1.030674848,1.467248866,1.423580743
+RF.c_90,RF_A2-A1,Fumane,1-33%,43.59999847,38,42.40000153,26974.7207,Yes,Platform,Multi-platform,Bladelet,2-unrelated,Unidirectional,Bladelet,43.40000153,6.800000191,44,Convergent+Sub-parallel,1.157894737,1.037735812,0.896226383
+RF.c_91,RF_A2-A1,Fumane,0%,33.5,29.5,17.20000076,6258.371094,Yes,Platform,Wide-faced,Bladelet,2-opposed,Bidirectional,Bladelet,19.5,6,33.5,Convergent,1.13559322,1.947674333,1.715116203
+RF.c_92,RF_A2-A1,Fumane,1-33%,44.29999924,37.79999924,26.5,13888.12695,Yes,Platform,Semicircumferential,Blade-Bladelet,2-opposed,Bidirectional,Bladelet,19.5,5.599999905,44,Sub-parallel,1.164021187,1.660377358,1.426415066
+RF.c_93,RF_A2-A1,Fumane,66-99%,43.20000076,29.29999924,16.79999924,8602.670898,Yes,Platform,Initial,Blade-Bladelet,2-opposed,Bidirectional,Blade,31,16.60000038,43.20000076,Sub-parallel,1.474402795,2.571428733,1.744047653
+RF.c_96,RF_A2-A1,Fumane,1-33%,37,15.80000019,51.29999924,8092.048828,Yes,Carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,15.80000019,4.400000095,25.20000076,Convergent,1.594936738,0.491228092,0.307992211
+RF.c_97,RF_A2-A1,Fumane,0%,33,16.5,29.10000038,5642.320313,Yes,Platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,25,8.800000191,33,Convergent,2,1.134020604,0.567010302
+RF.c_98,RF_A2-A1,Fumane,0%,44.40000153,19.29999924,20.20000076,6414.932129,Yes,Platform,Multi-platform,Bladelet,3,Unidirectional,Bladelet,26.6,7.3,37,Convergent+Sub-parallel,1.917098521,1.831683099,0.955445471
+RF.c_99,RF_A2-A1,Fumane,1-33%,28.20000076,26.79999924,46,7894.25,Yes,Platform,Initial,Bladelet,1,Unidirectional,Bladelet,17.20000076,8.100000381,18.79999924,Convergent,0.701492529,0.408695636,0.582608679
+RF.b_278,RF_A2-A1,Fumane,0%,49,14.5,27,7275.846191,Yes,Platform,Narrow-sided,Bladelet,2-opposed,Bidirectional,Bladelet,NA,NA,45,Sub-parallel,3.103448276,1.666666667,0.537037037
+Pa_16,Pa_24A,Paglicci,1-33%,37.90000153,12.60000038,91.69999695,NA,Yes,A - initial core;D- platform,Initial;Burin,Bladelet,1,Unidirectional,Bladelet,13.9,6.3,18.39999962,Sub-parallel,1.460317386,0.20065431,0.137404589
+Pa_149,Pa_24A,Paglicci,33-66%,34.90000153,9.199999809,18.5,NA,Yes,D- platform,Burin core,Bladelet-Flake,1,Unidirectional,Bladelet,28.5,6.4,32,Sub-parallel,3.478260942,1.72972973,0.497297287
+Pa_150,Pa_24A,Paglicci,1-33%,32.70000076,8.300000191,25,NA,Yes,D- platform,Burin core,Bladelet,1,Unidirectional,Bladelet,25.4,7.5,30.70000076,Sub-parallel,3.698795188,1.228000031,0.332000008
+Pa_151,Pa_24A,Paglicci,0%,31.70000076,11.30000019,7.099999905,NA,Yes,D- platform,Burin core,Bladelet,1,Unidirectional,Bladelet,19,5.5,31.5,Sub-parallel,2.787610572,4.436619778,1.591549344
+Pa_290,Pa_24A,Paglicci,1-33%,36.70000076,22.5,18.5,NA,Yes,D- platform,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,25.6,6.3,35.59999847,Convergent,1.582222154,1.924324242,1.216216216
+Pa_291,Pa_24A,Paglicci,0%,43.20000076,20.39999962,22.20000076,NA,Yes,D- platform,Narrow-sided,Bladelet,1,Unidirectional,Bladelet,27,9.4,36.7,Convergent,1.799019641,1.653153096,0.91891887
+Pa_293,Pa_24A,Paglicci,0%,29.79999924,19.70000076,11.39999962,NA,Yes,D- platform,Semi-circumferential,Bladelet,1,Unidirectional,Bladelet,24.3,4.7,29.60000038,Convergent,1.502538032,2.596491348,1.7280703
+Pa_294,Pa_24A,Paglicci,33-66%,33.40000153,28.89999962,12.4,NA,Yes,D- platform,Wide-faced,Bladelet,1,Unidirectional,Bladelet,30.3,10.9,32.5,Convergent,1.124567489,2.620967742,2.330645131
+Pa_299,Pa_24A,Paglicci,1-33%,91,34.79999924,28,NA,Yes,D- platform,Multi-platform,Blade-Bladelet,2-unrelated,Unidirectional,Blade,36.9,18,49.20000076,Sub-parallel,1.413793156,1.757142884,1.242857116
+Pa_304,Pa_24A,Paglicci,1-33%,34,14.80000019,28.5,NA,Yes,D- platform; A-Initial,Initial;Burin,Flake,1,Unidirectional,Flake,14.2,7.3,23.29999924,Sub-parallel,1.574324252,0.817543833,0.519298252
+Pa_305,Pa_24A,Paglicci,1-33%,44.40000153,19.20000076,26.70000076,NA,Yes,A - initial core;D- platform,Initial;Burin,Bladelet,1,Unidirectional,Bladelet,43.7,10.7,43,Convergent,2.239583244,1.610486845,0.719101132
+Pa_531,Pa_24A,Paglicci,0%,15,9.300000191,11.89999962,NA,Yes,D- platform,Burin core,Bladelet-Flake,1,Unidirectional,Flake,7,4.1,12.1,Sub-parallel,1.301075242,1.016806755,0.781512646
+Pa_602,Pa_24A,Paglicci,1-33%,39.90000153,7.2,30.7,NA,Yes,D- platform,Initial;Burin,Bladelet,1,Unidirectional,Bladelet,16.6,5.1,31,Sub-parallel,4.305555556,1.009771987,0.234527687
+Pa_603,Pa_24A,Paglicci,33-66%,52.5,19.1,54,NA,Yes,D- platform,Initial;Burin,Bladelet,1,Unidirectional,Bladelet,47.5,8.2,47.6,Sub-parallel,2.492146597,0.881481481,0.353703704
+Pa_604,Pa_24A,Paglicci,0%,28.5,12.4,43.4,NA,Yes,D- platform; A-Initial,Initial;Burin,Bladelet,1,Unidirectional,Bladelet,34.9,7.4,36.4,Convergent,2.935483871,0.838709677,0.285714286
+Pa_606,Pa_24A,Paglicci,1-33%,50.59999847,14,19.6,NA,Yes,D- platform; A-Initial,Initial;Burin,Bladelet,1,Unidirectional,Bladelet,41.7,6.9,42.2,Sub-parallel,3.014285714,2.153061224,0.714285714
+Pa_609,Pa_24A,Paglicci,0%,43.29999924,20.39999962,29.60000038,NA,Yes,E - carinated,Carinated,Bladelet,1,Unidirectional,Bladelet,28.10000038,5,40.40000153,Convergent,1.980392269,1.364864899,0.689189167

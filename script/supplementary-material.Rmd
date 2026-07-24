@@ -1,0 +1,768 @@
+---
+title: "Supplementary Material"
+subtitle: "Time, space, and environment: technological variability in the Italian Aurignacian and the limits of matrix statistics"
+author: "Armando Falcucci, Francesco Boschin, Adriana Moroni, Fabio Negrino, Marco Peresani, Julien Riel-Salvatore, Lucy Timbrell & Hannes Rathmann"
+date: ""
+output: word_document
+knit: (function(input, ...) rmarkdown::render(input, output_file = "../output/supplementary-material.docx"))
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE,
+                      dpi = 300, fig.width = 8, fig.height = 6)
+```
+
+```{r load}
+library(tidyverse)
+library(diptest)
+library(janitor)
+library(flextable)
+library(forcats)
+
+# Statistical results and predictor matrices from the analysis scripts.
+# Run 01_distances.R and 02_mantel.R first (they write these caches).
+d01 <- readRDS("../output/rds/01_distances.rds")
+d02 <- readRDS("../output/rds/02_mantel.rds")
+
+mantel_n6      <- d02$mantel_n6
+mantel_n5      <- d02$mantel_n5
+supp_partials  <- d02$supp_partials
+predictor_mats <- d02$predictor_mats
+pretty_pred    <- d02$pretty_pred
+md_norm        <- d02$md_norm
+pa             <- d02$pa
+PAL            <- d02$PAL
+make_ft        <- d02$make_ft
+
+coordinates     <- d01$coordinates
+time_steps      <- d01$time_steps
+
+# Figure S4 inputs (precomputed in 01_distances.R; rasters don't survive .rds)
+s4_df_ds  <- d01$s4_df_ds
+s4_df_nat <- d01$s4_df_nat
+s4_zlim   <- d01$s4_zlim
+s4_neigh  <- d01$s4_neigh
+s4_point  <- d01$s4_point
+
+# Raw attribute data for the descriptive supplementary items.
+dataset_blanks <- read.csv("../data/dataset_blanks.csv") %>%
+  filter(rowSums(is.na(across(Length:Distal.end))) <= 2)
+
+layer_levels <- c("Pa, 24A", "Ca, Au", "CTC, gic-ars", "CTC, rsa'",
+                  "RB, A2", "RB, A1", "RF, A2-A1")
+
+filtered_data <- dataset_blanks %>%
+  filter(Blank.type %in% c("Blade", "Bladelet"),
+         Preservation == "Complete", Class == "Blank") %>%
+  mutate(Layer = gsub("_", ", ", Layer),
+         Layer = fct_relevel(Layer, layer_levels))
+```
+
+<br>
+
+## SM Note 1: Sites overview
+
+### Grotta Paglicci
+Grotta Paglicci (Rignano Garganico, Foggia, Apulia; 41.654115N, 15.6149763E, 107 m a.s.l.) is located on the southern slopes of the Gargano promontory, with the plain of Foggia extending to the west. The site is part of a larger karst complex, consisting of a cave and a rock-shelter. It contains one of the most important archaeological sequences in southern Italy, extending from the Lower Paleolithic to the final Epigravettian (Palma di Cesnola, 2004). Excavations were first conducted by F. Zorzi in the 1960s and later resumed in the 1970s by the University of Siena under the direction of A. Palma di Cesnola, followed by A. Ronchitelli. The scientific direction of the site is currently in the hands of F. Boschin. The Aurignacian layer 24 was found in the first chamber of the cave, where the stratigraphic sequence is about 12 m thick. This layer is likely covered by the Codola tephra in layer 23C2, which dates to approximately 33,000 cal BP (Giaccio et al., 2008). Layer 24 overlies a stalagmitic crust and a sterile layer; it is about one meter thick and characterized by sandy-silt sediments with very few angular debris. It was further subdivided into seven sub-layers, later subsumed into three horizons: BII-I and A4-0 (Palma di Cesnola, 2004). The lower part of the stratigraphic unit (BII-I) is extremely poor in material culture and will therefore not be used in this study. Radiocarbon dating places BII-I between 41,094–37,249 cal BP (95% probability), while A4–A0 dates to 35,050–32,037 cal BP (95% probability), in agreement with the dating of the overlying Codola tephra. Paglicci is close to chert outcrops (i.e., the Maiolica formation), and toolmakers had access to large-sized, high-quality nodules within a few kilometers of the site. Palma di Cesnola (2004) assigned all sub-layers to the Aurignacian with marginally backed tools (i.e., the Protoaurignacian) based on the presence of retouched bladelets, as also reiterated in Marciani et al. (2020). However, this classification is somewhat at odds with the archaeological data from other Italian sites. This study will thus assess the degree of similarity between the A4–A0 assemblage and the other assemblages.
+
+<br>
+
+### Grotta della Cala
+Grotta della Cala (Camerota, Salerno, Campania, 40.00108243N, 015.38095416E, 3 m a.s.l.) is located near the present-day coastline at the base of a hilly-mountainous landscape. The cave opens in dolomitic limestone and contains a long stratigraphic sequence spanning the Middle Paleolithic to the Bronze Age (Moroni et al., 2016). Excavations began in 1966 under the direction of A. Palma di Cesnola and later P. Gambassini. Renewed excavations are directed by AM and are currently ongoing. The Aurignacian sequence was found above an Uluzzian layer (UL14) near the cave entrance (Benini et al., 1997). The Aurignacian deposit (~40 cm thick) was rather homogeneous but further divided into four sub-layers (AU13–AU10) based on natural discontinuities. The sequence is sealed by a flowstone (AU10), creating a clear boundary with the subsequent Early Gravettian layer (Martini et al., 2018). New dating shows that the Aurignacian sequence dates to after 40,000 years ago, with the Uluzzian-Aurignacian boundary at 40,097–37,761 cal BP (68.3% probability) (Higham et al., 2024). The main raw materials used at La Cala are chert and radiolarite with different knapping qualities. In several cases, raw materials were collected as small pebbles within 0–15 km of the site (Benini et al., 1997; Martini et al., 2003). A few tools and cores were made on exogenous chert, likely originating from an area approximately 200 km from the site (Falcucci et al., 2025b). All Aurignacian sub-layers are techno-typologically homogeneous and can be assigned to the EA based on the intensive use of carinated technology and the presence of two split-based antler points (Falcucci et al., 2025b). We thus merge all sub-layers into a single assemblage for our comparative analysis (i.e., Ca_Au).
+
+<br>
+
+### Grotta di Castelcivita
+Grotta di Castelcivita (Castelcivita, Salerno, Campania; 40.49563600N, 015.20922177E, 94 m a.s.l.) is located at the base of the Alburni massif, part of the southern Italian Apennines. The cave is part of an extensive karst system, with excavations near the cave entrance (Gambassini, 1997). The excavations revealed a long stratigraphic sequence, which was interrupted around 40,000 years ago by the Campanian Ignimbrite super-eruption from the Phlegraean Fields (Giaccio et al., 2017). Excavations began under P. Gambassini in 1975 and were later conducted by A. Ronchitelli. They continue today under the direction of AM. The Aurignacian sequence rsa’–ars was found directly above the Uluzzian layer rsa’ (Gambassini, 1997). Layers were divided based on sedimentological differences: rsa’ (~12–25 cm thick) is a fine-grained reddish sediments dominated by silt and sand, with scattered small limestone debris (2–4 cm). Layer gic (~20 cm thick) is extensively concreted and yellowish; layer ars is sandy but lighter (i.e., orange) than rsa’. The sealing of the sequence by the Campanian Ignimbrite provides a clear chronological limit for the Aurignacian at the site. New dating allows modeling the start of rsa’ at 41,935 – 40,756 (at 95% probability) (Higham et al., 2024). Fine-grained chert is the most common raw material across the rsa’–ars assemblages, procured as blocks in the vicinity of the cave or as river pebbles (Falcucci et al., 2024a; Gambassini, 1997). Block size and quality vary, and fragments suitable for knapping were preferentially brought to the site, reducing the production of larger blanks such as blades (Falcucci et al., 2024a). Techno-typological studies reveal a shift from the PA in layer rsa’ to the EA in layers gic and ars. EA layers contain miniaturized retouched bladelets produced from carinated cores, which give the assemblage a marked regional signature. In this study, gic and ars are analyzed as single assemblages due to their chronological closeness and technological similarity.
+
+<br>
+
+### Riparo Bombrini
+Riparo Bombrini (Ventimiglia, Imperia, Liguria; 43.46596N, 07.3276E, ca. 16 m a.s.l.) is part of the Balzi Rossi complex, a limestone cliff with rich archaeological deposits near the Tyrrhenian Sea, in the Liguro-Provençal Arc (Ryan et al., 2024). The rockshelter may have been the eastern end of a talus extending from Grotta del Caviglione (Negrino & Riel-Salvatore, 2018; Riel-Salvatore & Negrino, 2018a, 2018b). Scientific exploration began in 1938, but systematic excavations started in 1976 under G. Vicino, followed by B. Holt and FN (2002–2005) (Holt et al., 2019), and FN and JRS (2015–2022) (Riel-Salvatore et al., 2023). The Aurignacian deposit (layers A2–A0) overlies a semi-sterile Mousterian layer (Riel-Salvatore et al., 2022). Layers A2 and A1 consist of yellowish clayey loam with abundant angular clasts and large blocks detached from the vault. A small pocket of sediment above A1 is designated A0. Radiocarbon dating places A2 at 41,200 39,100 cal BP (95% probability) encompassing Heinrich Event 4, while A1 was deposited between 38,300 and 35,900 cal BP (95% probability), mostly during Greenland Interstadial 8 (Benazzi et al., 2015; Negrino & Riel-Salvatore, 2018). Local cherts (within ~5 km) were mainly used for flake production due to their poor quality, while laminar productions often relied on exogenous raw materials (chert and radiolarite) sourced across a wide area, from the Rhône Valley to the Marche region (Falcucci et al., 2025a; Riel-Salvatore & Negrino, 2018b). Both A2 and A1 are assigned to the Protoaurignacian, reflecting different mobility strategies: primarily logistical for A2 and residential for A1 (Falcucci et al., 2025a; Riel-Salvatore & Negrino, 2018b). These layers will be analyzed as single units, while the very small EA assemblage in A0 is excluded from the comparative analysis.
+
+<br>
+
+### Grotta di Fumane
+Grotta di Fumane (Fumane, Verona, Veneto; 45.5918287N, 10.9051824E, 350 m a.s.l.) is located in the western Monti Lessini Plateau within the Venetian pre-Alps (Bartolomei et al., 1992). The cave is part of a karst complex, with deposits found in the upper section featuring a main cavity and two associated tunnels (Peresani, 2022). Excavations revealed a deep stratigraphic sequence spanning from MIS4 to Heinrich Event 3, when the cave ceiling collapsed. Scientific exploration began in 1964, with systematic excavations from 1988 under A. Broglio and then MP. The Aurignacian sequence directly overlies the Uluzzian (stratigraphic unit A3) and is found in both fine-grained, thin horizontally bedded stratigraphic units (A2 and A1) and the overlying macro-unit D. The transition to macro-unit D is marked by a sharp lithological shift and evidence of multiple landslides, likely due to climatic deterioration (Kehl et al., 2025; López-García et al., 2015). Stratigraphic units A2 and A1 date to 42,000–39,250 cal BP (95.4% probability), while the upper Aurignacian in macro-unit D3 accumulated during Heinrich Event 4 (Higham et al., 2009; Marín-Arroyo et al., 2023). High-quality chert nodules form the western Monti Lessini Plateau were available within 5–15 km, found both in primary and secondary outcrops (Bertola, 2001; Bertola et al., 2018). Stratigraphic units A2 and A1 were analyzed by several researchers and assigned to the Protoaurignacian (Bertola et al., 2013; De Stefani, 2003; Falcucci et al., 2017; Falcucci et al., 2020). Recent lithic taphonomic studies prompted Falcucci et al. (2024b) to treat A2–A1 as a single stratigraphic unit and assign D3b alpha to the Early Aurignacian. Due to the limited sample size, D3b alpha is excluded from comparative analysis.
+
+<br>
+
+## Tables
+
+### Table S1
+
+```{r table-s1}
+filtered_data %>%
+  group_by(Layer) %>%
+  summarise(dip_p = round(dip.test(Width)$p.value, 2),
+            n = n(), .groups = "drop") %>%
+  flextable() %>% theme_vanilla() %>% autofit()
+```
+
+**Table S1.** Hartigan's dip test for unimodality of blade and bladelet widths per assemblage. Non-significant *p*-values (> 0.05) are consistent with a unimodal width distribution.
+
+<br>
+
+### Table S2
+
+```{r table-s2}
+mantel_n6 |>
+  transmute(predictor, r6 = r_pearson, p6 = p_pearson) |>
+  left_join(transmute(mantel_n5, predictor, r5 = r_pearson, p5 = p_pearson),
+            by = "predictor") |>
+  mutate(shift = r5 - r6) |>
+  arrange(desc(r6)) |>
+  transmute(Predictor = pretty_pred[predictor],
+            `r (n=6)` = sprintf("%.3f", r6), `p (n=6)` = sprintf("%.3f", p6),
+            `r (n=5)` = sprintf("%.3f", r5), `p (n=5)` = sprintf("%.3f", p5),
+            `delta r` = sprintf("%+.3f", shift)) |>
+  make_ft()
+```
+
+**Table S2.** Pearson Mantel correlations between combined lithic distance and each candidate predictor, for the full dataset (n = 6) and with Paglicci 24A excluded (n = 5). Δr is the change in r (n = 5 minus n = 6). Spearman equivalents are reported in the main text.
+
+<br>
+
+### Table S3
+
+```{r table-s3}
+supp_partials |>
+  transmute(Control = control, Predictor = predictor,
+            `r (partial)` = sprintf("%.3f", r_partial),
+            `p` = sprintf("%.3f", p_partial)) |>
+  make_ft() |> flextable::bold(part = "header")
+```
+
+**Table S3.** Partial Mantel correlations (Spearman) between combined lithic distance and each predictor, each controlled for one of the three focal predictors (Costpath, Chronology, or native TAP), at n = 5 (Paglicci excluded). *p*-values are uncorrected.
+
+<br>
+
+## Figures
+
+### Figure S1
+
+```{r figure-s1, fig.width=9, fig.height=7}
+filtered_data %>%
+  count(Layer, Blank.type) %>%
+  group_by(Layer) %>% mutate(prop = n / sum(n)) %>% ungroup() %>%
+  ggplot(aes(Layer, prop, fill = Blank.type)) +
+  geom_col(colour = "grey25", linewidth = 0.3) +
+  geom_text(aes(label = scales::percent(prop, accuracy = 1)),
+            position = position_stack(vjust = 0.5), size = 3) +
+  scale_fill_brewer(palette = "Set2", name = "Blank") +
+  scale_y_continuous(labels = scales::percent) +
+  labs(x = NULL, y = "Relative frequency") +
+  theme_minimal(base_size = 13) +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1),
+        legend.position = "bottom")
+```
+
+**Figure S1.** Relative frequency of blank types (blades vs bladelets) across the studied assemblages.
+
+<br>
+
+### Figure S2
+
+```{r figure-s2, fig.width=9, fig.height=8}
+area_data <- filtered_data %>%
+  mutate(
+    # merge the two highest cortex classes into a single 66-100% bin
+    CortexMerged = case_when(Cortex %in% c("66-99%", "100%") ~ "66-100%",
+                             TRUE ~ Cortex),
+    CortexMerged = factor(CortexMerged,
+                          levels = c("0%", "1-33%", "33-66%", "66-100%")),
+    Area = Length * Width)
+
+area_summary <- area_data %>%
+  group_by(Layer, CortexMerged) %>%
+  summarise(MeanArea = mean(Area, na.rm = TRUE),
+            SE = sd(Area, na.rm = TRUE) / sqrt(n()),
+            n = n(), .groups = "drop")
+
+cb_palette <- c("0%" = "#88CCEE", "1-33%" = "#CC6677",
+                "33-66%" = "#DDCC77", "66-100%" = "#117733")
+
+ggplot(area_summary, aes(CortexMerged, MeanArea, fill = CortexMerged)) +
+  geom_col(colour = "black", linewidth = 0.4) +
+  geom_errorbar(aes(ymin = MeanArea - SE, ymax = MeanArea + SE),
+                width = 0.25, linewidth = 0.6) +
+  facet_wrap(~ Layer, ncol = 2) +
+  scale_fill_manual(values = cb_palette) +
+  scale_y_continuous(expand = expansion(mult = c(0, 0.1))) +
+  labs(x = "Cortex coverage",
+       y = expression(bold("Mean blank area (mm"^2*")")), fill = "Cortex") +
+  theme_minimal(base_size = 13) +
+  theme(panel.grid.major.x = element_blank(),
+        panel.grid.minor = element_blank(),
+        panel.border = element_rect(colour = "gray70", fill = NA),
+        strip.background = element_rect(fill = "gray90", colour = NA),
+        strip.text = element_text(face = "bold"),
+        axis.title = element_text(face = "bold"),
+        axis.text.x = element_text(angle = 35, hjust = 1),
+        legend.position = "bottom")
+```
+
+**Figure S2.** Blank size (Length × Width, mm²) of complete blades and bladelets in each assemblage, grouped by cortical coverage class (0%, 1–33%, 33–66%, 66–100%; the original 66–99% and 100% classes are merged). Bars show the mean per class within each assemblage; error bars are ± 1 standard error.
+
+<br>
+
+### Figure S3
+
+```{r figure-s3, fig.width=10, fig.height=7}
+mat_to_pairs <- function(mat, value_name) {
+  lt  <- which(lower.tri(mat), arr.ind = TRUE)
+  out <- data.frame(site1 = rownames(mat)[lt[, 1]],
+                    site2 = rownames(mat)[lt[, 2]],
+                    val = mat[lt], stringsAsFactors = FALSE)
+  out$pair <- paste0(pmin(out$site1, out$site2), "_", pmax(out$site1, out$site2))
+  out$involves_paglicci <- out$site1 == pa | out$site2 == pa
+  names(out)[names(out) == "val"] <- value_name
+  out[, c("pair", value_name, "involves_paglicci")]
+}
+predictors_to_plot <- c("TAP", "TAP_ds", "MAT", "MAT_ds", "chrono", "costpath")
+
+pred_long <- do.call(rbind, lapply(predictors_to_plot, function(p) {
+  df <- mat_to_pairs(predictor_mats[[p]], "predictor_value"); df$predictor <- p
+  df[, c("pair", "predictor", "predictor_value")]
+}))
+resp_long <- mat_to_pairs(md_norm, "lithic")
+all_pairs <- pred_long |>
+  left_join(resp_long[, c("pair", "lithic", "involves_paglicci")], by = "pair")
+all_pairs$predictor <- factor(all_pairs$predictor, levels = predictors_to_plot)
+
+mantel_grid <- mantel_n6 |>
+  filter(predictor %in% predictors_to_plot) |>
+  transmute(predictor = factor(predictor, levels = predictors_to_plot),
+            label = sprintf("r = %.2f, p = %.3f", r_spearman, p_spearman))
+
+ggplot(all_pairs, aes(predictor_value, lithic)) +
+  geom_smooth(method = "lm", se = TRUE, colour = PAL$grey_dark,
+              fill = "grey88", alpha = 0.4, linewidth = 0.6) +
+  geom_point(aes(colour = involves_paglicci), size = 2.6, alpha = 0.85) +
+  geom_text(data = mantel_grid, aes(x = -Inf, y = Inf, label = label),
+            hjust = -0.08, vjust = 1.4, size = 3.3, colour = "grey30",
+            inherit.aes = FALSE) +
+  facet_wrap(~ predictor, scales = "free_x", ncol = 3,
+             labeller = labeller(predictor = pretty_pred)) +
+  scale_colour_manual(values = c("FALSE" = PAL$grey_dark, "TRUE" = PAL$red),
+                      labels = c("Other pairs", "Includes Paglicci"), name = NULL) +
+  labs(x = "Predictor distance", y = "Combined lithic distance") +
+  theme_bw(base_size = 11) +
+  theme(strip.background = element_rect(fill = "grey92", colour = NA),
+        strip.text = element_text(face = "bold"),
+        legend.position = "bottom", panel.grid.minor = element_blank())
+```
+
+**Figure S3.** Combined lithic distance against each candidate predictor (15 pairwise comparisons); pairs involving Paglicci 24A are highlighted. Lines show the linear trend with 95% confidence bands; Spearman Mantel r and p are annotated per panel.
+
+<!-- ### Figure S4 -->
+
+<!-- ```{r figure-s4, fig.width=10, fig.height=5} -->
+<!-- # Single-cell downscaling artefact at Paglicci. All inputs were precomputed in -->
+<!-- # 01_distances.R (terra rasters do not survive .rds serialization). -->
+<!-- library(patchwork) -->
+
+<!-- tap_panel <- function(df, title) { -->
+<!--   ggplot(df, aes(x, y, fill = TAP)) + -->
+<!--     geom_raster() + -->
+<!--     geom_point(data = s4_point, aes(x, y), inherit.aes = FALSE, -->
+<!--                shape = 21, fill = "red", colour = "white", size = 3) + -->
+<!--     geom_text(data = s4_point, aes(x, y, label = "Pa 24A"), inherit.aes = FALSE, -->
+<!--               colour = "red", fontface = "bold", hjust = -0.15, size = 3.3) + -->
+<!--     scale_fill_viridis_c(option = "mako", direction = -1, limits = s4_zlim, -->
+<!--                          name = "TAP (mm)") + -->
+<!--     coord_equal() + labs(title = title, x = NULL, y = NULL) + -->
+<!--     theme_minimal(base_size = 11) + -->
+<!--     theme(plot.title = element_text(face = "bold", hjust = 0.5)) -->
+<!-- } -->
+
+<!-- (tap_panel(s4_df_ds,  "TAP downscaled (10-min) - 34 ka") | -->
+<!--  tap_panel(s4_df_nat, "TAP native (0.5 deg) - 34 ka")) + -->
+<!--   plot_layout(guides = "collect") & theme(legend.position = "right") -->
+<!-- ``` -->
+
+<!-- ```{r figure-s4-check} -->
+<!-- print(s4_neigh) -->
+<!-- cat(sprintf("\nPaglicci cell:  downscaled = %d mm,  native = %d mm\n", -->
+<!--             s4_neigh$downscaled[1], s4_neigh$native[1])) -->
+<!-- cat(sprintf("Neighbour mean: downscaled = %d mm,  native = %d mm\n", -->
+<!--             round(mean(s4_neigh$downscaled[-1])), -->
+<!--             round(mean(s4_neigh$native[-1])))) -->
+<!-- ``` -->
+
+<!-- **Figure S4.** Total annual precipitation around Paglicci 24A at ~34 ka, downscaled (left) versus native (right), on a shared colour scale. The accompanying table compares the value at Paglicci's grid cell with the mean of its eight neighbours, illustrating the single-cell downscaling artefact discussed in the main text. -->
+
+<br>
+
+## SM Note 2: Bayesian models
+
+### Grotta Paglicci
+
+``` 
+Plot()
+{
+Resolution=100;
+Curve("IntCal20","IntCal20.14c");
+Outlier_Model("General",T(5),U(0,4),"t");
+Sequence("Paglicci Aurignacian")
+  {
+    Boundary("Start Aurignacian");
+    Phase("Aurignacian 24B1-2")
+     {
+    R_Date("24B1-2", 34300, 800)
+         {
+          Outlier("General", 0.05);
+         };
+     Date("Aurignacian 24B1-2");
+        };
+    Boundary("End 24B1-2 / Start 24A4-A0");
+    Phase("Aurignacian 24A1-A0")
+  {
+    R_Date("24A1-0", 29300, 600)
+    {
+     Outlier("General", 0.05);
+    };
+    Date("Aurignacian 24A4-A0");
+   };
+   Boundary("End Aurignacian / Codola");
+   Phase("Codola 23C2")
+   {
+    C_Date("Codola", -31050, 0);
+   };
+   Boundary("end Codola");
+  };
+ };
+``` 
+
+<br>
+
+### Grotta della Cala
+
+``` 
+Plot()
+{
+Resolution=100;
+Curve("IntCal20","IntCal20.14c");
+Outlier_Model("General",T(5),U(0,4),"t");
+Sequence("La Cala Uluzzian and Early Aurignacian")
+  {
+    Boundary("Start Uluzzian");
+    Phase("Uluzzian")
+     {
+         Age("X7034-Atrio", N(44000,4100))
+         {
+          Outlier("General", 0.05);
+         };
+         Age("X7035-Atrio", N(36900,5100))
+         {
+          Outlier("General", 0.05);
+         };
+         Age("X7036-Atrio", N(40800,4400))
+         {
+          Outlier("General", 0.05);
+         };
+         Age("X7041-Atrio", N(40200,2900))
+         {
+          Outlier("General", 0.05);
+         };
+     Date("Uluzzian");
+        };
+    Boundary("End Uluzzian / Start Early Aurignacian");
+    Phase("Early Aurignacian")
+  {
+    Age("X7042-Atrio", N(36600,1800))
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-35429-Atrio layer 10 latest aurig", 33410, 320)
+    {
+     Outlier("General", 0.05);
+    };
+    Date("Early Aurignacian");
+   };
+   Boundary("End Early Aurignacian");
+  };
+ };
+``` 
+
+<br>
+
+### Grotta di Castelcivita
+
+``` 
+Plot()
+ {
+  Resolution=100;
+  Curve("IntCal20","IntCal20.14c");
+  Outlier_Model("SSimple",N(0,2),0,"s");
+  Outlier_Model("General",T(5),U(0,4),"t");
+  Sequence("Castelcivita Uluzzian rsa'', Protoaurignacian, and Early Aurignacian")
+  {
+   Boundary("Start Uluzzian rsa''");
+   Phase("Uluzzian rsa''")
+   {
+    R_F14C("OxA-X-2698-46 Base RSA''", 0.01067, 0.00052)
+    {
+     Outlier("General", 0.05);
+    };
+    R_F14C("OxA-37245 RSA'' G14 IV upper 12", 0.00903, 0.00102)
+    {
+     Outlier("General", 0.05);
+    };
+    R_F14C("OxA-39604 base RSA'' G14 IV upper 12", 0.0110124, 0.00102767)
+    {
+     Outlier("General", 0.05);
+    };
+    R_F14C("OxA-37246 RSA'' F14 I upper 12", 0.0083, 0.00106)
+    {
+     Outlier("General", 0.05);
+    };
+    R_F14C("OxA-37247 RSA'' F14 I upper 12", 0.00935, 0.00104)
+    {
+     Outlier("General", 0.05);
+    };
+    R_F14C("OxA-X-X-2770-39 RSA'' F14 IV lower 11", 0.00885, 0.00103)
+    {
+     Outlier("General", 0.05);
+    };
+    R_F14C("OxA-X-X-2770-40 RSA'' F14 II lower 11", 0.00855, 0.00104)
+    {
+     Outlier("General", 0.05);
+    };
+    R_F14C("OxA-X-X-2770-41 RSA'' F14 II lower 11", 0.00848, 0.00104)
+    {
+     Outlier("General", 0.05);
+    };
+    R_F14C("OxA-22622 RSA''", 0.01114, 0.0005)
+    {
+     Outlier("General", 0.05);
+    };
+   Date("Uluzzian rsa''");
+   };
+   Boundary("End rsa'' Uluzzian / Start Protoaurignacian");
+   Phase("Protoaurignacian")
+   {
+    Date("X7024 RSA' upper 10",N(2015-42430,2000))
+    {
+     Outlier("General", 0.05);
+    };
+    Date("X7023 RSA' upper 9",N(2015-42370,3000))
+    {
+     Outlier("General", 0.05);
+    };
+   Date("Protoaurignacian");
+   };
+   Boundary("End Protoaurignacian / Start Early Aurignacian");
+   Phase("Early Aurignacian")
+   {
+    R_F14C("OxA-X-2698-45 GIC Sample 1 Focolare 11/12", 0.01385, 0.00054)
+    {
+     Outlier("General", 0.05);
+    };
+    Date("X7022 ARS upper 6",N(2015-38900,2200))
+    {
+     Outlier("General", 0.05);
+    };
+    Date("X7021 ARS lower 4",N(2015-36720,2800))
+    {
+     Outlier("General", 0.05);
+    };
+   Date("Early Aurignacian");
+   };
+   Boundary("End Early Aurignacian / Campanian Ignimbrite");
+   Phase("CI")
+   {
+    C_Date("CI", -37900, 140);
+   };
+   Boundary("end CI");
+  };
+ };
+``` 
+
+<br>
+
+### Riparo Bombrini
+
+``` 
+Plot()
+{
+Resolution=100;
+Curve("Marine20","Marine20.14c");
+Delta_R("=Undefined Local Marine");
+Curve("IntCal20","IntCal20.14c");
+Outlier_Model("General",T(5),U(0,4),"t");
+Sequence("Bombrini Mousterian and Protoaurignacian")
+  {
+    Boundary("Start Mousterian IV");
+    Phase("Mousterian IV")
+    {
+      Curve("=Marine20");
+      Delta_R("=Undefined Local Marine");
+      R_Date("Bombrini-6-M3-IV-AA1-8",40340,390)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-3-M5-IV-BB1-11",38140,260)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-7-M3-IV-AA1-8",36770,210)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-8-M2-IV-AA1-7",36540,240)
+      {
+        Outlier("General", 0.05);
+      };
+   Date("Late Mousterian");
+    };
+    Boundary("End Mousterian IV / Start PA");
+    Phase("A2")
+    {
+      Curve("=IntCal20","IntCal20.14c");   
+      R_Date("Bombrini-A2-S-EVA29017",35600,310)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A2-S-EVA29015",34810,280)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A2-Beta204028",34190,500)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A2-S-EVA29896",33980,160)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A2-S-EVA29897",32920,140)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A2-S-EVA29895",32230,140)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A2-S-EVA29016",30810,190)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A2-S-EVA29894",18930,50)
+      {
+        Outlier("General", 0.05);
+      };
+   Date("Protoaurignacian A2");
+    };
+    Boundary("End A2 / Start A1");
+    Phase("A1")
+    {
+      Curve("=IntCal20");   
+      R_Date("Bombrini-A1-S-EVA29022",34030,260)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-S-EVA29026",33220,240)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-Beta183522",33090,400)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-S-EVA29023",32750,230)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-Beta183524",32580,400)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-S-EVA29021",32210,150)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-S-EVA30847",31780,320)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-S-EVA30849",29950,260)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-S-EVA29889",28300,90)
+      {
+        Outlier("General", 0.05);
+      };
+      R_Date("Bombrini-A1-S-EVA29194",26680,90)
+      {
+        Outlier("General", 0.05);
+      };
+   Date("Protoaurignacian A1");
+    };
+    Boundary("End PA / Start EA");
+    Phase("A0")
+    {
+      Curve("=IntCal20");
+      R_Date("Bombrini-A0-S-EVA30845",29660,250)
+      {
+        Outlier("General", 0.05);
+      };
+   Date("Early Aurignacian A0");
+    };
+    Boundary("End EA");
+  };
+};
+``` 
+
+<br>
+
+### Grotta di Fumane
+
+```
+Plot()
+ {
+  Outlier_Model("General",T(5),U(0,4),"t");
+  Sequence("Fumane Uluzzian and Protoaurignacian")
+  {
+   Boundary("Uluzzian");
+   Phase("Unit A3")
+   {
+    R_Date("OxA-X-2295-52", 41300, 1300)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-21736", 39100, 1000)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-41150", 38900, 1000)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-41151", 38080, 910)
+    {
+     Outlier("General", 0.05);
+    };
+    Date("Uluzzian A3 unit");
+   };
+   Boundary("End Uluzzian / Start Protoaurignacian");
+   Phase("Unit A2-A1")
+   {
+    R_Date("OxA-41161", 36310, 750)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-19584", 35850, 310)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-17569", 35640, 220)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-21796", 35400, 750)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-17570", 35180, 220)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-19412", 34940, 280)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-19414", 34180, 270)
+    {
+     Outlier("General", 0.05);
+    };
+    Date("Protoaurignacian A2+A1 unit");
+   };
+   Boundary("End Protoaurignacian / Start Early Aurignacian");
+   Phase("Unit D3")
+   {
+    R_Date("OxA-41260", 36100, 1400)
+    {
+     Outlier("General", 0.05);
+    };
+    R_Date("OxA-17981", 33890, 220)
+    {
+     Outlier("General", 0.05);
+    };
+    Date("Early Aurignacian D3 unit");
+   };
+   Boundary("End Unit D3");
+  };
+ };
+``` 
+
+<br>
+
+## References
+
+Bartolomei, G., Broglio, A., Cassoli, P., Cremaschi, M., Giacobini, G., Malerba, G., Maspero, A., Peresani, M., Sartorelli, A., & Tagliacozzo, A. (1992). La Grotte de Fumane. Un site aurignacien au pied des Alpes. Preistoria Alpina, 28(1), 131–179.
+
+Benazzi, S., Slon, V., Talamo, S., Negrino, F., Peresani, M., Bailey, S. E., Sawyer, S., Panetta, D., Vicino, G., Starnini, E., Mannino, M. A., Salvadori, P. A., Meyer, M., Paabo, S., & Hublin, J. J. (2015). The makers of the Protoaurignacian and implications for Neandertal extinction. Science, 348(6236), 793–796. 10.1126/science.aaa2773
+
+Benini, A., Boscato, P., & Gambassini, P. (1997). Grotta della Cala (Salerno): industrie litiche e faune uluzziane ed aurignaziane. Rivista di Scienze Preistoriche, 48, 37–95. 
+
+Bertola, S. (2001). Contributo allo studio del comportamento dei primi gruppi di Homo sapiens sapiens diffusi in Europa. Sfruttamento della selce, produzione dei supporti lamellari, confezione delle armature litiche nel sito aurignaziano della Grotta di Fumane nei Monti Lessini (Verona) [Ph.D. Dissertation, University of Bologna]. 
+
+Bertola, S., Broglio, A., Cristiani, E., De Stefani, M., Gurioli, F., Negrino, F., Romandini, M., & Vanhaeren, M. (2013). La diffusione del primo Aurignaziano a sud dell'arco alpino. Preistoria Alpina, 47, 17–30. 
+
+Bertola, S., Fontana, F., & Visentin, D. (2018). Lithic raw material circulation and settlement dynamics in the Upper Palaeolithic of the Venetian Prealps (NE Italy). A key-role for palaeoclimatic and landscape changes across the LGM? In V. Borgia & E. Cristiani (Eds.), Palaeolithic Italy. Advanced studies on early human adaptations in the Apennine peninsula (pp. 219–246). Sidestone Press Academics. 
+
+De Stefani, M. (2003). Contributo alla conoscenza del comportamento tecnologico dell'uomo moderno nel Paleolitico Superiore: la produzione laminare nell'Aurignaziano e nel Gravettiano [Ph.D. Dissertation, University of Bologna].
+
+Falcucci, A., Arrighi, S., Spagnolo, V., Rossini, M., Higgins, O. A., Muttillo, B., Martini, I., Crezzini, J., Boschin, F., Ronchitelli, A., & Moroni, A. (2024a). A pre-Campanian Ignimbrite techno-cultural shift in the Aurignacian sequence of Grotta di Castelcivita, southern Italy. Scientific Reports, 14(1), 12783. 10.1038/s41598-024-59896-6 
+
+Falcucci, A., Bertola, S., Parise, M., Rio, M. D., Riel-Salvatore, J., & Negrino, F. (2025a). A crossroads between the Mediterranean and the Alps: Lithic technology, raw material procurement, and mobility in the Aurignacian of Riparo Bombrini. Journal of Anthropological Archaeology, 79, 101705. https://doi.org/10.1016/j.jaa.2025.101705 
+
+Falcucci, A., Conard, N. J., & Peresani, M. (2017). A critical assessment of the Protoaurignacian lithic technology at Fumane Cave and its implications for the definition of the earliest Aurignacian. PLoS One, 12(12), e0189241. 10.1371/journal.pone.0189241 
+
+Falcucci, A., Conard, N. J., & Peresani, M. (2020). Breaking through the Aquitaine frame: A re-evaluation on the significance of regional variants during the Aurignacian as seen from a key record in southern Europe. Journal of Anthropological Sciences, 98, 99–140. https://doi.org/10.4436/JASS.98021 
+
+Falcucci, A., Giusti, D., Zangrossi, F., De Lorenzi, M., Ceregatti, L., & Peresani, M. (2024b). Refitting the Context: A Reconsideration of Cultural Change among Early Homo sapiens at Fumane Cave through Blade Break Connections, Spatial Taphonomy, and Lithic Technology. Journal of Paleolithic Archaeology, 8(1), 2. 10.1007/s41982-024-00203-0 
+
+Falcucci, A., Kitagawa, K., Doyon, L., Tassoni, L., Higham, T., Dominici, C., Dreossi, D., Crezzini, J., Rossini, M., Benazzi, S., Martini, I., Boschin, F., Spagnolo, V., & Moroni, A. (2025b). Revisiting the Early Aurignacian in Italy: New insights from Grotta della Cala. Quaternary Science Reviews, 366, 109471.https://doi.org/10.1016/j.quascirev.2025.109471 
+
+Gambassini, P. (1997). Il Paleolitico di Castelcivita: Culture e Ambiente. Electa. 
+
+Giaccio, B., Hajdas, I., Isaia, R., Deino, A., & Nomade, S. (2017). High-precision 14C and 40Ar/39Ar dating of the Campanian Ignimbrite (Y-5) reconciles the time-scales of climatic-cultural processes at 40 ka [Article]. Scientific Reports, 7, 45940. 10.1038/srep45940 
+
+Giaccio, B., Isaia, R., Fedele, F. G., Di Canzio, E., Hoffecker, J., Ronchitelli, A., Sinitsyn, A. A., Anikovich, M., Lisitsyn, S. N., & Popov, V. V. (2008). The Campanian Ignimbrite and Codola tephra layers: Two temporal/stratigraphic markers for the Early Upper Palaeolithic in southern Italy and eastern Europe. Journal of Volcanology and Geothermal Research, 177(1), 208–226. https://doi.org/10.1016/j.jvolgeores.2007.10.007 
+
+Higham, T., Brock, F., Peresani, M., Broglio, A., Wood, R., & Douka, K. (2009). Problems with radiocarbon dating the Middle to Upper Palaeolithic transition in Italy. Quat. Sci. Rev., 28(13–14), 1257–1267. http://doi.org/10.1016/j.quascirev.2008.12.018 
+
+Higham, T., Frouin, M., Douka, K., Ronchitelli, A., Boscato, P., Benazzi, S., Crezzini, J., Spagnolo, V., McCarty, M., Marciani, G., Falcucci, A., Rossini, M., Arrighi, S., Dominici, C., Devièse, T., Schwenninger, J.-L., Martini, I., Moroni, A., & Boschin, F. (2024). Chronometric data and stratigraphic evidence support discontinuity between Neanderthals and early Homo sapiens in the Italian Peninsula. Nature Communications, 15(1), 8016. 10.1038/s41467-024-51546-9 
+
+Holt, B., Negrino, F., Riel-Salvatore, J., Formicola, V., Arellano, A., Arobba, D., Boschian, G., Churchill, S. E., Cristiani, E., Di Canzio, E., & Vicino, G. (2019). The Middle-Upper Paleolithic transition in Northwest Italy: new evidence from Riparo Bombrini (Balzi Rossi, Liguria, Italy). Quaternary International, 508, 142–152. https://doi.org/10.1016/j.quaint.2018.11.032 
+
+Kehl, M., Marcazzan, D., Miller, C. E., Falcucci, A., Duches, R., & Peresani, M. (2025). The Upper Sedimentary Sequence of Grotta di Fumane, Northern Italy: A Micromorphological Approach to Study Imprints of Human Occupation and Paleoclimate Change. Geoarchaeology, 40(2), e70000. https://doi.org/10.1002/gea.70000 
+
+López-García, J. M., dalla Valle, C., Cremaschi, M., & Peresani, M. (2015). Reconstruction of the Neanderthal and Modern Human landscape and climate from the Fumane cave sequence (Verona, Italy) using small-mammal assemblages. Quat. Sci. Rev., 128, 1–13. http://doi.org/10.1016/j.quascirev.2015.09.013 
+
+Marciani, G., Ronchitelli, A., Arrighi, S., Badino, F., Bortolini, E., Boscato, P., Boschin, F., Crezzini, J., Delpiano, D., Falcucci, A., Figus, C., Lugli, F., Oxilia, G., Romandini, M., Riel-Salvatore, J., Negrino, F., Peresani, M., Spinapolice, E. E., Moroni, A., & Benazzi, S. (2020). Lithic techno-complexes in Italy from 50 to 39 thousand years BP: An overview of lithic technological changes across the Middle-Upper Palaeolithic boundary. Quaternary International, 551, 123–149. https://doi.org/10.1016/j.quaint.2019.11.005 
+
+Marín-Arroyo, A. B., Terlato, G., Vidal-Cordasco, M., & Peresani, M. (2023). Subsistence of early anatomically modern humans in Europe as evidenced in the Protoaurignacian occupations of Fumane Cave, Italy. Scientific Reports, 13(1), 3788. 10.1038/s41598-023-30059-3 
+
+Martini, F., Beccaro, P., Ghinassi, M., & Martino, G. (2003). Le materie prime delle industrie litiche del Paleolitico superiore e del Mesolitico di Grotta della Serratura (Marina di Camerota). Prima caratterizzazione degli areali e delle modalità di raccolta. Rivista di Scienze Preistoriche, 53, 163–191. 
+
+Martini, I., Ronchitelli, A., Arrighi, S., Capecchi, G., Ricci, S., Scaramucci, S., Spagnolo, V., Gambassini, P., & Moroni, A. (2018). Cave clastic sediments as a tool for refining the study of human occupation of prehistoric sites: insights from the cave site of La Cala (Cilento, southern Italy). J. Quat. Sci., 33(5), 586–596. 10.1002/jqs.3038 
+
+Moroni, A., Boscato, P., Allevato, E., Benocci, A., Di Bella, F., Pasquale, G. D., Favilli, L., Manganelli, G., & Gambassini, P. (2016). The Mesolithic occupation at Grotta della Cala (Marina di Camerota- Salerno - Italy). A preliminary assessment. Preistoria Alpina, 48, 171–182. 
+
+Negrino, F., & Riel-Salvatore, J. (2018). From Neanderthals to Anatomically Modern Humans in Liguria (Italy): the current state of knowledge. In V. Borgia & E. Cristiani (Eds.), Palaeolithic Italy. Advanced studies on early human adaptations in the Apennine peninsula (pp. 161–181). Sidestone Press. 
+
+Palma di Cesnola, A. (2004). Paglicci: l'Aurignaziano e il Gravettiano antico. Claudio Grenzi. 
+Peresani, M. (2022). Inspecting human evolution from a cave. Late Neanderthals and early sapiens at Grotta di Fumane: present state and outlook. Journal of Anthropological Sciences, 100, 71–107. 10.4436/jass.10016 
+
+Riel-Salvatore, J., & Negrino, F. (2018a). Human adaptations to climatic change in Liguria across the Middle–Upper Paleolithic transition. Journal of Quaternary Science, 33(3), 313–322. 10.1002/jqs.3005 
+
+Riel-Salvatore, J., & Negrino, F. (2018b). Proto-Aurignacian lithic technology, mobility, and human niche construction: A case study from Riparo Bombrini. In E. Robinson & F. Sellet (Eds.), Lithic technological organization and paleoenvironmental change (pp. 163–187). Springer. https://doi.org/DOI 10.1007/978-3-319-64407-3_8 
+Riel-Salvatore, J., Negrino, F., Pothier Bouchard, G., Vallerand, A., Costa, S., & Benazzi, S. (2022). The ‘Semi-Sterile Mousterian’ of Riparo Bombrini: evidence of a late-lasting Neanderthal refugium in Liguria. Journal of Quaternary Science, 37(2), 268–282. https://doi.org/10.1002/jqs.3411 
+
+Riel-Salvatore, J., Pothier Bouchard, G., Buckley, M., Gazzo, S., Vallerand, A., Brun, C., & Negrino, F. (2023). Nouvelles données pluridisciplinaires sur la transition Paléolithique moyen-Paléolithique supérieur provenant de fouilles 2015-2022 au Riparo Bombrini (Ventimiglia, Imperia). Bulletin du Musée d’Anthropologie Préhistorique de Monaco, 61, 319–325. 
+
+Ryan, D. D., Starnini, E., Serradimigni, M., Rossoni-Notter, E., Notter, O., Zerboni, A., Negrino, F., Grimaldi, S., Vacchi, M., Ragaini, L., Rovere, A., Perego, A., Muttoni, G., Santaniello, F., Moussous, A., & Pappalardo, M. (2024). A geoarchaeological review of Balzi Rossi, Italy: A crossroad of Palaeolithic populations in the northwest Mediterranean. Quaternary Science Reviews, 327, 108515. https://doi.org/10.1016/j.quascirev.2024.108515 

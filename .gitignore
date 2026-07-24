@@ -1,0 +1,31 @@
+# ---- R session / project cruft ----
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj.bak
+
+# ---- renv library (keep the lockfile, ignore the installed library) ----
+renv/library/
+renv/local/
+renv/cellar/
+renv/staging/
+renv/python/
+renv/sandbox/
+# NOTE: do NOT ignore renv.lock or renv/activate.R — those must be committed.
+
+# ---- Knitr / rmarkdown byproducts ----
+*_cache/
+*_files/
+supplementary/*.html
+supplementary/*_files/
+
+# ---- Large climate data (optional — see note in README) ----
+# The downscaled model can be large. Decide: ship it (Zenodo) or ignore it here.
+# data/Europe_bioclims_10min.nc
+
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+*~
+.Rproj.user
