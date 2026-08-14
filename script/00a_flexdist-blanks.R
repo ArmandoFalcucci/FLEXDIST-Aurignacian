@@ -396,22 +396,54 @@ dev.off()
 ### Step 8: Distances among group centroids -----------------------------------
 # PCA on the central imputed dataset, aggregate PC scores to group medians,
 # then Euclidean distances among group centroids. Written out as a CSV.
-pca     <- dudi.mix(cent.imp, scannf = FALSE, nf = 1e7)
-eigval  <- pca$eig
-propvar <- (eigval / sum(eigval)) * 100
-cumvar  <- cumsum(propvar)
-index   <- sum(cumvar < 90) + 1
+# pca     <- dudi.mix(cent.imp, scannf = FALSE, nf = 1e7)
+# eigval  <- pca$eig
+# propvar <- (eigval / sum(eigval)) * 100
+# cumvar  <- cumsum(propvar)
+# index   <- sum(cumvar < 90) + 1
+# 
+# pcs <- pca$li
+# if (length(pca$cw) >= nind) {
+#   pcs <- pcs[, 1:index]
+# }
+# pcs <- as.data.frame(scale(pcs))
+# 
+# tmp <- aggregate(x = pcs, by = list(site), FUN = median)
+# md  <- as.matrix(dist(tmp[, -1]))
+# rownames(md) <- tmp[, 1]
+# colnames(md) <- tmp[, 1]
+# md
+# 
+# write.csv(md, file = "data/distance_matrix_blanks.csv", row.names = TRUE)
 
-pcs <- pca$li
-if (length(pca$cw) >= nind) {
-  pcs <- pcs[, 1:index]
+
+### Step 8: Distances among group centroids ---------------------------------
+# Group distance matrix computed once per imputation run, summarised as the
+# cell-wise median across runs (mirrors the FLEXDIST_median construction).
+# Group positions: coordinatewise MEDIAN of the scaled PC scores. Run 1 also exports the raw PC scores for script 04.
+
+md_runs <- array(NA_real_, dim = c(nsite, nsite, runs))
+sta <- 1; sto <- nind
+for (i in 1:runs) {
+  temp.dat <- mult.imp[sta:sto, ]
+  pca  <- dudi.mix(temp.dat, scannf = FALSE, nf = 1e7)
+  
+  if (i == 1) {
+    dir.create("output/rds", recursive = TRUE, showWarnings = FALSE)
+    saveRDS(cbind(group = site, as.data.frame(pca$li)),
+            "output/rds/04_scores_blanks.rds")
+  }
+  
+  pcs  <- as.data.frame(scale(pca$li))
+  tmp  <- aggregate(x = pcs, by = list(site), FUN = median)
+  m    <- as.matrix(dist(tmp[, -1]))
+  dimnames(m) <- list(tmp[, 1], tmp[, 1])
+  if (i == 1) grp_names <- tmp[, 1]
+  md_runs[, , i] <- m[grp_names, grp_names]
+  sta <- sta + nind; sto <- sto + nind
 }
-pcs <- as.data.frame(scale(pcs))
-
-tmp <- aggregate(x = pcs, by = list(site), FUN = median)
-md  <- as.matrix(dist(tmp[, -1]))
-rownames(md) <- tmp[, 1]
-colnames(md) <- tmp[, 1]
+md <- apply(md_runs, 1:2, median)
+dimnames(md) <- list(grp_names, grp_names)
 md
 
-write.csv(md, file = "output/distance_matrix_blanks.csv", row.names = TRUE)
+write.csv(md, file = "data/distance_matrix_blanks.csv", row.names = TRUE)

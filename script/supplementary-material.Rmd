@@ -20,9 +20,11 @@ library(flextable)
 library(forcats)
 
 # Statistical results and predictor matrices from the analysis scripts.
-# Run 01_distances.R and 02_mantel.R first (they write these caches).
+# Run 01_distances.R, 02_mantel.R and 04_null_diagnostics.R first
+# (they write these caches).
 d01 <- readRDS("../output/rds/01_distances.rds")
 d02 <- readRDS("../output/rds/02_mantel.rds")
+d04 <- readRDS("../output/rds/04_diagnostics.rds")
 
 mantel_n6      <- d02$mantel_n6
 mantel_n5      <- d02$mantel_n5
@@ -36,6 +38,13 @@ make_ft        <- d02$make_ft
 
 coordinates     <- d01$coordinates
 time_steps      <- d01$time_steps
+group_order     <- d01$group_order
+
+# Null-model diagnostics (04_null_diagnostics.R)
+fw_table   <- d04$fw_table
+scale_sens <- d04$scale_sens
+boot_ci    <- d04$boot_ci
+size_check <- d04$size_check
 
 # Figure S4 inputs (precomputed in 01_distances.R; rasters don't survive .rds)
 s4_df_ds  <- d01$s4_df_ds
@@ -119,7 +128,7 @@ mantel_n6 |>
   make_ft()
 ```
 
-**Table S2.** Pearson Mantel correlations between combined lithic distance and each candidate predictor, for the full dataset (n = 6) and with Paglicci 24A excluded (n = 5). Δr is the change in r (n = 5 minus n = 6). Spearman equivalents are reported in the main text.
+**Table S2.** Pearson Mantel correlations between combined lithic distance and each candidate predictor, for the full dataset (n = 6) and with Paglicci 24A excluded (n = 5). Δr is the change in r (n = 5 minus n = 6). Spearman equivalents are reported in the main text. *p*-values are marginal and uncorrected for the seven-predictor screen; family-wise values are given in Table S4.
 
 <br>
 
@@ -133,7 +142,79 @@ supp_partials |>
   make_ft() |> flextable::bold(part = "header")
 ```
 
-**Table S3.** Partial Mantel correlations (Spearman) between combined lithic distance and each predictor, each controlled for one of the three focal predictors (Costpath, Chronology, or native TAP), at n = 5 (Paglicci excluded). *p*-values are uncorrected.
+**Table S3.** Partial Mantel correlations (Spearman) between combined lithic distance and each predictor, each controlled for one of the three focal predictors (Cost-path, Chronology, or native TAP), at n = 5 (Paglicci excluded). *p*-values are uncorrected. Given the inflated type I error of partial Mantel tests at ten pairwise distances, these are reported as descriptive summaries of shared variance rather than as tests (see main text, section 2.4.5).
+
+<br>
+
+### Table S4
+
+```{r table-s4}
+fw_table |>
+  transmute(Predictor,
+            `r (n=6)` = sprintf("%.3f", r_n6),
+            `p marginal (n=6)` = sprintf("%.3f", p_marginal),
+            `r (n=5)` = sprintf("%.3f", r_n5),
+            `p marginal (n=5)` = sprintf("%.3f", p_marginal5)) |>
+  make_ft()
+```
+
+**Table S4.** Exact permutation probabilities for each candidate predictor, for the full dataset (n = 6) and with Paglicci 24A excluded (n = 5). At these sample sizes the permutation set is small enough to enumerate in full (720 and 120 relabellings respectively), so the probabilities are exact rather than sampled. The values above are *marginal*, that is, uncorrected for the fact that seven predictors were screened. Correcting for the screen — by recomputing all seven correlations under every relabelling and retaining the largest — gives a family-wise probability of `r sprintf("%.3f", d04$fw6$p_familywise)` for the full dataset (largest r = `r sprintf("%.3f", d04$fw6$obs_max)`) and `r sprintf("%.3f", d04$fw5$p_familywise)` for the five-assemblage subset (largest r = `r sprintf("%.3f", d04$fw5$obs_max)`). Neither is below the conventional 0.05 threshold.
+
+<br>
+
+### Table S5
+
+```{r table-s5-rho, include=FALSE}
+# Spearman correlation between the standardized and unstandardized lithic
+# matrices, rebuilt from the per-specimen scores exported by 00a/00b Step 8.
+sc_b <- readRDS("../output/rds/04_scores_blanks.rds")
+sc_c <- readRDS("../output/rds/04_scores_cores.rds")
+for (df in c("sc_b", "sc_c")) {                       # label harmonization
+  g <- as.character(get(df)$group); g[g == "Pa_A4-A0"] <- "Pa_24A"
+  tmp <- get(df); tmp$group <- g; assign(df, tmp)
+}
+gd <- function(df, scale_pcs) {
+  pcs <- df[, setdiff(names(df), "group"), drop = FALSE]
+  if (scale_pcs) pcs <- as.data.frame(scale(pcs))
+  cen <- aggregate(pcs, by = list(group = df$group), FUN = median)
+  m <- as.matrix(dist(cen[, -1])); dimnames(m) <- list(cen$group, cen$group)
+  m[group_order, group_order]
+}
+comb <- function(scale_pcs) {
+  B <- gd(sc_b, scale_pcs); C <- gd(sc_c, scale_pcs)
+  (B / max(B) + C / max(C)) / 2
+}
+lt_ <- function(m) m[lower.tri(m)]
+s6_rho <- cor(lt_(comb(TRUE)), lt_(comb(FALSE)), method = "spearman")
+```
+
+```{r table-s5}
+scale_sens |>
+  transmute(Predictor,
+            `r standardized (n=6)`   = sprintf("%+.3f", r_scaled),
+            `r unstandardized (n=6)` = sprintf("%+.3f", r_unscaled),
+            `r standardized (n=5)`   = sprintf("%+.3f", r_scaled_n5),
+            `r unstandardized (n=5)` = sprintf("%+.3f", r_unscaled_n5)) |>
+  make_ft()
+```
+
+**Table S5.** Sensitivity of the Mantel correlations to standardization of the component scores. Standardizing to unit variance is the whitening step that makes FLEXDIST distances Mahalanobis-type and is our primary analysis (main text, section 2.4.2); the unstandardized alternative is shown as a robustness probe. The two lithic distance matrices correlate at Spearman ρ = `r sprintf("%.2f", s6_rho)`, but the predictor ranking on the five-assemblage subset differs substantially between them.
+
+<br>
+
+### Table S6
+
+```{r table-s6}
+size_check |>
+  transmute(Assemblage = assemblage,
+            `Blanks (n)` = n_blanks, `Cores (n)` = n_cores,
+            `Mean blank distance` = sprintf("%.3f", mean_blank),
+            `Mean core distance`  = sprintf("%.3f", mean_core),
+            `Mean combined distance` = sprintf("%.3f", mean_comb)) |>
+  make_ft()
+```
+
+**Table S6.** Assemblage sample sizes against mean technological distance to the other assemblages. Centroid separation is upward-biased by sampling error, so an assemblage's apparent isolation could in principle reflect its size rather than its technology. It does not here: the smallest core sample (Riparo Bombrini A2, n = 10) is among the least isolated, and sample size does not predict mean distance across the sample.
 
 <br>
 
@@ -255,42 +336,61 @@ ggplot(all_pairs, aes(predictor_value, lithic)) +
 
 **Figure S3.** Combined lithic distance against each candidate predictor (15 pairwise comparisons); pairs involving Paglicci 24A are highlighted. Lines show the linear trend with 95% confidence bands; Spearman Mantel r and p are annotated per panel.
 
-<!-- ### Figure S4 -->
+### Figure S4
 
-<!-- ```{r figure-s4, fig.width=10, fig.height=5} -->
-<!-- # Single-cell downscaling artefact at Paglicci. All inputs were precomputed in -->
-<!-- # 01_distances.R (terra rasters do not survive .rds serialization). -->
-<!-- library(patchwork) -->
+```{r figure-s4, fig.width=10, fig.height=5}
+# TAP around Paglicci, downscaled vs native. All inputs were precomputed in
+# 01_distances.R (terra rasters do not survive .rds serialization).
+library(patchwork)
 
-<!-- tap_panel <- function(df, title) { -->
-<!--   ggplot(df, aes(x, y, fill = TAP)) + -->
-<!--     geom_raster() + -->
-<!--     geom_point(data = s4_point, aes(x, y), inherit.aes = FALSE, -->
-<!--                shape = 21, fill = "red", colour = "white", size = 3) + -->
-<!--     geom_text(data = s4_point, aes(x, y, label = "Pa 24A"), inherit.aes = FALSE, -->
-<!--               colour = "red", fontface = "bold", hjust = -0.15, size = 3.3) + -->
-<!--     scale_fill_viridis_c(option = "mako", direction = -1, limits = s4_zlim, -->
-<!--                          name = "TAP (mm)") + -->
-<!--     coord_equal() + labs(title = title, x = NULL, y = NULL) + -->
-<!--     theme_minimal(base_size = 11) + -->
-<!--     theme(plot.title = element_text(face = "bold", hjust = 0.5)) -->
-<!-- } -->
+tap_panel <- function(df, title) {
+  ggplot(df, aes(x, y, fill = TAP)) +
+    geom_raster() +
+    geom_point(data = s4_point, aes(x, y), inherit.aes = FALSE,
+               shape = 21, fill = "red", colour = "white", size = 3) +
+    geom_text(data = s4_point, aes(x, y, label = "Pa 24A"), inherit.aes = FALSE,
+              colour = "red", fontface = "bold", hjust = -0.15, size = 3.3) +
+    scale_fill_viridis_c(option = "mako", direction = -1, limits = s4_zlim,
+                         name = "TAP (mm)") +
+    coord_equal() + labs(title = title, x = NULL, y = NULL) +
+    theme_minimal(base_size = 11) +
+    theme(plot.title = element_text(face = "bold", hjust = 0.5))
+}
 
-<!-- (tap_panel(s4_df_ds,  "TAP downscaled (10-min) - 34 ka") | -->
-<!--  tap_panel(s4_df_nat, "TAP native (0.5 deg) - 34 ka")) + -->
-<!--   plot_layout(guides = "collect") & theme(legend.position = "right") -->
-<!-- ``` -->
+(tap_panel(s4_df_ds,  "TAP downscaled (10-min) - 34 ka") |
+ tap_panel(s4_df_nat, "TAP native (0.5 deg) - 34 ka")) +
+  plot_layout(guides = "collect") & theme(legend.position = "right")
+```
 
-<!-- ```{r figure-s4-check} -->
-<!-- print(s4_neigh) -->
-<!-- cat(sprintf("\nPaglicci cell:  downscaled = %d mm,  native = %d mm\n", -->
-<!--             s4_neigh$downscaled[1], s4_neigh$native[1])) -->
-<!-- cat(sprintf("Neighbour mean: downscaled = %d mm,  native = %d mm\n", -->
-<!--             round(mean(s4_neigh$downscaled[-1])), -->
-<!--             round(mean(s4_neigh$native[-1])))) -->
-<!-- ``` -->
+```{r figure-s4-check}
+print(s4_neigh)
+cat(sprintf("\nPaglicci cell:  downscaled = %d mm,  native = %d mm\n",
+            s4_neigh$downscaled[1], s4_neigh$native[1]))
+cat(sprintf("Neighbour mean: downscaled = %d mm,  native = %d mm\n",
+            round(mean(s4_neigh$downscaled[-1])),
+            round(mean(s4_neigh$native[-1]))))
+```
 
-<!-- **Figure S4.** Total annual precipitation around Paglicci 24A at ~34 ka, downscaled (left) versus native (right), on a shared colour scale. The accompanying table compares the value at Paglicci's grid cell with the mean of its eight neighbours, illustrating the single-cell downscaling artefact discussed in the main text. -->
+**Figure S4.** Total annual precipitation around Paglicci 24A at ~34 ka, downscaled (left) versus native (right), on a shared colour scale. The accompanying table compares the value at Paglicci's grid cell with its eight neighbours in each reconstruction, showing that the low downscaled value is shared across the neighbourhood rather than confined to a single cell: the dry signal is a coherent feature of the reconstructed surface over the Tavoliere and the Gargano rain shadow, not a grid-cell artefact.
+
+<br>
+
+### Figure S5
+
+```{r figure-s5, fig.width=7, fig.height=5}
+boot_ci |>
+  ggplot(aes(x = reorder(Predictor, observed))) +
+  geom_hline(yintercept = 0, colour = "grey75") +
+  geom_linerange(aes(ymin = lwr, ymax = upr), linewidth = 0.8,
+                 colour = PAL$grey_dark) +
+  geom_point(aes(y = observed), size = 3.4, colour = PAL$red) +
+  coord_flip() +
+  labs(x = NULL, y = "Mantel r (Spearman), bootstrap 95% CI") +
+  theme_minimal(base_size = 11) +
+  theme(panel.grid.minor = element_blank())
+```
+
+**Figure S5.** Bootstrap 95% confidence intervals on the Mantel coefficients, from 2,000 specimen-level resamples within assemblage propagated through the ordination and the combined distance matrix. Red points are the observed coefficients. The intervals of the leading predictors overlap substantially, so their ranking is not determined by the data.
 
 <br>
 

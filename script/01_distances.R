@@ -30,17 +30,16 @@ library(patchwork)
 # ---- Config -----------------------------------------------------------------
 RUN_DOWNSCALING <- FALSE   # TRUE = rebuild the 10-min model from scratch (slow)
 
+# Precomputed downscaled model shipped with the repo:
+model_path   <- "data/Europe_bioclims_10min.nc"
+n_europe_ext <- c(-10, 25, 35, 70)          # xmin, xmax, ymin, ymax
+time_steps   <- seq(-50000, -30000, 1000)   # slices used downstream
 
 if (!file.exists(model_path)) {
   stop("Downscaled model not found at '", model_path,
        "'. Place Europe_bioclims_10min.nc in data/ (from the Zenodo release), ",
        "or set RUN_DOWNSCALING <- TRUE to rebuild it.")
 }
-
-# Precomputed downscaled model shipped with the repo:
-model_path   <- "data/Europe_bioclims_10min.nc"
-n_europe_ext <- c(-10, 25, 35, 70)          # xmin, xmax, ymin, ymax
-time_steps   <- seq(-50000, -30000, 1000)   # slices used downstream
 
 dir.create("output/rds", recursive = TRUE, showWarnings = FALSE)
 
@@ -125,46 +124,12 @@ if (RUN_DOWNSCALING) {
 
 
 # =============================================================================
-# LOAD CLIMATE MODELS (native + downscaled)
-# =============================================================================
-downscaled_data <- region_series(
-  bio_variables = c("bio01", "bio04", "bio12", "bio15"),
-  dataset = "custom", path_to_nc = model_path, time_bp = time_steps)
-
-native_data <- region_series(
-  bio_variables = c("bio01", "bio04", "bio12", "bio15"),
-  dataset = "Krapp2021", time_bp = time_steps, ext = n_europe_ext)
-
-
-# --- Precompute Figure S4 inputs (rasters don't survive .rds; cache data frames)
-pa_lat  <- coordinates["Pa_24A", "latitude"]
-pa_lon  <- coordinates["Pa_24A", "longitude"]
-lyr_s4  <- which(time_steps == -34000)
-zoom_s4 <- ext(pa_lon - 2.5, pa_lon + 2.5, pa_lat - 2, pa_lat + 2)
-
-.tap_ds  <- crop(downscaled_data[["bio12"]][[lyr_s4]], zoom_s4)
-.tap_nat <- crop(native_data[["bio12"]][[lyr_s4]],     zoom_s4)
-
-s4_df_ds  <- as.data.frame(.tap_ds,  xy = TRUE); names(s4_df_ds)[3]  <- "TAP"
-s4_df_nat <- as.data.frame(.tap_nat, xy = TRUE); names(s4_df_nat)[3] <- "TAP"
-s4_zlim   <- range(c(s4_df_ds$TAP, s4_df_nat$TAP), na.rm = TRUE)
-
-# neighbour comparison (centre cell vs its 8 neighbours), computed while live
-.cell <- cellFromXY(.tap_ds, cbind(pa_lon, pa_lat))
-.adj9 <- as.vector(adjacent(.tap_ds, .cell, directions = 8, include = TRUE))
-s4_neigh <- data.frame(
-  position   = c("centre (Pa 24A)", rep("neighbour", length(.adj9) - 1)),
-  downscaled = round(as.numeric(.tap_ds[.adj9][, 1])),
-  native     = round(as.numeric(.tap_nat[.adj9][, 1])))
-s4_point <- data.frame(x = pa_lon, y = pa_lat)
-
-
-# =============================================================================
 # SITE COORDINATES AND DATES
 # =============================================================================
 # Rows are the six analysed assemblages, in display order.
 # Bombrini uses its original coordinates; pastclim's
 # nearest-neighbour interpolation handles the ocean-flagged cell downstream.
+
 coordinates <- rbind(
   Pa_24A        = c(41.654115,  15.6149763),  # Paglicci 24A
   Ca_Au         = c(40.000983,  15.381251),   # Grotta della Cala
@@ -189,6 +154,48 @@ site_dates <- c(
 group_order <- names(site_dates)
 stopifnot(identical(rownames(coordinates), group_order))
 
+
+# =============================================================================
+# LOAD CLIMATE MODELS (native + downscaled)
+# =============================================================================
+
+downscaled_data <- region_series(
+  bio_variables = c("bio01", "bio04", "bio12", "bio15"),
+  dataset = "custom", path_to_nc = model_path, time_bp = time_steps)
+
+native_data <- region_series(
+  bio_variables = c("bio01", "bio04", "bio12", "bio15"),
+  dataset = "Krapp2021", time_bp = time_steps, ext = n_europe_ext)
+
+
+# --- Precompute Figure S4 inputs (rasters don't survive .rds; cache data frames)
+pa_lat  <- coordinates["Pa_24A", "latitude"]
+pa_lon  <- coordinates["Pa_24A", "longitude"]
+lyr_s4  <- which(time_steps == -34000)
+zoom_s4 <- ext(pa_lon - 2.5, pa_lon + 2.5, pa_lat - 2, pa_lat + 2)
+
+.tap_ds  <- crop(downscaled_data[["bio12"]][[lyr_s4]], zoom_s4)
+.tap_nat <- crop(native_data[["bio12"]][[lyr_s4]],     zoom_s4)
+
+s4_df_ds  <- as.data.frame(.tap_ds,  xy = TRUE); names(s4_df_ds)[3]  <- "TAP"
+s4_df_nat <- as.data.frame(.tap_nat, xy = TRUE); names(s4_df_nat)[3] <- "TAP"
+s4_zlim   <- range(c(s4_df_ds$TAP, s4_df_nat$TAP), na.rm = TRUE)
+s4_point  <- data.frame(x = pa_lon, y = pa_lat)
+
+# Neighbour comparison: the site's grid cell against its eight neighbours, in
+# each reconstruction. Neighbour cell numbers are converted to coordinates so
+# that each raster is queried at its own resolution; several of the downscaled
+# neighbours fall within a single native cell, which is the point of the
+# comparison.
+.cell <- cellFromXY(.tap_ds, cbind(pa_lon, pa_lat))
+.adj9 <- as.vector(adjacent(.tap_ds, .cell, directions = 8, include = TRUE))
+.xy9  <- xyFromCell(.tap_ds, .adj9)
+
+s4_neigh <- data.frame(
+  position   = c("centre (Pa 24A)", rep("neighbour", length(.adj9) - 1)),
+  downscaled = round(as.numeric(terra::extract(.tap_ds,  .xy9)[, 1])),
+  native     = round(as.numeric(terra::extract(.tap_nat, .xy9)[, 1])))
+# 
 
 # =============================================================================
 # PREDICTOR DISTANCE MATRICES
@@ -284,7 +291,9 @@ speed       <- slope
 speed[adj]  <- 6 * exp(-3.5 * abs(slope[adj] + 0.05))   # Tobler
 conductance <- geoCorrection(speed, type = "c")
 
-costpath_dist <- as.matrix(dist(costDistance(conductance, sites_snapped)))
+# costpath_dist.old <- as.matrix(dist(costDistance(conductance, sites_snapped)))
+
+costpath_dist <- as.matrix(costDistance(conductance, sites_snapped))
 dimnames(costpath_dist) <- list(group_order, group_order)
 
 
