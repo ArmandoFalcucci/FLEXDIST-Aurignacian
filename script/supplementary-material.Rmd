@@ -72,17 +72,17 @@ filtered_data <- dataset_blanks %>%
 ## SM Note 1: Sites overview
 
 ### Grotta Paglicci
-Grotta Paglicci (Rignano Garganico, Foggia, Apulia; 41.654115N, 15.6149763E, 107 m a.s.l.) is located on the southern slopes of the Gargano promontory, with the plain of Foggia extending to the west. The site is part of a larger karst complex, consisting of a cave and a rock-shelter. It contains one of the most important archaeological sequences in southern Italy, extending from the Lower Paleolithic to the final Epigravettian (Palma di Cesnola, 2004). Excavations were first conducted by F. Zorzi in the 1960s and later resumed in the 1970s by the University of Siena under the direction of A. Palma di Cesnola, followed by A. Ronchitelli. The scientific direction of the site is currently in the hands of F. Boschin. The Aurignacian layer 24 was found in the first chamber of the cave, where the stratigraphic sequence is about 12 m thick. This layer is likely covered by the Codola tephra in layer 23C2, which dates to approximately 33,000 cal BP (Giaccio et al., 2008). Layer 24 overlies a stalagmitic crust and a sterile layer; it is about one meter thick and characterized by sandy-silt sediments with very few angular debris. It was further subdivided into seven sub-layers, later subsumed into three horizons: BII-I and A4-0 (Palma di Cesnola, 2004). The lower part of the stratigraphic unit (BII-I) is extremely poor in material culture and will therefore not be used in this study. Radiocarbon dating places BII-I between 41,094–37,249 cal BP (95% probability), while A4–A0 dates to 35,050–32,037 cal BP (95% probability), in agreement with the dating of the overlying Codola tephra. Paglicci is close to chert outcrops (i.e., the Maiolica formation), and toolmakers had access to large-sized, high-quality nodules within a few kilometers of the site. Palma di Cesnola (2004) assigned all sub-layers to the Aurignacian with marginally backed tools (i.e., the Protoaurignacian) based on the presence of retouched bladelets, as also reiterated in Marciani et al. (2020). However, this classification is somewhat at odds with the archaeological data from other Italian sites. This study will thus assess the degree of similarity between the A4–A0 assemblage and the other assemblages.
+Grotta Paglicci (Rignano Garganico, Foggia, Apulia; 41.654115N, 15.6149763E, 107 m a.s.l.) is located on the southern slopes of the Gargano promontory, with the plain of Foggia extending to the west. The site is part of a larger karst complex, consisting of a cave and a rock-shelter. It contains one of the most important archaeological sequences in southern Italy, extending from the Lower Paleolithic to the final Epigravettian (Palma di Cesnola, 2004). Excavations were first conducted by F. Zorzi in the 1960s and later resumed in the 1970s by the University of Siena under the direction of A. Palma di Cesnola, followed by A. Ronchitelli. The scientific direction of the site is currently in the hands of FB. The Aurignacian layer 24 was found in the first chamber of the cave, where the stratigraphic sequence is about 12 m thick. This layer is likely covered by the Codola tephra in layer 23C2, which dates to approximately 33,000 cal BP (Giaccio et al., 2008). Layer 24 overlies a stalagmitic crust and a sterile layer; it is about one meter thick and characterized by sandy-silt sediments with very few angular debris. It was further subdivided into seven sub-layers, later subsumed into three horizons: BII-I and A4-0 (Palma di Cesnola, 2004). The lower part of the layer (BII-I) is extremely poor in material culture and will therefore not be used in this study. Radiocarbon dating places BII-I between 41,094–37,249 cal BP (95% probability), while A4–A0 dates to 35,050–32,037 cal BP (95% probability), in agreement with the dating of the overlying Codola tephra. Paglicci is close to chert outcrops (i.e., the Maiolica formation), and toolmakers had access to large-sized, high-quality nodules within a few kilometers of the site. Palma di Cesnola (2004) assigned all sub-layers to the Aurignacian with marginally backed tools (i.e., the Protoaurignacian) based on the presence of retouched bladelets, as also reiterated in Marciani et al. (2020). However, this classification is somewhat at odds with the archaeological data from other Italian sites. This study will thus assess the degree of similarity between the A4–A0 assemblage and the other assemblages.
 
 <br>
 
 ### Grotta della Cala
-Grotta della Cala (Camerota, Salerno, Campania, 40.00108243N, 015.38095416E, 3 m a.s.l.) is located near the present-day coastline at the base of a hilly-mountainous landscape. The cave opens in dolomitic limestone and contains a long stratigraphic sequence spanning the Middle Paleolithic to the Bronze Age (Moroni et al., 2016). Excavations began in 1966 under the direction of A. Palma di Cesnola and later P. Gambassini. Renewed excavations are directed by AM and are currently ongoing. The Aurignacian sequence was found above an Uluzzian layer (UL14) near the cave entrance (Benini et al., 1997). The Aurignacian deposit (~40 cm thick) was rather homogeneous but further divided into four sub-layers (AU13–AU10) based on natural discontinuities. The sequence is sealed by a flowstone (AU10), creating a clear boundary with the subsequent Early Gravettian layer (Martini et al., 2018). New dating shows that the Aurignacian sequence dates to after 40,000 years ago, with the Uluzzian-Aurignacian boundary at 40,097–37,761 cal BP (68.3% probability) (Higham et al., 2024). The main raw materials used at La Cala are chert and radiolarite with different knapping qualities. In several cases, raw materials were collected as small pebbles within 0–15 km of the site (Benini et al., 1997; Martini et al., 2003). A few tools and cores were made on exogenous chert, likely originating from an area approximately 200 km from the site (Falcucci et al., 2025b). All Aurignacian sub-layers are techno-typologically homogeneous and can be assigned to the EA based on the intensive use of carinated technology and the presence of two split-based antler points (Falcucci et al., 2025b). We thus merge all sub-layers into a single assemblage for our comparative analysis (i.e., Ca_Au).
+Grotta della Cala (Camerota, Salerno, Campania, 40.00108243N, 015.38095416E, 3 m a.s.l.) is located near the present-day coastline at the base of a hilly-mountainous landscape. The cave opens in dolomitic limestone and contains a long stratigraphic sequence spanning the Middle Paleolithic to the Bronze Age (Moroni et al., 2016). Excavations began in 1966 under the direction of A. Palma di Cesnola and later P. Gambassini. Renewed excavations are directed by AM and are currently ongoing. The Aurignacian sequence was found above an Uluzzian layer (UL14) near the cave entrance (Benini et al., 1997). The Aurignacian deposit (~40 cm thick) was rather homogeneous but further divided into four sub-layers (AU13–AU10) based on natural lithostratigraphic differences. The sequence is sealed by a strongly cemented layer (AU10), creating a clear boundary with the subsequent Early Gravettian layer (Martini et al., 2018). New dating shows that the Aurignacian sequence dates to after 40,000 years ago, with the Uluzzian-Aurignacian boundary at 40,097–37,761 cal BP (68.3% probability) (Higham et al., 2024). The main raw materials used at La Cala are chert and radiolarite with different knapping qualities. In several cases, raw materials were collected as small pebbles within 0–15 km of the site (Benini et al., 1997; Martini et al., 2003). A few tools and cores were made on exogenous chert, likely originating from an area approximately 200 km from the site (Falcucci et al., 2025b). All Aurignacian sub-layers are techno-typologically homogeneous and can be assigned to the EA based on the intensive use of carinated technology and the presence of two split-based antler points (Falcucci et al., 2025b). We thus merge all sub-layers into a single assemblage for our comparative analysis (i.e., Ca_Au).
 
 <br>
 
 ### Grotta di Castelcivita
-Grotta di Castelcivita (Castelcivita, Salerno, Campania; 40.49563600N, 015.20922177E, 94 m a.s.l.) is located at the base of the Alburni massif, part of the southern Italian Apennines. The cave is part of an extensive karst system, with excavations near the cave entrance (Gambassini, 1997). The excavations revealed a long stratigraphic sequence, which was interrupted around 40,000 years ago by the Campanian Ignimbrite super-eruption from the Phlegraean Fields (Giaccio et al., 2017). Excavations began under P. Gambassini in 1975 and were later conducted by A. Ronchitelli. They continue today under the direction of AM. The Aurignacian sequence rsa’–ars was found directly above the Uluzzian layer rsa’ (Gambassini, 1997). Layers were divided based on sedimentological differences: rsa’ (~12–25 cm thick) is a fine-grained reddish sediments dominated by silt and sand, with scattered small limestone debris (2–4 cm). Layer gic (~20 cm thick) is extensively concreted and yellowish; layer ars is sandy but lighter (i.e., orange) than rsa’. The sealing of the sequence by the Campanian Ignimbrite provides a clear chronological limit for the Aurignacian at the site. New dating allows modeling the start of rsa’ at 41,935 – 40,756 (at 95% probability) (Higham et al., 2024). Fine-grained chert is the most common raw material across the rsa’–ars assemblages, procured as blocks in the vicinity of the cave or as river pebbles (Falcucci et al., 2024a; Gambassini, 1997). Block size and quality vary, and fragments suitable for knapping were preferentially brought to the site, reducing the production of larger blanks such as blades (Falcucci et al., 2024a). Techno-typological studies reveal a shift from the PA in layer rsa’ to the EA in layers gic and ars. EA layers contain miniaturized retouched bladelets produced from carinated cores, which give the assemblage a marked regional signature. In this study, gic and ars are analyzed as single assemblages due to their chronological closeness and technological similarity.
+Grotta di Castelcivita (Castelcivita, Salerno, Campania; 40.49563600N, 015.20922177E, 94 m a.s.l.) is located at the base of the Alburni massif, part of the southern Italian Apennines. The cave is part of an extensive karst system, with excavations near the cave entrance (Gambassini, 1997). The excavations revealed a thick stratigraphic sequence, which was interrupted around 40,000 years ago by the Campanian Ignimbrite super-eruption from the Phlegraean Fields (Giaccio et al., 2017). Excavations began under P. Gambassini in 1975 and were later conducted by A. Ronchitelli. They continue today under the direction of AM. The Aurignacian sequence rsa’–ars was found directly above the Uluzzian layer rsa’’ (Gambassini, 1997). Layers were divided based on sedimentological differences: rsa’ (~12–25 cm thick) is a fine-grained reddish sediments dominated by silt and sand, with scattered small limestone debris (2–4 cm). Layer gic (~20 cm thick) is extensively concreted and yellowish; layer ars is sandy but lighter (i.e., orange) than rsa’. The sealing of the sequence by the Campanian Ignimbrite provides a clear chronological limit for the Aurignacian at the site. New dating allows modeling the start of rsa’ at 41,935 – 40,756 (at 95% probability) (Higham et al., 2024). Fine-grained chert is the most common raw material across the rsa’–ars assemblages, procured as blocks in the vicinity of the cave or as river pebbles (Falcucci et al., 2024a; Gambassini, 1997). Block size and quality vary, and fragments suitable for knapping were preferentially brought to the site, reducing the production of larger blanks such as blades (Falcucci et al., 2024a). Techno-typological studies reveal a shift from the PA in layer rsa’ to the EA in layers gic and ars. EA layers contain miniaturized retouched bladelets produced from carinated cores, which give the assemblage a marked regional signature. In this study, gic and ars are analyzed as single assemblages due to their chronological closeness and technological similarity.
 
 <br>
 
@@ -142,7 +142,7 @@ supp_partials |>
   make_ft() |> flextable::bold(part = "header")
 ```
 
-**Table S3.** Partial Mantel correlations (Spearman) between combined lithic distance and each predictor, each controlled for one of the three focal predictors (Cost-path, Chronology, or native TAP), at n = 5 (Paglicci excluded). *p*-values are uncorrected. Given the inflated type I error of partial Mantel tests at ten pairwise distances, these are reported as descriptive summaries of shared variance rather than as tests (see main text, section 2.4.5).
+**Table S3.** Partial Mantel correlations (Spearman) between combined lithic distance and each predictor, each controlled for one of the three focal predictors (Costpath, Chronology, or native TAP), at n = 5 (Paglicci excluded). *p*-values are uncorrected.
 
 <br>
 
@@ -158,51 +158,11 @@ fw_table |>
   make_ft()
 ```
 
-**Table S4.** Exact permutation probabilities for each candidate predictor, for the full dataset (n = 6) and with Paglicci 24A excluded (n = 5). At these sample sizes the permutation set is small enough to enumerate in full (720 and 120 relabellings respectively), so the probabilities are exact rather than sampled. The values above are *marginal*, that is, uncorrected for the fact that seven predictors were screened. Correcting for the screen — by recomputing all seven correlations under every relabelling and retaining the largest — gives a family-wise probability of `r sprintf("%.3f", d04$fw6$p_familywise)` for the full dataset (largest r = `r sprintf("%.3f", d04$fw6$obs_max)`) and `r sprintf("%.3f", d04$fw5$p_familywise)` for the five-assemblage subset (largest r = `r sprintf("%.3f", d04$fw5$obs_max)`). Neither is below the conventional 0.05 threshold.
+**Table S4.** Exact permutation probabilities for each candidate predictor, for the full dataset (n = 6) and with Paglicci 24A excluded (n = 5). The values above are marginal, that is, uncorrected for the fact that seven predictors were screened. Correcting for the screen, by recomputing all seven correlations under every relabelling and retaining the largest, gives a family-wise probability of `r sprintf("%.3f", d04$fw6$p_familywise)` for the full dataset (largest r = `r sprintf("%.3f", d04$fw6$obs_max)`) and `r sprintf("%.3f", d04$fw5$p_familywise)` for the five-assemblage subset (largest r = `r sprintf("%.3f", d04$fw5$obs_max)`). Neither is below the conventional 0.05 threshold.
 
 <br>
 
 ### Table S5
-
-```{r table-s5-rho, include=FALSE}
-# Spearman correlation between the standardized and unstandardized lithic
-# matrices, rebuilt from the per-specimen scores exported by 00a/00b Step 8.
-sc_b <- readRDS("../output/rds/04_scores_blanks.rds")
-sc_c <- readRDS("../output/rds/04_scores_cores.rds")
-for (df in c("sc_b", "sc_c")) {                       # label harmonization
-  g <- as.character(get(df)$group); g[g == "Pa_A4-A0"] <- "Pa_24A"
-  tmp <- get(df); tmp$group <- g; assign(df, tmp)
-}
-gd <- function(df, scale_pcs) {
-  pcs <- df[, setdiff(names(df), "group"), drop = FALSE]
-  if (scale_pcs) pcs <- as.data.frame(scale(pcs))
-  cen <- aggregate(pcs, by = list(group = df$group), FUN = median)
-  m <- as.matrix(dist(cen[, -1])); dimnames(m) <- list(cen$group, cen$group)
-  m[group_order, group_order]
-}
-comb <- function(scale_pcs) {
-  B <- gd(sc_b, scale_pcs); C <- gd(sc_c, scale_pcs)
-  (B / max(B) + C / max(C)) / 2
-}
-lt_ <- function(m) m[lower.tri(m)]
-s6_rho <- cor(lt_(comb(TRUE)), lt_(comb(FALSE)), method = "spearman")
-```
-
-```{r table-s5}
-scale_sens |>
-  transmute(Predictor,
-            `r standardized (n=6)`   = sprintf("%+.3f", r_scaled),
-            `r unstandardized (n=6)` = sprintf("%+.3f", r_unscaled),
-            `r standardized (n=5)`   = sprintf("%+.3f", r_scaled_n5),
-            `r unstandardized (n=5)` = sprintf("%+.3f", r_unscaled_n5)) |>
-  make_ft()
-```
-
-**Table S5.** Sensitivity of the Mantel correlations to standardization of the component scores. Standardizing to unit variance is the whitening step that makes FLEXDIST distances Mahalanobis-type and is our primary analysis (main text, section 2.4.2); the unstandardized alternative is shown as a robustness probe. The two lithic distance matrices correlate at Spearman ρ = `r sprintf("%.2f", s6_rho)`, but the predictor ranking on the five-assemblage subset differs substantially between them.
-
-<br>
-
-### Table S6
 
 ```{r table-s6}
 size_check |>
@@ -214,7 +174,7 @@ size_check |>
   make_ft()
 ```
 
-**Table S6.** Assemblage sample sizes against mean technological distance to the other assemblages. Centroid separation is upward-biased by sampling error, so an assemblage's apparent isolation could in principle reflect its size rather than its technology. It does not here: the smallest core sample (Riparo Bombrini A2, n = 10) is among the least isolated, and sample size does not predict mean distance across the sample.
+**Table S5.** Assemblage sample size and technological isolation. Sample sizes for blanks and cores in each assemblage compared with mean technological distance to the other assemblages in the combined FLEXDIST matrix. The table evaluates whether apparent technological isolation could be inflated by small sample size. No such relationship is observed: assemblage size does not predict mean technological distance, and the smallest core sample, Riparo Bombrini A2, is among the least isolated assemblages.
 
 <br>
 
@@ -371,7 +331,7 @@ cat(sprintf("Neighbour mean: downscaled = %d mm,  native = %d mm\n",
             round(mean(s4_neigh$native[-1]))))
 ```
 
-**Figure S4.** Total annual precipitation around Paglicci 24A at ~34 ka, downscaled (left) versus native (right), on a shared colour scale. The accompanying table compares the value at Paglicci's grid cell with its eight neighbours in each reconstruction, showing that the low downscaled value is shared across the neighbourhood rather than confined to a single cell: the dry signal is a coherent feature of the reconstructed surface over the Tavoliere and the Gargano rain shadow, not a grid-cell artefact.
+**Figure S4.** Total annual precipitation around Paglicci 24A at 34 ka, downscaled (left) versus native (right), on a shared colour scale. The accompanying table compares the value at Paglicci's grid cell with its eight neighbours in each reconstruction, showing that the low downscaled value is shared across the neighbourhood rather than confined to a single cell: the dry signal is a coherent feature of the reconstructed surface over the Tavoliere and the Gargano rain shadow, not a grid-cell artefact.
 
 <br>
 
