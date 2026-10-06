@@ -1,6 +1,6 @@
 ---
 title: "Supplementary Material"
-subtitle: "Time, space, and environment: technological variability in the Italian Aurignacian and the limits of matrix statistics"
+subtitle: "Time, space, and environment: technological variability in the Italian Aurignacian"
 author: "Armando Falcucci, Francesco Boschin, Adriana Moroni, Fabio Negrino, Marco Peresani, Julien Riel-Salvatore, Lucy Timbrell & Hannes Rathmann"
 date: ""
 output: word_document
@@ -87,12 +87,12 @@ Grotta di Castelcivita (Castelcivita, Salerno, Campania; 40.49563600N, 015.20922
 <br>
 
 ### Riparo Bombrini
-Riparo Bombrini (Ventimiglia, Imperia, Liguria; 43.46596N, 07.3276E, ca. 16 m a.s.l.) is part of the Balzi Rossi complex, a limestone cliff with rich archaeological deposits near the Tyrrhenian Sea, in the Liguro-Provençal Arc (Ryan et al., 2024). The rockshelter may have been the eastern end of a talus extending from Grotta del Caviglione (Negrino & Riel-Salvatore, 2018; Riel-Salvatore & Negrino, 2018a, 2018b). Scientific exploration began in 1938, but systematic excavations started in 1976 under G. Vicino, followed by B. Holt and FN (2002–2005) (Holt et al., 2019), and FN and JRS (2015–2022) (Riel-Salvatore et al., 2023). The Aurignacian deposit (layers A2–A0) overlies a semi-sterile Mousterian layer (Riel-Salvatore et al., 2022). Layers A2 and A1 consist of yellowish clayey loam with abundant angular clasts and large blocks detached from the vault. A small pocket of sediment above A1 is designated A0. Radiocarbon dating places A2 at 41,200 39,100 cal BP (95% probability) encompassing Heinrich Event 4, while A1 was deposited between 38,300 and 35,900 cal BP (95% probability), mostly during Greenland Interstadial 8 (Benazzi et al., 2015; Negrino & Riel-Salvatore, 2018). Local cherts (within ~5 km) were mainly used for flake production due to their poor quality, while laminar productions often relied on exogenous raw materials (chert and radiolarite) sourced across a wide area, from the Rhône Valley to the Marche region (Falcucci et al., 2025a; Riel-Salvatore & Negrino, 2018b). Both A2 and A1 are assigned to the Protoaurignacian, reflecting different mobility strategies: primarily logistical for A2 and residential for A1 (Falcucci et al., 2025a; Riel-Salvatore & Negrino, 2018b). These layers will be analyzed as single units, while the very small EA assemblage in A0 is excluded from the comparative analysis.
+Riparo Bombrini (Ventimiglia, Imperia, Liguria; 43.46596N, 07.3276E, ca. 16 m a.s.l.) is part of the Balzi Rossi complex, a limestone cliff with rich archaeological deposits near the Tyrrhenian Sea, in the Liguro-Provençal Arc (Ryan et al., 2024). The rockshelter may have been the eastern end of a talus extending from Grotta del Caviglione (Negrino & Riel-Salvatore, 2018; Riel-Salvatore & Negrino, 2018a, 2018b). Scientific exploration began in 1938, but systematic excavations started in 1976 under G. Vicino, followed by B. Holt and FN (2002–2005) (Holt et al., 2019), and FN and JRS (2015–2022) (Riel-Salvatore et al., 2023). The Aurignacian deposit (layers A2–A0) overlies a semi-sterile Mousterian layer (Riel-Salvatore et al., 2022). Layers A2 and A1 consist of yellowish clayey loam with abundant angular clasts and large blocks detached from the vault. A small pocket of sediment above A1 is designated A0. Radiocarbon dating places A2 at 41,200-39,100 cal BP (95% probability) encompassing Heinrich Event 4, while A1 was deposited between 38,524 and 34,337 cal BP (95% probability), mostly during Greenland Interstadial 8 (Benazzi et al., 2015; Negrino & Riel-Salvatore, 2018). Local cherts (within ~5 km) were mainly used for flake production due to their poor quality, while laminar productions often relied on exogenous raw materials (chert and radiolarite) sourced across a wide area, from the Rhône Valley to the Marche region (Falcucci et al., 2025a; Riel-Salvatore & Negrino, 2018b). Both A2 and A1 are assigned to the Protoaurignacian, reflecting different mobility strategies: primarily logistical for A2 and residential for A1 (Falcucci et al., 2025a; Riel-Salvatore & Negrino, 2018b). These layers will be analyzed as single units, while the very small EA assemblage in A0 is excluded from the comparative analysis.
 
 <br>
 
 ### Grotta di Fumane
-Grotta di Fumane (Fumane, Verona, Veneto; 45.5918287N, 10.9051824E, 350 m a.s.l.) is located in the western Monti Lessini Plateau within the Venetian pre-Alps (Bartolomei et al., 1992). The cave is part of a karst complex, with deposits found in the upper section featuring a main cavity and two associated tunnels (Peresani, 2022). Excavations revealed a deep stratigraphic sequence spanning from MIS4 to Heinrich Event 3, when the cave ceiling collapsed. Scientific exploration began in 1964, with systematic excavations from 1988 under A. Broglio and then MP. The Aurignacian sequence directly overlies the Uluzzian (stratigraphic unit A3) and is found in both fine-grained, thin horizontally bedded stratigraphic units (A2 and A1) and the overlying macro-unit D. The transition to macro-unit D is marked by a sharp lithological shift and evidence of multiple landslides, likely due to climatic deterioration (Kehl et al., 2025; López-García et al., 2015). Stratigraphic units A2 and A1 date to 42,000–39,250 cal BP (95.4% probability), while the upper Aurignacian in macro-unit D3 accumulated during Heinrich Event 4 (Higham et al., 2009; Marín-Arroyo et al., 2023). High-quality chert nodules form the western Monti Lessini Plateau were available within 5–15 km, found both in primary and secondary outcrops (Bertola, 2001; Bertola et al., 2018). Stratigraphic units A2 and A1 were analyzed by several researchers and assigned to the Protoaurignacian (Bertola et al., 2013; De Stefani, 2003; Falcucci et al., 2017; Falcucci et al., 2020). Recent lithic taphonomic studies prompted Falcucci et al. (2024b) to treat A2–A1 as a single stratigraphic unit and assign D3b alpha to the Early Aurignacian. Due to the limited sample size, D3b alpha is excluded from comparative analysis.
+Grotta di Fumane (Fumane, Verona, Veneto; 45.5918287N, 10.9051824E, 350 m a.s.l.) is located in the western Monti Lessini Plateau within the Venetian pre-Alps (Bartolomei et al., 1992). The cave is part of a karst complex, with deposits found in the upper section featuring a main cavity and two associated tunnels (Peresani, 2022). Excavations revealed a deep stratigraphic sequence spanning from MIS4 to Heinrich Event 3, when the cave ceiling collapsed. Scientific exploration began in 1964, with systematic excavations from 1988 under A. Broglio and M. Cremaschi and then MP. The Aurignacian sequence directly overlies the Uluzzian (stratigraphic unit A3) and is found in both fine-grained, thin horizontally bedded stratigraphic units (A2 and A1) and the overlying macro-unit D. The transition to macro-unit D is marked by a sharp lithological shift and evidence of multiple landslides, likely due to climatic deterioration (Kehl et al., 2025; López-García et al., 2015). Stratigraphic units A2 and A1 date to 42,000–39,250 cal BP (95.4% probability), while the upper Aurignacian in macro-unit D3 accumulated during Heinrich Event 4 (Higham et al., 2009; Marín-Arroyo et al., 2023). High-quality chert nodules form the western Monti Lessini Plateau were available within 5–15 km, found both in primary and secondary outcrops (Bertola, 2001; Bertola et al., 2018). Stratigraphic units A2 and A1 were analyzed by several researchers and assigned to the Protoaurignacian (Bertola et al., 2013; De Stefani, 2003; Falcucci et al., 2017; Falcucci et al., 2020). Recent lithic taphonomic studies prompted Falcucci et al. (2024b) to treat A2–A1 as a single stratigraphic unit and assign D3b alpha to the Early Aurignacian. Due to the limited sample size, D3b alpha is excluded from comparative analysis.
 
 <br>
 
@@ -317,8 +317,8 @@ tap_panel <- function(df, title) {
     theme(plot.title = element_text(face = "bold", hjust = 0.5))
 }
 
-(tap_panel(s4_df_ds,  "TAP downscaled (10-min) - 34 ka") |
- tap_panel(s4_df_nat, "TAP native (0.5 deg) - 34 ka")) +
+(tap_panel(s4_df_ds,  "TAP downscaled (10 arc-min) - 34 ka") |
+ tap_panel(s4_df_nat, "TAP native (30 arc-min) - 34 ka")) +
   plot_layout(guides = "collect") & theme(legend.position = "right")
 ```
 
@@ -350,7 +350,7 @@ boot_ci |>
   theme(panel.grid.minor = element_blank())
 ```
 
-**Figure S5.** Bootstrap 95% confidence intervals on the Mantel coefficients, from 2,000 specimen-level resamples within assemblage propagated through the ordination and the combined distance matrix. Red points are the observed coefficients. The intervals of the leading predictors overlap substantially, so their ranking is not determined by the data.
+**Figure S5.** Bootstrap 95% confidence intervals on the Mantel coefficients, from 2,000 specimen-level resamples within assemblage propagated through the group centroids and the combined distance matrix (PC loadings held fixed). Red points are the observed coefficients. The intervals of the leading predictors overlap substantially, so their ranking is not determined by the data.
 
 <br>
 
@@ -387,7 +387,7 @@ Sequence("Paglicci Aurignacian")
    Boundary("End Aurignacian / Codola");
    Phase("Codola 23C2")
    {
-    C_Date("Codola", -31050, 0);
+    C_Date("Codola (40Ar/39Ar)", -29586, 160);
    };
    Boundary("end Codola");
   };
