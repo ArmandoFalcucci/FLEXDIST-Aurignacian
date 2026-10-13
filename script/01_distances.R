@@ -133,8 +133,8 @@ if (RUN_DOWNSCALING) {
 coordinates <- rbind(
   Pa_24A        = c(41.654115,  15.6149763),  # Paglicci 24A
   Ca_Au         = c(40.000983,  15.381251),   # Grotta della Cala
-  `CTC_gic-ars` = c(40.5419159, 15.3093058),  # Castelcivita gic-ars
-  `CTC_rsa'`    = c(40.5419159, 15.3093058),  # Castelcivita rsa'
+  `CTC_gic-ars` = c(40.4952923, 15.2088782),  # Castelcivita gic-ars
+  `CTC_rsa'`    = c(40.4952923, 15.2088782),  # Castelcivita rsa'
   RB_A2         = c(43.7838361, 7.5341963),   # Riparo Bombrini A2
   `RF_A2-A1`    = c(45.5918287, 10.9051824)   # Riparo Fumane A2-A1
 )
@@ -143,7 +143,7 @@ colnames(coordinates) <- c("latitude", "longitude")
 # Bayesian model MEDIAN ages (years BP) — the best chronological estimate.
 # (See Table 1 / SI for provenance of each age.)
 site_dates <- c(
-  Pa_24A        = 34437,
+  Pa_24A        = 34107,
   Ca_Au         = 38028,
   `CTC_gic-ars` = 39720,
   `CTC_rsa'`    = 40883,
@@ -284,7 +284,7 @@ sites_snapped <- SpatialPoints(
 
 # Conductance = Tobler's hiking function over slope (altitude difference).
 altDiff     <- function(x) x[2] - x[1]
-hd          <- transition(Italy_raster, altDiff, 8, symm = TRUE)
+hd          <- transition(Italy_raster, altDiff, 8, symm = FALSE)
 slope       <- geoCorrection(hd, type = "c")
 adj         <- adjacencyFromTransition(slope)
 speed       <- slope
