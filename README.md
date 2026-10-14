@@ -1,4 +1,4 @@
-# Research Compendium for 'Time, space, and environment: technological variability in the Italian Aurignacian and the limits of matrix statistics'
+# Research Compendium for 'Exploring time, distance and climate as drivers of technological variability in the Italian Aurignacian'
 
 **Compendium DOI**
 

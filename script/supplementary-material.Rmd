@@ -1,6 +1,6 @@
 ---
 title: "Supplementary Material"
-subtitle: "Time, distance or climate? An exploratory analysis of lithic technological variability in the Italian Aurignacian"
+subtitle: "Exploring time, distance and climate as drivers of technological variability in the Italian Aurignacian"
 author: "Armando Falcucci, Francesco Boschin, Adriana Moroni, Fabio Negrino, Marco Peresani, Julien Riel-Salvatore, Lucy Timbrell & Hannes Rathmann"
 date: ""
 output: word_document
