@@ -1,4 +1,4 @@
-# Research Compendium for 'Exploring time, distance and climate as drivers of technological variability in the Italian Aurignacian'
+# Research Compendium for 'Exploring time, space and climate as drivers of technological variability in the Italian Aurignacian (42–34 ka)'
 
 **Compendium DOI**
 
@@ -12,14 +12,10 @@ The content available at the provided DOI reproduces the results as documented i
 
 ## Paper in preparation
 
-Falcucci et al., Time, space, and environment: technological variability in the Italian Aurignacian and the limits of matrix statistics. *Journal to be defined*.
+Falcucci et al., Exploring time, space and climate as drivers of technological variability in the Italian Aurignacian (42–34 ka). *Journal to be defined*.
 
 ## Abstract
-
-<!-- REPLACE with the final manuscript abstract before deposit. The version
-     below is the pre-revision text and no longer matches the paper. -->
-
-The Aurignacian, long treated as the archaeological signature of early *Homo sapiens* in Europe, is usually divided into chrono-cultural phases whose spatial and temporal structure remains poorly quantified. We introduce a data-driven workflow to test how geography, time, and environment structure technological variability, applying it to six assemblages from five stratified sequences south of the Alps and across peninsular Italy dated between approximately 42,000 and 34,000 years ago. Lithic assemblages are summarized through a mixed-data dimensionality reduction technique, and the resulting technological distances are compared with least-cost path, chronological, and paleoclimatic distances using matrix correlation statistics with leave-one-out sensitivity analysis. Our approach independently recovers a Protoaurignacian–Early Aurignacian distinction consistent with previous site-based assessments, structured primarily by chronology rather than by geographic proximity. Apparent correlations between technology and environmental variables, principally annual precipitation, are shown to be driven by a single outlying assemblage and by uneven geographic sampling, collapsing once these are accounted for. We argue that matrix correlation statistics cannot support confirmatory inference about competing drivers at the sample sizes typical of regional Paleolithic studies, and we outline diagnostics that guard against over-interpretation. These results provide a template, and a cautionary framework, for wider analyses of technological change at the onset of the Upper Paleolithic.
+The Aurignacian, often treated as a key archaeological expression of early Homo sapiens in Europe, is commonly divided into chrono-cultural phases whose spatial, temporal, and environmental structure remains difficult to quantify. Here we apply a data-driven workflow to six lithic assemblages from five stratified sequences south of the Alps and across peninsular Italy, dated between approximately 42,000 and 34,000 years ago. We use FLEXDIST, a multivariate distance method for mixed and incomplete data, to summarize technological variability in mixed lithic datasets and compare the resulting technological distances with least-cost path, chronological, and paleoclimatic distances using matrix correlation statistics and leave-one-out sensitivity analyses. The ordination independently recovers a Protoaurignacian–Early Aurignacian distinction consistent with previous site-based assessments: Protoaurignacian assemblages cluster together despite substantial geographic separation, while two consecutive layers at the same site, Grotta di Castelcivita, fall into different technological groups. By contrast, Mantel and partial Mantel tests provide only weak support for independent drivers of this structure. With only six assemblages, apparent associations with chronology and precipitation depend heavily on a single assemblage (Paglicci 24A) and on the uneven spatial and temporal distribution of the sample, so we treat them as candidate associations rather than evidence for competing causal processes. The Italian Aurignacian thus shows a robust technological structure that, based on the ordination and stratigraphic evidence, is most consistent with change through time, while environmental explanations remain plausible hypotheses requiring a larger and more evenly distributed sample of assemblages.
 
 ## Dataset Attribution
 
